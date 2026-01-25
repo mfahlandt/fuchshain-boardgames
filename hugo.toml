@@ -1,0 +1,109 @@
+baseURL = "https://spieleabend.fuchshain.farm/"
+languageCode = "de"
+defaultContentLanguage = "de"
+title = "Spieleabend Fuchshain"
+theme = "fuchshain-games"
+
+# Disable default Hugo features that set cookies
+disableKinds = ["taxonomy", "term"]
+
+[params]
+  env = "production"
+  title = "Spieleabend Fuchshain"
+  description = "Gemeinsam spielen in Fuchshain – Dein Treffpunkt für Brettspiele, Kartenspiele und gesellige Abende"
+  keywords = ["Brettspiele", "Spieleabend", "Fuchshain", "Gesellschaftsspiele", "Sachsen"]
+  author = "Spieleabend Fuchshain"
+
+  # Hero-Hintergrundbild (optional)
+  # Empfohlene Größe: 1920x800px (oder 2560x1000px für Retina)
+  # Lege das Bild in /static/images/ ab
+  heroImage = "/images/Header.png"
+
+  DateFormat = "2. January 2006"
+  defaultTheme = "light"
+  disableThemeToggle = true
+  ShowReadingTime = false
+  ShowShareButtons = false
+  ShowPostNavLinks = false
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = false
+  disableSpecial1stPost = true
+  hideSummary = false
+  showtoc = false
+  tocopen = false
+
+  [params.homeInfoParams]
+    Title = "🎲 Willkommen beim Spieleabend Fuchshain!"
+    Content = """
+Wir sind eine offene Gruppe von Brettspiel-Enthusiasten aus Fuchshain und Umgebung.
+Ob Einsteiger oder erfahrener Spieler – bei uns ist jeder willkommen!
+
+Komm vorbei und entdecke neue Spiele, triff nette Leute und verbringe einen geselligen Abend mit uns.
+"""
+
+  [params.assets]
+    favicon = "/images/Logo-FH_Favicon.gif"
+    favicon16x16 = "/images/Logo-FH_Favicon.gif"
+    favicon32x32 = "/images/Logo-FH_Favicon.gif"
+    apple_touch_icon = "/images/logo_fuchshain.png"
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Start"
+    url = "/"
+    weight = 10
+    [menu.main.params]
+      icon = "🏠"
+  [[menu.main]]
+    identifier = "termine"
+    name = "Termine"
+    url = "/termine/"
+    weight = 20
+    [menu.main.params]
+      icon = "📅"
+  [[menu.main]]
+    identifier = "spiele"
+    name = "Spiele"
+    url = "/spiele/"
+    weight = 30
+    [menu.main.params]
+      icon = "🎲"
+  [[menu.main]]
+    identifier = "voting"
+    name = "Abstimmung"
+    url = "/voting/"
+    weight = 40
+    [menu.main.params]
+      icon = "🗳️"
+  [[menu.main]]
+    identifier = "kontakt"
+    name = "Kontakt"
+    url = "/kontakt/"
+    weight = 50
+    [menu.main.params]
+      icon = "📍"
+  [[menu.main]]
+    identifier = "impressum"
+    name = "Impressum"
+    url = "/impressum/"
+    weight = 60
+    [menu.main.params]
+      icon = "ℹ️"
+  [[menu.main]]
+    identifier = "datenschutz"
+    name = "Datenschutz"
+    url = "/datenschutz/"
+    weight = 70
+    [menu.main.params]
+      icon = "🔒"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[outputs]
+  home = ["HTML"]
+  section = ["HTML"]
+  page = ["HTML"]

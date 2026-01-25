@@ -1,0 +1,38 @@
+# Hugo Build Output
+/public/
+/resources/_gen/
+
+# Hugo Caches
+.hugo_build.lock
+
+# OS Files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor/IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Node (falls npm für Assets verwendet wird)
+node_modules/
+package-lock.json
+
+# Logs
+*.log
+
+# Temporäre Dateien
+*.tmp
+*.bak
+*.backup
+
+# Go Binaries (Tools)
+tools/*.exe
+!tools/csv-to-spiele-yaml.exe
+
+# Lokale Entwicklung
+.env
+.env.local
