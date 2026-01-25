@@ -1,0 +1,270 @@
+{{/* Spieleliste Druckversion - Optimiert für den Ausdruck */}}
+
+<div class="print-header">
+    <h1>🎲 Spielesammlung Fuchshain</h1>
+    <p class="print-date">Stand: {{ now.Format "02.01.2006" }} | {{ len site.Data.spiele }} Spiele</p>
+</div>
+
+<div class="print-actions no-print">
+    <button onclick="window.print()" class="print-button">🖨️ Drucken / Als PDF speichern</button>
+    <a href="/spiele/" class="back-link">← Zurück zur interaktiven Liste</a>
+</div>
+
+<div class="print-legend no-print">
+    <strong>Legende Komplexität:</strong>
+    ⭐ Sehr einfach |
+    ⭐⭐ Einfach |
+    ⭐⭐⭐ Mittel |
+    ⭐⭐⭐⭐ Komplex |
+    ⭐⭐⭐⭐⭐ Sehr komplex
+</div>
+
+<div class="spiele-katalog">
+    {{ range sort site.Data.spiele "name" }}
+    <div class="spiel-eintrag">
+        <div class="spiel-kopf">
+            {{ if .bild }}
+            <div class="spiel-bild">
+                <img src="{{ .bild }}" alt="{{ .name }}" loading="lazy" />
+            </div>
+            {{ end }}
+            <div class="spiel-info-block">
+                <h2 class="spiel-titel">{{ .name }}</h2>
+                <div class="spiel-meta">
+                    <span class="meta-item">👥 {{ .spielerzahl_min }}{{ if ne .spielerzahl_min .spielerzahl_max }}-{{ .spielerzahl_max }}{{ end }} Spieler</span>
+                    <span class="meta-item">⏱️ {{ .dauer_min }} Min</span>
+                    <span class="meta-item">{{ range seq .komplexitaet }}⭐{{ end }}</span>
+                    {{ if .kategorie }}<span class="meta-item kategorie">{{ .kategorie }}</span>{{ end }}
+                </div>
+            </div>
+        </div>
+        {{ if .langbeschreibung }}
+        <div class="spiel-beschreibung">
+            {{ .langbeschreibung | markdownify }}
+        </div>
+        {{ else if .beschreibung }}
+        <div class="spiel-beschreibung">
+            {{ .beschreibung }}
+        </div>
+        {{ end }}
+    </div>
+    {{ end }}
+</div>
+
+<div class="print-footer">
+    <p>Spieleabend Fuchshain | www.spieleabend-fuchshain.de</p>
+</div>
+
+<style>
+/* Allgemeine Styles */
+.print-header {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #4a7c59;
+}
+
+.print-header h1 {
+    margin: 0;
+    color: #4a7c59;
+}
+
+.print-date {
+    color: #666;
+    margin: 0.5rem 0 0 0;
+}
+
+.print-actions {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.print-button {
+    background: #4a7c59;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s;
+}
+
+.print-button:hover {
+    background: #3d6a4a;
+}
+
+.back-link {
+    color: #4a7c59;
+    text-decoration: none;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
+
+.print-legend {
+    background: #f8f9fa;
+    padding: 0.75rem 1rem;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+    font-size: 0.9rem;
+}
+
+/* Katalog-Styles */
+.spiele-katalog {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.spiel-eintrag {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    background: #fff;
+    page-break-inside: avoid;
+}
+
+.spiel-kopf {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+}
+
+.spiel-bild {
+    flex-shrink: 0;
+    width: 100px;
+    height: 100px;
+}
+
+.spiel-bild img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 6px;
+    border: 1px solid #eee;
+}
+
+.spiel-info-block {
+    flex: 1;
+}
+
+.spiel-titel {
+    margin: 0 0 0.5rem 0;
+    font-size: 1.2rem;
+    color: #4a7c59;
+}
+
+.spiel-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.meta-item {
+    white-space: nowrap;
+}
+
+.meta-item.kategorie {
+    background: #e8f5e9;
+    padding: 0.15rem 0.5rem;
+    border-radius: 4px;
+    color: #4a7c59;
+}
+
+.spiel-beschreibung {
+    margin-top: 0.75rem;
+    font-size: 0.9rem;
+    color: #444;
+    line-height: 1.5;
+}
+
+.spiel-beschreibung p {
+    margin: 0 0 0.5rem 0;
+}
+
+.spiel-beschreibung p:last-child {
+    margin-bottom: 0;
+}
+
+.print-footer {
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 1px solid #ddd;
+    text-align: center;
+    color: #666;
+    font-size: 0.85rem;
+}
+
+/* Druck-Styles */
+@media print {
+    .no-print {
+        display: none !important;
+    }
+
+    body {
+        font-size: 10pt;
+        color: black;
+        background: white;
+    }
+
+    .print-header {
+        border-bottom: 1px solid black;
+    }
+
+    .print-header h1 {
+        color: black;
+        font-size: 16pt;
+    }
+
+    .spiele-katalog {
+        gap: 0.75rem;
+    }
+
+    .spiel-eintrag {
+        border: 1px solid #999;
+        padding: 0.75rem;
+        page-break-inside: avoid;
+    }
+
+    .spiel-bild {
+        width: 80px;
+        height: 80px;
+    }
+
+    .spiel-titel {
+        font-size: 11pt;
+        color: black;
+    }
+
+    .spiel-meta {
+        font-size: 9pt;
+    }
+
+    .spiel-beschreibung {
+        font-size: 9pt;
+    }
+
+    .meta-item.kategorie {
+        background: #eee !important;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+
+    .print-footer {
+        margin-top: 1rem;
+        border-top: 1px solid black;
+    }
+
+    @page {
+        margin: 1.5cm;
+        size: A4 portrait;
+    }
+}
+</style>

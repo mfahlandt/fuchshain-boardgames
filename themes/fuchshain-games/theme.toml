@@ -1,0 +1,12 @@
+name = "Fuchshain Games"
+license = "MIT"
+licenselink = "https://github.com/yourname/fuchshain-games/blob/master/LICENSE"
+description = "Ein modernes, naturverbundenes Theme fuer Spieleabend-Webseiten"
+homepage = "https://github.com/yourname/fuchshain-games"
+tags = ["games", "boardgames", "community", "modern", "responsive"]
+features = ["responsive", "accessibility", "dark-mode"]
+min_version = "0.112.0"
+
+[author]
+  name = "Spieleabend Schirnding"
+  homepage = "https://example.github.io/schirnding-boardgames/"

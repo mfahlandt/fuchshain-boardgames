@@ -1,0 +1,151 @@
+{{/* Termine Liste Shortcode - Zeigt alle kommenden Termine aus data/termine.yaml */}}
+
+{{ $now := now }}
+
+<div class="termine-liste">
+    {{ range site.Data.termine }}
+    {{ $terminDatum := time .datum }}
+    {{ if ge $terminDatum $now }}
+    <div class="termin-card">
+        <div class="termin-datum">
+            <span class="termin-tag">{{ $terminDatum.Day }}</span>
+            <span class="termin-monat">{{ index (slice "" "Jan" "Feb" "Mär" "Apr" "Mai" "Jun" "Jul" "Aug" "Sep" "Okt" "Nov" "Dez") (int $terminDatum.Month) }}</span>
+            <span class="termin-jahr">{{ $terminDatum.Year }}</span>
+        </div>
+        <div class="termin-details">
+            <div class="termin-zeit">
+                <span class="termin-icon">🕐</span> {{ .uhrzeit }} Uhr
+            </div>
+            <div class="termin-ort">
+                <span class="termin-icon">📍</span> {{ .ort }}
+            </div>
+            {{ if .beschreibung }}
+            <div class="termin-beschreibung">
+                {{ .beschreibung }}
+            </div>
+            {{ end }}
+        </div>
+    </div>
+    {{ end }}
+    {{ end }}
+</div>
+
+{{ if eq (len (where site.Data.termine "datum" "ge" (now.Format "2006-01-02"))) 0 }}
+<p class="keine-termine">Aktuell sind keine kommenden Termine eingetragen. Schau bald wieder vorbei!</p>
+{{ end }}
+
+<style>
+.termine-liste {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 1.5rem 0;
+}
+
+.termin-card {
+    display: flex;
+    gap: 1.5rem;
+    background: var(--entry);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1.25rem;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.termin-card:hover {
+    transform: translateX(5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.termin-datum {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 70px;
+    padding: 0.75rem;
+    background: linear-gradient(135deg, #4a7c59 0%, #3d6a4a 100%);
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+}
+
+.termin-tag {
+    font-size: 1.75rem;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.termin-monat {
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 0.25rem;
+}
+
+.termin-jahr {
+    font-size: 0.75rem;
+    opacity: 0.8;
+    margin-top: 0.1rem;
+}
+
+.termin-details {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.termin-zeit,
+.termin-ort {
+    font-size: 0.95rem;
+    color: var(--secondary);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.termin-icon {
+    font-size: 1rem;
+}
+
+.termin-beschreibung {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    color: var(--primary);
+    font-weight: 500;
+}
+
+.keine-termine {
+    text-align: center;
+    color: var(--secondary);
+    padding: 2rem;
+    background: var(--entry);
+    border-radius: 12px;
+    border: 1px dashed var(--border);
+}
+
+@media (max-width: 500px) {
+    .termin-card {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .termin-datum {
+        flex-direction: row;
+        gap: 0.5rem;
+        min-width: auto;
+        padding: 0.5rem 1rem;
+    }
+
+    .termin-tag {
+        font-size: 1.25rem;
+    }
+
+    .termin-monat,
+    .termin-jahr {
+        margin: 0;
+    }
+}
+</style>

@@ -1,0 +1,55 @@
+{{ define "main" }}
+<div class="error-page">
+    <div class="container">
+        <div class="error-content">
+            <span class="error-icon">&#127922;</span>
+            <h1>404</h1>
+            <p class="error-message">Ups! Diese Seite wurde nicht gefunden.</p>
+            <p class="error-description">Vielleicht ist das Spiel schon vorbei? Kein Problem - starte einfach eine neue Runde!</p>
+            <a href="{{ "/" | relURL }}" class="btn btn-primary">
+                <span class="btn-icon">&#127968;</span>
+                Zurueck zur Startseite
+            </a>
+        </div>
+    </div>
+</div>
+
+<style>
+.error-page {
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: var(--space-3xl) 0;
+}
+
+.error-content {
+    max-width: 500px;
+}
+
+.error-icon {
+    font-size: 5rem;
+    display: block;
+    margin-bottom: var(--space-lg);
+}
+
+.error-page h1 {
+    font-size: 6rem;
+    color: var(--color-primary);
+    margin-bottom: var(--space-md);
+    line-height: 1;
+}
+
+.error-message {
+    font-size: 1.5rem;
+    color: var(--color-text);
+    margin-bottom: var(--space-sm);
+}
+
+.error-description {
+    color: var(--color-text-light);
+    margin-bottom: var(--space-xl);
+}
+</style>
+{{ end }}

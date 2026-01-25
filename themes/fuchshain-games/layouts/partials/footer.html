@@ -1,0 +1,26 @@
+<footer class="site-footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <img src="/images/logo_fuchshain.png" alt="{{ .Site.Title }}" class="footer-logo-image">
+                <span class="footer-title">{{ .Site.Title }}</span>
+            </div>
+
+            <nav class="footer-nav" aria-label="Footer Navigation">
+                <ul>
+                    {{ range .Site.Menus.main }}
+                    {{ if or (eq .Identifier "impressum") (eq .Identifier "datenschutz") (eq .Identifier "kontakt") }}
+                    <li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
+                    {{ end }}
+                    {{ end }}
+                </ul>
+            </nav>
+        </div>
+
+        <div class="footer-bottom">
+            <p class="copyright">
+                &copy; {{ now.Year }} {{ .Site.Title }}. Mit ❤️ für die Spielegemeinschaft.
+            </p>
+        </div>
+    </div>
+</footer>

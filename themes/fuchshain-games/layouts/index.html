@@ -1,0 +1,50 @@
+{{ define "main" }}
+<div class="hero-section{{ if .Site.Params.heroImage }} hero-with-image{{ end }}"{{ if .Site.Params.heroImage }} style="background-image: url('{{ .Site.Params.heroImage | relURL }}');"{{ end }}>
+    <div class="hero-overlay"></div>
+    <div class="container">
+        <div class="hero-content">
+            <h1 class="hero-title">
+                {{ if not .Site.Params.heroImage }}<span class="hero-icon">&#127922;</span>{{ end }}
+                {{ .Site.Title }}
+            </h1>
+            <p class="hero-subtitle">{{ .Site.Params.description }}</p>
+            <div class="hero-actions">
+                <a href="/termine/" class="btn btn-primary">
+                    Nächste Termine
+                </a>
+                <a href="/spiele/" class="btn btn-secondary">
+                    Unsere Spiele
+                </a>
+            </div>
+        </div>
+    </div>
+    {{ if not .Site.Params.heroImage }}
+    <div class="hero-decoration">
+        <div class="decoration-circle circle-1"></div>
+        <div class="decoration-circle circle-2"></div>
+        <div class="decoration-circle circle-3"></div>
+    </div>
+    {{ end }}
+</div>
+
+<div class="container">
+    <div class="home-content">
+        {{ .Content }}
+    </div>
+
+    {{ if .Site.Params.features }}
+    <section class="features-section">
+        <h2 class="section-title">Was erwartet dich?</h2>
+        <div class="features-grid">
+            {{ range .Site.Params.features }}
+            <div class="feature-card">
+                <div class="feature-icon">{{ .icon | safeHTML }}</div>
+                <h3>{{ .title }}</h3>
+                <p>{{ .description }}</p>
+            </div>
+            {{ end }}
+        </div>
+    </section>
+    {{ end }}
+</div>
+{{ end }}

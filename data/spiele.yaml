@@ -1,0 +1,708 @@
+# Spielesammlung für Spieleabend Fuchshain
+#
+# Für Bilder kannst du bei jedem Spiel ein "bild" Feld hinzufügen:
+# bild: "/images/spiele/spielname.jpg"
+#
+# Bilder sollten im Ordner static/images/spiele/ abgelegt werden.
+
+- name: "5-Minute Dungeon"
+  slug: "5-minute-dungeon"
+  komplexitaet: 2
+  spielerzahl_min: 2
+  spielerzahl_max: 5
+  dauer_min: 5
+  bgg_id: 207830
+  kategorie: "Kooperativ / Hektik"
+  beschreibung: "Hektischer Koop-Spaß: Monster verprügeln in Echtzeit."
+  langbeschreibung: |
+    5-Minute Dungeon ist ein rasantes Echtzeit-Kartenspiel, bei dem ihr gemeinsam gegen die Uhr kämpft. 
+    Jeder Spieler wählt einen Helden mit einzigartigen Fähigkeiten und einem eigenen Kartendeck. 
+    Zusammen müsst ihr Monster besiegen, Hindernisse überwinden und am Ende den Bossgegner erledigen - 
+    und das alles in nur 5 Minuten!
+    
+    Das Spiel ist perfekt für Gruppen, die Action und Chaos lieben. Es gibt keine Runden oder Züge - 
+    alle spielen gleichzeitig und werfen ihre Karten auf den Tisch. Kommunikation ist der Schlüssel, 
+    aber in der Hektik geht oft alles drunter und drüber.
+    
+    Ideal als Absacker oder Aufwärmer für einen Spieleabend!
+
+- name: "7 Wonders (New Ed.)"
+  slug: "7-wonders"
+  komplexitaet: 3
+  spielerzahl_min: 3
+  spielerzahl_max: 7
+  dauer_min: 30
+  bgg_id: 68448
+  kategorie: "Strategie (Kenner)"
+  beschreibung: "Zivilisationsaufbau im Schnelldurchlauf. Alle spielen gleichzeitig."
+  langbeschreibung: |
+    7 Wonders ist ein moderner Klassiker des Drafting-Genres. Jeder Spieler führt eine antike 
+    Zivilisation und baut eines der sieben Weltwunder. Das Besondere: Alle spielen gleichzeitig!
+    
+    In jeder Runde wählt ihr eine Karte aus eurer Hand und gebt die restlichen Karten weiter. 
+    So entsteht ein spannender Drafting-Mechanismus, bei dem ihr nicht nur eure eigene Strategie 
+    verfolgt, sondern auch beobachten müsst, was eure Nachbarn bauen.
+    
+    Das Spiel bietet verschiedene Wege zum Sieg: Militär, Wissenschaft, Handel oder Siegpunkte. 
+    Perfekt für größere Gruppen, die ein anspruchsvolles aber schnelles Spiel suchen.
+
+- name: "7 Wonders Duel"
+  slug: "7-wonders-duel"
+  komplexitaet: 3
+  spielerzahl_min: 2
+  spielerzahl_max: 2
+  dauer_min: 30
+  bgg_id: 173346
+  kategorie: "2-Personen-Duell"
+  beschreibung: "Das vielleicht beste 2-Personen-Strategie-Spiel der Welt."
+  langbeschreibung: |
+    7 Wonders Duel ist die perfekte Umsetzung des großen Bruders für genau zwei Spieler. 
+    Statt Karten zu draften, liegen diese in einer Pyramidenstruktur aus - manche offen, 
+    manche verdeckt. Ihr müsst taktisch wählen, welche Karten ihr nehmt.
+    
+    Das Spiel bietet drei Wege zum Sieg: Wissenschaftssieg, militärische Überlegenheit, 
+    oder die meisten Siegpunkte. Die Spannung ist konstant hoch!
+    
+    Ein absolutes Muss für Paare und Zweiergruppen!
+
+- name: "Abenteuer Tierwelt (tiptoi)"
+  slug: "abenteuer-tierwelt-tiptoi"
+  komplexitaet: 1
+  spielerzahl_min: 1
+  spielerzahl_max: 4
+  dauer_min: 30
+  bgg_id: 100424
+  kategorie: "Kinderspiel"
+  beschreibung: "Wissensspiel mit dem tiptoi-Stift. Eher für Kinder/Familie."
+  langbeschreibung: |
+    Abenteuer Tierwelt nutzt den interaktiven tiptoi-Stift von Ravensburger, um Kindern 
+    spielerisch Wissen über Tiere zu vermitteln. Der Stift erkennt, worauf er tippt, 
+    und gibt passende Informationen, Geräusche oder Aufgaben aus.
+    
+    Perfekt für Familien mit Kindern im Grundschulalter. Der tiptoi-Stift ist separat erforderlich.
+
+- name: "Ankh: Gods of Egypt"
+  slug: "ankh-gods-of-egypt"
+  komplexitaet: 5
+  spielerzahl_min: 2
+  spielerzahl_max: 5
+  dauer_min: 90
+  bgg_id: 285967
+  kategorie: "Experten-Strategie"
+  beschreibung: "Epischer Götterkrieg mit riesigen Figuren. Taktisch extrem tief."
+  langbeschreibung: |
+    Ankh: Gods of Egypt ist ein episches Strategiespiel, in dem ihr ägyptische Götter 
+    verkörpert, die um die Gunst der letzten Gläubigen kämpfen. Mit atemberaubenden 
+    Miniaturen ist das Spiel auch optisch ein Highlight.
+    
+    Besonders spannend: Im Spielverlauf verschmelzen die schwächeren Götter miteinander! 
+    Ein Spiel für erfahrene Strategen, die epische Konflikte lieben!
+
+- name: "BAM! Ultra Schmutzig"
+  slug: "bam-ultra-schmutzig"
+  komplexitaet: 1
+  spielerzahl_min: 4
+  spielerzahl_max: 6
+  dauer_min: 30
+  bgg_id: 183204
+  kategorie: "Partyspiel (Ab 18)"
+  beschreibung: "Böses Party-Spiel. Lückentexte füllen. Nur für schwarzen Humor!"
+  langbeschreibung: |
+    BAM! Ultra Schmutzig ist die freche, erwachsene Version des beliebten Partyspiel-Konzepts. 
+    Ein Spieler liest eine Karte mit einem Lückentext vor, und alle anderen versuchen, 
+    die Lücke möglichst lustig (oder geschmacklos) zu füllen.
+    
+    ACHTUNG: Wirklich nur für Erwachsene mit robustem Humor!
+
+- name: "Brass: Birmingham"
+  slug: "brass-birmingham"
+  komplexitaet: 5
+  spielerzahl_min: 2
+  spielerzahl_max: 4
+  dauer_min: 120
+  bgg_id: 224517
+  kategorie: "Experten-Wirtschaft"
+  beschreibung: "Wirtschafts-Meisterwerk. Kohle, Eisen, Bier. Sehr anspruchsvoll."
+  langbeschreibung: |
+    Brass: Birmingham gilt als eines der besten Wirtschaftsspiele aller Zeiten. Das Spiel versetzt 
+    euch in die Zeit der industriellen Revolution in England.
+    
+    Ihr baut Industrien auf, vernetzt sie durch Kanäle und später Eisenbahnen, und 
+    versucht, eure Waren gewinnbringend zu verkaufen.
+    
+    Für Spieler, die komplexe Wirtschaftssimulationen lieben und bereit sind, 
+    2-3 Stunden in ein tiefgründiges Spielerlebnis zu investieren.
+
+- name: "Carcassonne (Big Box)"
+  slug: "carcassonne"
+  komplexitaet: 2
+  spielerzahl_min: 2
+  spielerzahl_max: 5
+  dauer_min: 35
+  bgg_id: 230914
+  kategorie: "Familienspiel"
+  beschreibung: "Plättchen legen, Landschaften bauen. Der entspannte Klassiker."
+  langbeschreibung: |
+    Carcassonne ist DER Einstiegsklassiker ins Hobby Brettspiele. Das Prinzip ist einfach: 
+    Ziehe ein Plättchen, lege es an, setze optional eine Figur darauf.
+    
+    Die Big Box enthält das Grundspiel plus mehrere beliebte Erweiterungen. 
+    Perfekt für Familien, Einsteiger und alle, die ein entspanntes Spiel suchen.
+
+- name: "Caverna"
+  slug: "caverna"
+  komplexitaet: 5
+  spielerzahl_min: 1
+  spielerzahl_max: 7
+  dauer_min: 30
+  bgg_id: 102794
+  kategorie: "Experten-Strategie"
+  beschreibung: "Zwergen-Farm-Simulator. Höhlen graben, Tiere züchten. Expertenspiel."
+  langbeschreibung: |
+    Caverna ist eines der umfangreichsten Worker-Placement-Spiele überhaupt. Ihr leitet eine 
+    Zwergenfamilie, die sowohl eine Farm als auch ein Höhlensystem bewirtschaftet.
+    
+    Die Möglichkeiten sind nahezu endlos: Baut Felder an, züchtet Tiere, grabt Höhlen, 
+    richtet Wohnräume ein und schickt eure Zwerge auf Expeditionen.
+
+- name: "Chronicles of Crime"
+  slug: "chronicles-of-crime"
+  komplexitaet: 2
+  spielerzahl_min: 1
+  spielerzahl_max: 4
+  dauer_min: 60
+  bgg_id: 239188
+  kategorie: "Detektiv / App"
+  beschreibung: "Krimi lösen mit Handy-App und VR-Brille. Sehr zugänglich."
+  langbeschreibung: |
+    Chronicles of Crime verbindet klassische Detektivarbeit mit moderner App-Technologie. 
+    Ihr untersucht Tatorte, befragt Verdächtige und sammelt Beweise.
+    
+    Das Highlight ist die optionale VR-Funktion: Untersucht Tatorte in 360-Grad-Ansicht!
+
+- name: "Crossfire"
+  slug: "crossfire"
+  komplexitaet: 1
+  spielerzahl_min: 5
+  spielerzahl_max: 10
+  dauer_min: 5
+  bgg_id: 230055
+  kategorie: "Partyspiel / Deduktion"
+  beschreibung: "Wer ist der Verräter? Deduktion in nur 5 Minuten."
+  langbeschreibung: |
+    Crossfire ist Social Deduction auf Speed. In nur fünf Minuten müsst ihr herausfinden, 
+    wer der Attentäter ist. Perfekt für große Gruppen!
+
+- name: "Dali the Fox"
+  slug: "dali-the-fox"
+  komplexitaet: 1
+  spielerzahl_min: 2
+  spielerzahl_max: 4
+  dauer_min: 15
+  bgg_id: 286544
+  kategorie: "Kinderspiel"
+  beschreibung: "Freches Kinderspiel. Eier klauen, ohne erwischt zu werden."
+  langbeschreibung: |
+    In Dali the Fox spielt ihr freche Füchse, die Eier aus dem Hühnerstall stehlen wollen. 
+    Ein tolles Spiel für Familien mit kleinen Kindern.
+
+- name: "Das verrückte Labyrinth"
+  slug: "das-verrueckte-labyrinth"
+  komplexitaet: 2
+  spielerzahl_min: 2
+  spielerzahl_max: 4
+  dauer_min: 20
+  bgg_id: 1219
+  kategorie: "Familienspiel"
+  beschreibung: "Wege schieben, Schätze erreichen. Einfach und gut."
+  langbeschreibung: |
+    Das verrückte Labyrinth ist seit 1986 ein Dauerbrenner. Schiebt eine Reihe des 
+    Labyrinths, um neue Wege zu öffnen, und bewegt dann eure Figur zu eurem Schatz.
+    
+    Ein absoluter Klassiker, der in keiner Spielesammlung fehlen sollte.
+
+- name: "Die Kartographin"
+  slug: "die-kartographin"
+  komplexitaet: 2
+  spielerzahl_min: 1
+  spielerzahl_max: 100
+  dauer_min: 45
+  bgg_id: 315727
+  kategorie: "Familienspiel (Roll and Write)"
+  beschreibung: "Tetris auf Papier: Landkarte malen und Monster einzeichnen."
+  langbeschreibung: |
+    Die Kartographin ist ein Flip-and-Write-Spiel, bei dem ihr als königliche Kartographen 
+    das Land vermesst und kartiert. Das Spiel skaliert perfekt von solo bis 100 Spieler!
+
+- name: "Die Quacksalber von Quedlinburg"
+  slug: "die-quacksalber-von-quedlinburg"
+  komplexitaet: 2
+  spielerzahl_min: 2
+  spielerzahl_max: 4
+  dauer_min: 45
+  bgg_id: 244521
+  kategorie: "Familienspiel (Glück)"
+  beschreibung: "Tränke brauen mit Risiko. Zieht man zu viel, platzt der Kessel."
+  langbeschreibung: |
+    Die Quacksalber von Quedlinburg hat 2018 den Kennerspiel des Jahres-Preis gewonnen! 
+    Als Kurpfuscher braut ihr Tränke, indem ihr blind Zutaten aus eurem Beutel zieht.
+    
+    Der Haken: Zu viele Knallerbsen und euer Kessel explodiert!
+
+- name: "Die Zwerge"
+  slug: "die-zwerge"
+  komplexitaet: 3
+  spielerzahl_min: 2
+  spielerzahl_max: 5
+  dauer_min: 60
+  bgg_id: 124601
+  kategorie: "Kooperativ / Fantasy"
+  beschreibung: "Kooperativ das Geborgene Land verteidigen. Sehr thematisch."
+  langbeschreibung: |
+    Die Zwerge basiert auf der beliebten Romanreihe von Markus Heitz. Ihr übernehmt 
+    die Rollen der Helden und müsst gemeinsam die Bedrohungen abwehren.
+
+- name: "Dominion"
+  slug: "dominion"
+  komplexitaet: 3
+  spielerzahl_min: 2
+  spielerzahl_max: 4
+  dauer_min: 30
+  bgg_id: 36218
+  kategorie: "Strategie (Kartenspiel)"
+  beschreibung: "Der Vater aller Deckbuilder. Baue dein Kartendeck während des Spiels."
+  langbeschreibung: |
+    Dominion hat 2008 ein komplett neues Genre erfunden: Deckbuilding. Ihr startet alle 
+    mit dem gleichen kleinen Kartendeck und kauft im Spielverlauf neue Karten.
+    
+    Auch nach über 15 Jahren und zahllosen Erweiterungen bleibt Dominion ein Meilenstein!
+
+- name: "Dorfromantik"
+  slug: "dorfromantik"
+  komplexitaet: 2
+  spielerzahl_min: 1
+  spielerzahl_max: 6
+  dauer_min: 30
+  bgg_id: 370591
+  kategorie: "Kooperativ / Entspannt"
+  beschreibung: "Gemeinsam die perfekte Landschaft puzzeln. Sehr ruhig (Zen)."
+  langbeschreibung: |
+    Dorfromantik ist die Brettspiel-Adaption des beliebten Videospiels. Ihr legt gemeinsam 
+    sechseckige Landschaftsplättchen aneinander. Perfekt für Entspannung statt Wettbewerb!
+
+- name: "Dune: Imperium"
+  slug: "dune-imperium"
+  komplexitaet: 4
+  spielerzahl_min: 1
+  spielerzahl_max: 4
+  dauer_min: 60
+  bgg_id: 316554
+  kategorie: "Experten-Strategie"
+  beschreibung: "Deckbau und Worker-Placement auf dem Wüstenplaneten. Intensiv!"
+  langbeschreibung: |
+    Dune: Imperium kombiniert Deckbuilding und Worker-Placement zu einem der besten 
+    Strategiespiele der letzten Jahre. Ihr kämpft um Einfluss auf Arrakis.
+
+- name: "Dune: Imperium Uprising"
+  slug: "dune-imperium-uprising"
+  komplexitaet: 4
+  spielerzahl_min: 1
+  spielerzahl_max: 4
+  dauer_min: 60
+  bgg_id: 397598
+  kategorie: "Experten-Strategie"
+  beschreibung: "Eigenständiger Nachfolger. Noch strategischer und interaktiver."
+  langbeschreibung: |
+    Dune: Imperium Uprising ist ein eigenständiges Spiel, das auf dem Original aufbaut 
+    und es verbessert. Es ist die beste Version von Dune: Imperium!
+
+- name: "Dune: War for Arrakis"
+  slug: "dune-war-for-arrakis"
+  komplexitaet: 5
+  spielerzahl_min: 2
+  spielerzahl_max: 2
+  dauer_min: 120
+  bgg_id: 392023
+  kategorie: "Wargame / Profi"
+  beschreibung: "Riesiges Wargame. Reine Strategie und Kriegsführung. Profi-Level."
+  langbeschreibung: |
+    Dune: War for Arrakis ist ein episches Zwei-Personen-Wargame mit über 100 Miniaturen. 
+    Für Fans von Twilight Imperium oder War of the Ring ein absolutes Muss!
+
+- name: "Everdell"
+  slug: "everdell"
+  komplexitaet: 3
+  spielerzahl_min: 1
+  spielerzahl_max: 4
+  dauer_min: 40
+  bgg_id: 199792
+  kategorie: "Strategie (Kenner)"
+  beschreibung: "Tiere bauen ein Dorf im Wald. Wunderschön, aber strategisch knackig."
+  langbeschreibung: |
+    Everdell ist eines der schönsten Brettspiele auf dem Markt. Der dreidimensionale 
+    Baum, die liebevoll illustrierten Karten - alles ein Augenschmaus!
+    
+    Aber lasst euch nicht täuschen: Hinter der niedlichen Fassade steckt ein knackiges Strategiespiel.
+
+- name: "Sebastian Fitzek Safehouse"
+  slug: "sebastian-fitzek-safehouse"
+  komplexitaet: 2
+  spielerzahl_min: 2
+  spielerzahl_max: 4
+  dauer_min: 30
+  bgg_id: 236203
+  kategorie: "Kooperativ / Echtzeit"
+  beschreibung: "Echtzeit-Thriller. In 30 Minuten dem Verfolger entkommen. Stressig!"
+  langbeschreibung: |
+    Sebastian Fitzek Safehouse ist ein nervenaufreibendes Echtzeit-Spiel. Ihr seid 
+    Zeugen eines Verbrechens und müsst das Safehouse erreichen, bevor euch der Verfolger einholt!
+
+- name: "Flamecraft"
+  slug: "flamecraft"
+  komplexitaet: 2
+  spielerzahl_min: 1
+  spielerzahl_max: 5
+  dauer_min: 60
+  bgg_id: 336986
+  kategorie: "Familienspiel Plus"
+  beschreibung: "Drachen als Handwerker in Läden einsetzen. Sehr süß und zugänglich."
+  langbeschreibung: |
+    Flamecraft ist ein herzerwärmendes Spiel mit kleinen Drachen als Handwerkern. 
+    Die Illustrationen sind ein absoluter Augenschmaus!
+
+- name: "Hamlet"
+  slug: "hamlet"
+  komplexitaet: 3
+  spielerzahl_min: 1
+  spielerzahl_max: 4
+  dauer_min: 60
+  bgg_id: 368681
+  kategorie: "Strategie (Kenner)"
+  beschreibung: "Ein Dorf bauen, das organisch wächst. Wege und Waren managen."
+  langbeschreibung: |
+    Hamlet ist ein innovatives Aufbauspiel, bei dem ihr gemeinsam ein Dorf baut. 
+    Ein Spiel für Tüftler, die das Optimieren von Produktionsketten lieben!
+
+- name: "Helden müssen draußen bleiben"
+  slug: "helden-muessen-draussen-bleiben"
+  komplexitaet: 3
+  spielerzahl_min: 1
+  spielerzahl_max: 4
+  dauer_min: 45
+  bgg_id: 350818
+  kategorie: "Kooperativ / Tower Defense"
+  beschreibung: "Ihr seid die Monster und verteidigt den Dungeon gegen Helden."
+  langbeschreibung: |
+    In Helden müssen draußen bleiben dreht ihr den Spieß um: Ihr seid nicht die 
+    Helden, sondern die Monster, die ihren Dungeon verteidigen!
+
+- name: "Kluster"
+  slug: "kluster"
+  komplexitaet: 1
+  spielerzahl_min: 1
+  spielerzahl_max: 4
+  dauer_min: 10
+  bgg_id: 277458
+  kategorie: "Partyspiel / Geschicklichkeit"
+  beschreibung: "Magnete legen ohne Klack. Geschicklichkeit und Schadenfreude."
+  langbeschreibung: |
+    Kluster ist Minimalismus in Bestform: Ein Seil, 24 Magnetsteine, fertig. 
+    Perfekt als Absacker, Reisespiel oder für zwischendurch!
+
+- name: "Kniffel Extreme"
+  slug: "kniffel-extreme"
+  komplexitaet: 1
+  spielerzahl_min: 2
+  spielerzahl_max: 8
+  dauer_min: 20
+  bgg_id: 163152
+  kategorie: "Würfelspiel"
+  beschreibung: "Würfel-Klassiker mit 10-seitigem Würfel. Schneller und extremer."
+  langbeschreibung: |
+    Kniffel Extreme nimmt den zeitlosen Klassiker und dreht ihn auf! 
+    Statt sechs-seitiger Würfel verwendet ihr hier zehn-seitige Würfel.
+
+- name: "Looping Louie"
+  slug: "looping-louie"
+  komplexitaet: 1
+  spielerzahl_min: 2
+  spielerzahl_max: 4
+  dauer_min: 10
+  bgg_id: 327
+  kategorie: "Partyspiel / Geschicklichkeit"
+  beschreibung: "Eigentlich für Kinder, aber das ultimative Trink-/Party-Spiel."
+  langbeschreibung: |
+    Looping Louie ist offiziell ein Kinderspiel ab 4 Jahren. Unoffiziell ist es eines 
+    der besten Partyspiele überhaupt - besonders mit ein paar Getränken!
+
+- name: "Magic Maze Tower"
+  slug: "magic-maze-tower"
+  komplexitaet: 2
+  spielerzahl_min: 1
+  spielerzahl_max: 4
+  dauer_min: 15
+  bgg_id: 383870
+  kategorie: "Kooperativ / Puzzle"
+  beschreibung: "Kooperatives Puzzeln, aber niemand darf reden!"
+  langbeschreibung: |
+    Magic Maze Tower ist ein kooperatives Puzzle-Spiel mit einer gemeinen 
+    Einschränkung: Ihr dürft nicht miteinander sprechen!
+
+- name: "Maus und Mystik"
+  slug: "maus-und-mystik"
+  komplexitaet: 3
+  spielerzahl_min: 1
+  spielerzahl_max: 4
+  dauer_min: 90
+  bgg_id: 124708
+  kategorie: "Story / Dungeon Crawler"
+  beschreibung: "Ein Märchen zum Nachspielen. Viel Story, wenig komplexe Regeln."
+  langbeschreibung: |
+    Maus und Mystik erzählt eine bezaubernde Geschichte: Der König ist verflucht, 
+    und seine treuesten Gefährten wurden in Mäuse verwandelt!
+
+- name: "Merchants Cove"
+  slug: "merchants-cove"
+  komplexitaet: 4
+  spielerzahl_min: 1
+  spielerzahl_max: 4
+  dauer_min: 60
+  bgg_id: 277700
+  kategorie: "Experten-Strategie"
+  beschreibung: "Jeder spielt einen komplett anderen Händler mit eigenem Minigame."
+  langbeschreibung: |
+    Merchants Cove ist ein asymmetrisches Strategiespiel, bei dem jeder Spieler einen 
+    völlig anderen Händler spielt - mit eigenem Spielbrett und eigenen Mechanismen!
+
+- name: "MicroMacro: Crime City"
+  slug: "micromacro-crime-city"
+  komplexitaet: 2
+  spielerzahl_min: 1
+  spielerzahl_max: 4
+  dauer_min: 15
+  bgg_id: 314451
+  kategorie: "Detektiv / Kooperativ"
+  beschreibung: "Wimmelbild-Krimi. Gemeinsam auf riesigem Plan Hinweise suchen."
+  langbeschreibung: |
+    MicroMacro: Crime City gewann völlig zurecht den Spiel des Jahres Preis 2021. 
+    Ein riesiger Stadtplan voller winziger Szenen, und ihr müsst Verbrechen aufklären!
+
+- name: "Monopoly"
+  slug: "monopoly"
+  komplexitaet: 2
+  spielerzahl_min: 2
+  spielerzahl_max: 6
+  dauer_min: 60
+  bgg_id: 1406
+  kategorie: "Familienspiel"
+  beschreibung: "Der Kapitalismus-Klassiker. Dauert oft zu lang, kennt aber jeder."
+  langbeschreibung: |
+    Monopoly braucht keine Einführung - es ist eines der bekanntesten Spiele der Welt. 
+    Tipp: Spielt mit den offiziellen Regeln (Auktionen!), dann geht es schneller.
+
+- name: "Munchkin Dungeon"
+  slug: "munchkin-dungeon"
+  komplexitaet: 2
+  spielerzahl_min: 2
+  spielerzahl_max: 5
+  dauer_min: 60
+  bgg_id: 257001
+  kategorie: "Familienspiel (Chaos)"
+  beschreibung: "Risikoreiches Dungeonzug-Spiel. Monster töten, Schätze klauen."
+  langbeschreibung: |
+    Munchkin Dungeon bringt den chaotischen Humor der Munchkin-Kartenspiele auf 
+    ein Spielbrett mit Miniaturen.
+
+- name: "Outlive"
+  slug: "outlive"
+  komplexitaet: 4
+  spielerzahl_min: 1
+  spielerzahl_max: 4
+  dauer_min: 60
+  bgg_id: 191051
+  kategorie: "Experten-Strategie"
+  beschreibung: "Post-Apokalypse Survival. Ressourcen sammeln, Bunker managen."
+  langbeschreibung: |
+    Outlive versetzt euch in eine postapokalyptische Welt, in der ihr einen Bunker 
+    voller Überlebender managt. Ein knallhartes Survival-Spiel!
+
+- name: "Sagani"
+  slug: "sagani"
+  komplexitaet: 2
+  spielerzahl_min: 1
+  spielerzahl_max: 4
+  dauer_min: 45
+  bgg_id: 300940
+  kategorie: "Familienspiel (Abstrakt)"
+  beschreibung: "Plättchen legen und Farben harmonieren. Abstrakt und schön."
+  langbeschreibung: |
+    Sagani ist ein elegantes Legespiel mit Naturgeistern in verschiedenen Farben. 
+    Optisch ein Genuss mit fernöstlich inspirierten Illustrationen.
+
+- name: "Simsala... Bumm?"
+  slug: "simsala-bumm"
+  komplexitaet: 1
+  spielerzahl_min: 2
+  spielerzahl_max: 5
+  dauer_min: 30
+  bgg_id: 163930
+  kategorie: "Kooperativ / Logik"
+  beschreibung: "Man sieht nur die Karten der anderen. Logik und Magie."
+  langbeschreibung: |
+    Simsala... Bumm? ist ein kooperatives Kartenspiel mit einem genialen Twist: 
+    Ihr haltet eure Karten falsch herum! Ein Klassiker des kooperativen Genres.
+
+- name: "Skyjo"
+  slug: "skyjo"
+  komplexitaet: 1
+  spielerzahl_min: 2
+  spielerzahl_max: 8
+  dauer_min: 30
+  bgg_id: 242409
+  kategorie: "Kartenspiel"
+  beschreibung: "Kartenspiel: Hohe Zahlen loswerden. Super simpel, hoher Suchtfaktor."
+  langbeschreibung: |
+    Skyjo ist eines dieser Spiele, die so einfach sind, dass man sich fragt, 
+    warum es nicht schon immer existiert hat. Extrem suchtgefährdend!
+
+- name: "Small World of Warcraft"
+  slug: "small-world-of-warcraft"
+  komplexitaet: 3
+  spielerzahl_min: 2
+  spielerzahl_max: 5
+  dauer_min: 40
+  bgg_id: 309630
+  kategorie: "Strategie (Area Control)"
+  beschreibung: "Risiko ohne Würfelpech im WoW-Universum. Völker kommen und gehen."
+  langbeschreibung: |
+    Small World of Warcraft bringt das beliebte Area-Control-Spiel in das 
+    Warcraft-Universum. Für WoW-Fans ein Pflichtkauf!
+
+- name: "Tetris Link"
+  slug: "tetris-link"
+  komplexitaet: 1
+  spielerzahl_min: 2
+  spielerzahl_max: 4
+  dauer_min: 15
+  bgg_id: 93185
+  kategorie: "Familienspiel (Abstrakt)"
+  beschreibung: "Tetris-Steine in ein Gitter werfen. Taktik für Zwischendurch."
+  langbeschreibung: |
+    Tetris Link bringt das ikonische Videospiel auf den Tisch als taktisches Legespiel.
+
+- name: "The Troll (Village Attacks Exp.)"
+  slug: "the-troll-village-attacks"
+  komplexitaet: 3
+  spielerzahl_min: 1
+  spielerzahl_max: 5
+  dauer_min: 60
+  bgg_id: 235313
+  kategorie: "Erweiterung"
+  beschreibung: "Erweiterung für Village Attacks. Ein riesiges Troll-Monster."
+  langbeschreibung: |
+    The Troll ist eine Erweiterung für Village Attacks mit einem gewaltigen Troll-Monster. 
+    Nur sinnvoll mit dem Grundspiel Village Attacks!
+
+- name: "Tokaido"
+  slug: "tokaido"
+  komplexitaet: 2
+  spielerzahl_min: 2
+  spielerzahl_max: 5
+  dauer_min: 45
+  bgg_id: 123540
+  kategorie: "Familienspiel (Entspannt)"
+  beschreibung: "Die entspannteste Reise Japans. Zen-Stimmung, wenig Konflikt."
+  langbeschreibung: |
+    Tokaido ist eine meditative Reise entlang der historischen Küstenstraße in Japan. 
+    Perfekt für Spieler, die ein ruhiges, ästhetisch ansprechendes Erlebnis suchen.
+
+- name: "Undaunted: Normandy"
+  slug: "undaunted-normandy"
+  komplexitaet: 3
+  spielerzahl_min: 2
+  spielerzahl_max: 2
+  dauer_min: 45
+  bgg_id: 268864
+  kategorie: "2-Personen-Duell"
+  beschreibung: "Deckbuilding trifft 2. Weltkrieg. Taktisches Duell."
+  langbeschreibung: |
+    Undaunted: Normandy ist ein Zwei-Personen-Kriegsspiel, das Deckbuilding mit 
+    taktischer Infanterie-Kriegsführung verbindet.
+
+- name: "Unicorn Fever"
+  slug: "unicorn-fever"
+  komplexitaet: 2
+  spielerzahl_min: 2
+  spielerzahl_max: 6
+  dauer_min: 40
+  bgg_id: 296065
+  kategorie: "Partyspiel / Wetten"
+  beschreibung: "Wetten auf Einhornrennen. Bunt, glückslaunig und lustig."
+  langbeschreibung: |
+    Unicorn Fever ist ein Wettspiel der verrückten Art: Einhörner in allen 
+    Regenbogenfarben rennen um die Wette!
+
+- name: "Villa Paletti"
+  slug: "villa-paletti"
+  komplexitaet: 1
+  spielerzahl_min: 2
+  spielerzahl_max: 4
+  dauer_min: 30
+  bgg_id: 2548
+  kategorie: "Geschicklichkeit"
+  beschreibung: "Bauspiel: Säulen wegnehmen und oben drauf bauen. Einsturzgefahr!"
+  langbeschreibung: |
+    Villa Paletti gewann 2002 den Spiel des Jahres Preis. Ihr baut einen wackeligen 
+    Turm, indem ihr Säulen von unten nach oben versetzt.
+
+- name: "Village Attacks"
+  slug: "village-attacks"
+  komplexitaet: 3
+  spielerzahl_min: 1
+  spielerzahl_max: 5
+  dauer_min: 60
+  bgg_id: 212281
+  kategorie: "Kooperativ / Tower Defense"
+  beschreibung: "Ihr seid die Monster und verteidigt euch gegen wütende Dorfbewohner."
+  langbeschreibung: |
+    Village Attacks dreht das Genre um: Ihr spielt nicht die Helden, sondern 
+    die Monster! Ein tolles kooperatives Erlebnis mit ungewöhnlichem Thema!
+
+- name: "Villen des Wahnsinns (2. Ed.)"
+  slug: "villen-des-wahnsinns"
+  komplexitaet: 3
+  spielerzahl_min: 1
+  spielerzahl_max: 5
+  dauer_min: 120
+  bgg_id: 205059
+  kategorie: "Kooperativ / Story (App)"
+  beschreibung: "Horror-Erlebnis mit App-Unterstützung. Sehr atmosphärisch."
+  langbeschreibung: |
+    Villen des Wahnsinns ist ein kooperatives Horror-Abenteuer im Lovecraft-Universum. 
+    Ein Muss für Horror- und Lovecraft-Fans!
+
+- name: "Viticulture Essential Edition"
+  slug: "viticulture"
+  komplexitaet: 3
+  spielerzahl_min: 1
+  spielerzahl_max: 6
+  dauer_min: 90
+  bgg_id: 183394
+  kategorie: "Strategie (Kenner)"
+  beschreibung: "Weinanbau in der Toskana. Sehr elegantes Strategiespiel."
+  langbeschreibung: |
+    Viticulture ist ein Worker-Placement-Spiel über den Weinanbau in der Toskana. 
+    Für Spieler, die thematische Strategiespiele mögen, ist Viticulture ein Highlight!
+
+- name: "Wettstreit der Diebe"
+  slug: "wettstreit-der-diebe"
+  komplexitaet: 3
+  spielerzahl_min: 2
+  spielerzahl_max: 4
+  dauer_min: 60
+  bgg_id: 227224
+  kategorie: "Strategie (Rennen)"
+  beschreibung: "Deckbuilding und Rennen. Klau den Schatz und entkomme!"
+  langbeschreibung: |
+    Wettstreit der Diebe kombiniert Deckbuilding mit einem Wettrennen durch ein 
+    Dungeon. Ein flottes Spiel mit Ärger-Faktor!

@@ -1,0 +1,318 @@
+{{ define "main" }}
+{{ $slug := .Params.spiel }}
+{{ $spiel := false }}
+
+{{ range site.Data.spiele }}
+  {{ if eq .slug $slug }}
+    {{ $spiel = . }}
+  {{ end }}
+{{ end }}
+
+{{ if $spiel }}
+<article class="spiel-detail">
+    <header class="page-header spiel-header">
+        <div class="container">
+            <nav class="breadcrumbs" aria-label="Breadcrumb">
+                <ol>
+                    <li><a href="{{ "/" | relURL }}">Start</a></li>
+                    <li><a href="{{ "/spiele/" | relURL }}">Spiele</a></li>
+                    <li aria-current="page">{{ $spiel.name }}</li>
+                </ol>
+            </nav>
+            <h1 class="page-title">{{ $spiel.name }}</h1>
+            <p class="spiel-kategorie-header">{{ $spiel.kategorie }}</p>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="spiel-detail-content">
+            <div class="spiel-info-grid">
+                <div class="spiel-main-info">
+                    <div class="spiel-stats">
+                        <div class="stat-item">
+                            <span class="stat-icon">&#128101;</span>
+                            <div class="stat-content">
+                                <span class="stat-label">Spielerzahl</span>
+                                <span class="stat-value">{{ $spiel.spielerzahl_min }}{{ if ne $spiel.spielerzahl_min $spiel.spielerzahl_max }}-{{ $spiel.spielerzahl_max }}{{ end }} Spieler</span>
+                            </div>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-icon">&#9201;</span>
+                            <div class="stat-content">
+                                <span class="stat-label">Spieldauer</span>
+                                <span class="stat-value">ca. {{ $spiel.dauer_min }} Min</span>
+                            </div>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-icon">&#11088;</span>
+                            <div class="stat-content">
+                                <span class="stat-label">Komplexitaet</span>
+                                <span class="stat-value">{{ range seq $spiel.komplexitaet }}&#11088;{{ end }}{{ range seq (sub 5 $spiel.komplexitaet) }}&#9734;{{ end }}</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="spiel-beschreibung">
+                        <h2>Ueber das Spiel</h2>
+                        <p class="spiel-kurz">{{ $spiel.beschreibung }}</p>
+                        {{ if $spiel.langbeschreibung }}
+                        <div class="spiel-lang">
+                            {{ $spiel.langbeschreibung | markdownify }}
+                        </div>
+                        {{ end }}
+                    </div>
+
+                    {{ if $spiel.bgg_id }}
+                    <div class="spiel-links">
+                        <a href="https://boardgamegeek.com/boardgame/{{ $spiel.bgg_id }}" class="btn btn-primary" target="_blank" rel="noopener">
+                            <span class="btn-icon">&#128214;</span>
+                            Auf BoardGameGeek ansehen
+                        </a>
+                    </div>
+                    {{ end }}
+                </div>
+
+                <aside class="spiel-sidebar">
+                    <div class="spiel-quick-facts">
+                        <h3>Auf einen Blick</h3>
+                        <dl class="facts-list">
+                            <dt>Kategorie</dt>
+                            <dd>{{ $spiel.kategorie }}</dd>
+                            <dt>Spielerzahl</dt>
+                            <dd>{{ $spiel.spielerzahl_min }}-{{ $spiel.spielerzahl_max }}</dd>
+                            <dt>Dauer</dt>
+                            <dd>{{ $spiel.dauer_min }} Minuten</dd>
+                            <dt>Schwierigkeit</dt>
+                            <dd>
+                                {{ if eq $spiel.komplexitaet 1 }}Sehr einfach
+                                {{ else if eq $spiel.komplexitaet 2 }}Einfach
+                                {{ else if eq $spiel.komplexitaet 3 }}Mittel
+                                {{ else if eq $spiel.komplexitaet 4 }}Komplex
+                                {{ else }}Sehr komplex{{ end }}
+                            </dd>
+                            {{ if $spiel.bgg_id }}
+                            <dt>BGG ID</dt>
+                            <dd>{{ $spiel.bgg_id }}</dd>
+                            {{ end }}
+                        </dl>
+                    </div>
+
+                    <div class="spiel-empfehlung">
+                        <h3>Empfohlen fuer</h3>
+                        <ul>
+                            {{ if le $spiel.komplexitaet 2 }}
+                            <li>&#10004; Einsteiger</li>
+                            <li>&#10004; Familien</li>
+                            {{ end }}
+                            {{ if and (ge $spiel.komplexitaet 2) (le $spiel.komplexitaet 4) }}
+                            <li>&#10004; Kennerspieler</li>
+                            {{ end }}
+                            {{ if ge $spiel.komplexitaet 4 }}
+                            <li>&#10004; Experten</li>
+                            {{ end }}
+                            {{ if ge $spiel.spielerzahl_max 5 }}
+                            <li>&#10004; Grosse Gruppen</li>
+                            {{ end }}
+                            {{ if eq $spiel.spielerzahl_max 2 }}
+                            <li>&#10004; 2-Spieler-Duelle</li>
+                            {{ end }}
+                            {{ if le $spiel.dauer_min 30 }}
+                            <li>&#10004; Schnelle Runden</li>
+                            {{ end }}
+                        </ul>
+                    </div>
+                </aside>
+            </div>
+        </div>
+
+        <div class="back-to-list">
+            <a href="{{ "/spiele/" | relURL }}" class="btn btn-secondary">
+                &#8592; Zurueck zur Spieleliste
+            </a>
+        </div>
+    </div>
+</article>
+
+<style>
+.spiel-header {
+    background: var(--color-bg-hero);
+    color: var(--color-text-inverse);
+    padding: var(--space-2xl) 0;
+}
+
+.spiel-header .breadcrumbs a,
+.spiel-header .breadcrumbs li {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.spiel-header .page-title {
+    color: var(--color-text-inverse);
+    margin-bottom: var(--space-sm);
+}
+
+.spiel-kategorie-header {
+    opacity: 0.9;
+    font-size: 1.1rem;
+    margin: 0;
+}
+
+.spiel-detail-content {
+    padding: var(--space-2xl) 0;
+}
+
+.spiel-info-grid {
+    display: grid;
+    grid-template-columns: 1fr 320px;
+    gap: var(--space-2xl);
+}
+
+@media (max-width: 900px) {
+    .spiel-info-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.spiel-stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--space-lg);
+    margin-bottom: var(--space-2xl);
+}
+
+@media (max-width: 600px) {
+    .spiel-stats {
+        grid-template-columns: 1fr;
+    }
+}
+
+.stat-item {
+    display: flex;
+    align-items: center;
+    gap: var(--space-md);
+    background: var(--color-bg-alt);
+    padding: var(--space-lg);
+    border-radius: var(--radius-lg);
+}
+
+.stat-icon {
+    font-size: 2rem;
+}
+
+.stat-label {
+    display: block;
+    font-size: 0.85rem;
+    color: var(--color-text-light);
+}
+
+.stat-value {
+    display: block;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--color-primary);
+}
+
+.spiel-beschreibung h2 {
+    color: var(--color-primary);
+    margin-bottom: var(--space-md);
+}
+
+.spiel-kurz {
+    font-size: 1.2rem;
+    color: var(--color-text);
+    font-weight: 500;
+    margin-bottom: var(--space-lg);
+    padding-bottom: var(--space-lg);
+    border-bottom: 2px solid var(--color-accent);
+}
+
+.spiel-lang {
+    line-height: 1.8;
+    color: var(--color-text);
+}
+
+.spiel-lang p {
+    margin-bottom: var(--space-md);
+}
+
+.spiel-links {
+    margin-top: var(--space-2xl);
+}
+
+.spiel-sidebar {
+    position: sticky;
+    top: 90px;
+}
+
+.spiel-quick-facts,
+.spiel-empfehlung {
+    background: var(--color-bg-card);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
+    padding: var(--space-lg);
+    margin-bottom: var(--space-lg);
+}
+
+.spiel-quick-facts h3,
+.spiel-empfehlung h3 {
+    color: var(--color-primary);
+    font-size: 1.1rem;
+    margin-bottom: var(--space-md);
+    padding-bottom: var(--space-sm);
+    border-bottom: 2px solid var(--color-accent);
+}
+
+.facts-list {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: var(--space-sm) var(--space-md);
+}
+
+.facts-list dt {
+    font-weight: 600;
+    color: var(--color-text-light);
+}
+
+.facts-list dd {
+    color: var(--color-text);
+    margin: 0;
+}
+
+.spiel-empfehlung ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.spiel-empfehlung li {
+    padding: var(--space-sm) 0;
+    color: var(--color-primary);
+}
+
+.back-to-list {
+    padding: var(--space-xl) 0 var(--space-3xl);
+    border-top: 1px solid var(--color-border);
+    margin-top: var(--space-xl);
+}
+
+.btn-secondary {
+    background: var(--color-bg-alt);
+    color: var(--color-text);
+    border: 1px solid var(--color-border);
+}
+
+.btn-secondary:hover {
+    background: var(--color-primary);
+    color: var(--color-text-inverse);
+    border-color: var(--color-primary);
+}
+</style>
+{{ else }}
+<div class="container">
+    <div class="page-content">
+        <h1>Spiel nicht gefunden</h1>
+        <p>Das gesuchte Spiel existiert leider nicht.</p>
+        <a href="{{ "/spiele/" | relURL }}">Zurueck zur Spieleliste</a>
+    </div>
+</div>
+{{ end }}
+{{ end }}

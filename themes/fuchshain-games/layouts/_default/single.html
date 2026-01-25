@@ -1,0 +1,29 @@
+{{ define "main" }}
+<article class="page-single">
+    <header class="page-header">
+        <div class="container">
+            {{ if .Site.Params.ShowBreadCrumbs }}
+            <nav class="breadcrumbs" aria-label="Breadcrumb">
+                <ol>
+                    <li><a href="{{ "/" | relURL }}">Start</a></li>
+                    {{ if .Parent }}
+                    <li><a href="{{ .Parent.Permalink }}">{{ .Parent.Title }}</a></li>
+                    {{ end }}
+                    <li aria-current="page">{{ .Title }}</li>
+                </ol>
+            </nav>
+            {{ end }}
+            <h1 class="page-title">{{ .Title }}</h1>
+            {{ with .Description }}
+            <p class="page-description">{{ . }}</p>
+            {{ end }}
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="page-content">
+            {{ .Content }}
+        </div>
+    </div>
+</article>
+{{ end }}

@@ -1,0 +1,282 @@
+/* Custom CSS für Spieleabend Schirnding */
+/* Inspiriert von fuchshain.farm - Natürliche, einladende Farben */
+
+:root {
+    /* Primärfarben - Grüntöne */
+    --primary-green: #4a7c59;
+    --primary-green-dark: #3d6a4a;
+    --primary-green-light: #5a9c6a;
+
+    /* Akzentfarben - Warme Erdtöne */
+    --accent-brown: #8b6f47;
+    --accent-cream: #f5f0e6;
+    --accent-beige: #e8dcc8;
+
+    /* Hintergrund */
+    --bg-light: #fdfcfa;
+    --bg-card: #ffffff;
+
+    /* Text */
+    --text-primary: #2d3436;
+    --text-secondary: #636e72;
+}
+
+/* Light Mode Overrides */
+body {
+    background: var(--bg-light) !important;
+}
+
+.main {
+    background: var(--bg-light);
+}
+
+/* Header Styling */
+.nav {
+    background: linear-gradient(135deg, var(--primary-green) 0%, var(--primary-green-dark) 100%) !important;
+}
+
+header .logo,
+header .logo a {
+    color: white !important;
+}
+
+#menu a {
+    color: rgba(255, 255, 255, 0.9) !important;
+}
+
+#menu a:hover {
+    color: white !important;
+    background: rgba(255, 255, 255, 0.1) !important;
+}
+
+#menu .active {
+    background: rgba(255, 255, 255, 0.15) !important;
+}
+
+/* Hero/Home Info Styling */
+.first-entry {
+    background: linear-gradient(135deg, var(--primary-green) 0%, var(--primary-green-dark) 100%) !important;
+    border: none !important;
+    border-radius: 16px;
+    margin-bottom: 2rem;
+    box-shadow: 0 10px 30px rgba(74, 124, 89, 0.2);
+}
+
+.first-entry .entry-content,
+.first-entry .entry-header {
+    color: white !important;
+}
+
+.first-entry h1,
+.first-entry h2,
+.first-entry h3 {
+    color: white !important;
+}
+
+/* Page Content */
+.post-content h2 {
+    color: var(--primary-green);
+    border-bottom: 3px solid var(--accent-beige);
+    padding-bottom: 0.5rem;
+    margin-top: 2.5rem;
+}
+
+.post-content h3 {
+    color: var(--primary-green-dark);
+}
+
+/* Links */
+.post-content a {
+    color: var(--primary-green);
+    text-decoration: none;
+    border-bottom: 2px solid var(--accent-beige);
+    transition: all 0.2s ease;
+}
+
+.post-content a:hover {
+    border-bottom-color: var(--primary-green);
+}
+
+/* Cards & Entries */
+.post-entry {
+    background: var(--bg-card);
+    border: 1px solid var(--accent-beige) !important;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+}
+
+.post-entry:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+    border-color: var(--primary-green-light) !important;
+}
+
+/* Breadcrumbs */
+.breadcrumbs {
+    color: var(--text-secondary);
+}
+
+.breadcrumbs a {
+    color: var(--primary-green);
+}
+
+/* Tables */
+.post-content table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 1.5rem 0;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.post-content table th {
+    background: var(--primary-green);
+    color: white;
+    padding: 0.75rem 1rem;
+    text-align: left;
+}
+
+.post-content table td {
+    padding: 0.75rem 1rem;
+    border-bottom: 1px solid var(--accent-beige);
+}
+
+.post-content table tr:hover {
+    background: var(--accent-cream);
+}
+
+/* Footer */
+.footer {
+    background: var(--accent-cream) !important;
+    border-top: 3px solid var(--primary-green);
+}
+
+.footer a {
+    color: var(--primary-green);
+}
+
+/* Buttons & Interactive Elements */
+button,
+.button,
+input[type="submit"] {
+    background: var(--primary-green);
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+button:hover,
+.button:hover,
+input[type="submit"]:hover {
+    background: var(--primary-green-dark);
+    transform: translateY(-2px);
+}
+
+/* Custom Cards für Spiele & Termine */
+.spiel-card,
+.termin-card {
+    background: var(--bg-card);
+    border: 1px solid var(--accent-beige) !important;
+}
+
+.spiel-card:hover,
+.termin-card:hover {
+    border-color: var(--primary-green-light) !important;
+}
+
+/* Datum Badge in Terminen */
+.termin-datum,
+.preview-datum {
+    background: linear-gradient(135deg, var(--primary-green) 0%, var(--primary-green-dark) 100%) !important;
+}
+
+/* Filter Bereich */
+.spiele-filter {
+    background: var(--accent-cream) !important;
+    border: 1px solid var(--accent-beige) !important;
+}
+
+.filter-group label {
+    color: var(--primary-green-dark) !important;
+}
+
+/* Selection/Focus States */
+input:focus,
+select:focus,
+textarea:focus {
+    outline: none;
+    border-color: var(--primary-green) !important;
+    box-shadow: 0 0 0 3px rgba(74, 124, 89, 0.15);
+}
+
+/* Voting Container */
+.voting-container {
+    background: var(--accent-cream) !important;
+    border: 2px dashed var(--primary-green) !important;
+}
+
+.voting-placeholder a {
+    background: var(--primary-green) !important;
+}
+
+.voting-placeholder a:hover {
+    background: var(--primary-green-dark) !important;
+}
+
+/* Map Container */
+#map {
+    border: 3px solid var(--accent-beige) !important;
+}
+
+/* Responsive Design Tweaks */
+@media (max-width: 768px) {
+    .first-entry {
+        border-radius: 0;
+        margin: -1rem -1rem 2rem -1rem;
+    }
+}
+
+/* Icons & Emoji Enhancement */
+h2::before,
+h3::before {
+    margin-right: 0.5rem;
+}
+
+/* Loading Animation */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.spiel-card,
+.termin-card,
+.post-entry {
+    animation: fadeInUp 0.4s ease-out;
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--accent-cream);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--primary-green-light);
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--primary-green);
+}
