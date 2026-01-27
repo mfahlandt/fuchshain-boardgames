@@ -95,6 +95,11 @@ Komm vorbei und entdecke neue Spiele, triff nette Leute und verbringe einen gese
     name = "Datenschutz"
     url = "/datenschutz/"
     weight = 20
+  [[menu.footer]]
+    identifier = "bildquellen"
+    name = "Bildquellen"
+    url = "/bildquellen/"
+    weight = 30
 
 [markup]
   [markup.goldmark]

@@ -185,7 +185,9 @@ p {
 .logo-image {
     height: 50px;
     width: auto;
+    max-width: 200px;
     object-fit: contain;
+    object-position: left center;
 }
 
 .main-nav .nav-list {

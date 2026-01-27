@@ -5,9 +5,9 @@ description: "Gemeinsam spielen im Fuchshain – Dein Treffpunkt für Brettspiel
 
 ## Willkommen beim Spieleabend im Fuchshain!
 
-Wir sind eine offene Gruppe von Brettspiel-Enthusiasten aus Schirnding und Umgebung. Ob Einsteiger oder erfahrener Spieler – bei uns ist **jeder willkommen** (außer Intolerante und Nazis).
+Wir sind eine offene Gruppe von Brettspiel-Enthusiasten aus Schirnding und Umgebung. Ob Einsteiger oder Profi – bei uns ist jeder willkommen, der Lust auf ein faires Miteinander hat. **Für Intoleranz und Ausgrenzung ist bei uns kein Platz am Tisch.**
 
-Komm vorbei und entdecke neue Spiele, triff gleichgesinnte Leute und verbringe einen geselligen Abend mit uns. Für "nett" können wir nicht garantieren 😉
+Komm vorbei und entdecke neue Spiele, triff gleichgesinnte Leute und verbringe einen geselligen Abend mit uns. 
 
 **Mindestalter: 14 Jahre**
 
