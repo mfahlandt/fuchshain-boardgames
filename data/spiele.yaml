@@ -172,13 +172,17 @@
   spielerzahl_max: 4
   dauer_min: 60
   bgg_id: 239188
-  kategorie: "Detektiv / App"
+  kategorie: "Kooperativ / Story (App)"
   beschreibung: "Krimi lösen mit Handy-App und VR-Brille. Sehr zugänglich."
   langbeschreibung: |
     Chronicles of Crime verbindet klassische Detektivarbeit mit moderner App-Technologie. 
-    Ihr untersucht Tatorte, befragt Verdächtige und sammelt Beweise.
+    Ihr untersucht Tatorte, befragt Verdächtige und sammelt Beweise - alles per QR-Codes 
+    auf den Spielkarten.
     
-    Das Highlight ist die optionale VR-Funktion: Untersucht Tatorte in 360-Grad-Ansicht!
+    Das Highlight ist die optionale VR-Funktion: Mit eurem Smartphone und einer 
+    einfachen Pappbrille könnt ihr Tatorte in 360-Grad-Ansicht untersuchen!
+    
+    Perfekt für Krimi-Fans und alle, die moderne Technik im Brettspiel mögen.
 
 - name: "Crossfire"
   slug: "crossfire"
@@ -191,7 +195,13 @@
   beschreibung: "Wer ist der Verräter? Deduktion in nur 5 Minuten."
   langbeschreibung: |
     Crossfire ist Social Deduction auf Speed. In nur fünf Minuten müsst ihr herausfinden, 
-    wer der Attentäter ist. Perfekt für große Gruppen!
+    wer der Attentäter ist - oder als Attentäter euer Ziel eliminieren.
+    
+    Das Spiel kombiniert die Spannung von Werwolf mit der Geschwindigkeit eines 
+    Partyspiels. Jeder hat eine geheime Rolle, und am Ende zeigen alle gleichzeitig 
+    auf ihr Ziel. Ein Schuss - und das Spiel ist vorbei!
+    
+    Perfekt für große Gruppen, die schnelle, intensive Runden mögen.
 
 - name: "Dali the Fox"
   slug: "dali-the-fox"
@@ -204,7 +214,13 @@
   beschreibung: "Freches Kinderspiel. Eier klauen, ohne erwischt zu werden."
   langbeschreibung: |
     In Dali the Fox spielt ihr freche Füchse, die Eier aus dem Hühnerstall stehlen wollen. 
-    Ein tolles Spiel für Familien mit kleinen Kindern.
+    Aber Vorsicht: Der Bauer kann jederzeit aufwachen!
+    
+    Das Spiel fördert Gedächtnis und Risikoeinschätzung auf spielerische Weise. 
+    Die niedlichen Illustrationen und das einfache Spielprinzip machen es perfekt 
+    für Familien mit Kindern ab 5 Jahren.
+    
+    Schnell erklärt, schnell gespielt - ideal für zwischendurch!
 
 - name: "Das verrückte Labyrinth"
   slug: "das-verrueckte-labyrinth"
@@ -232,7 +248,14 @@
   beschreibung: "Tetris auf Papier: Landkarte malen und Monster einzeichnen."
   langbeschreibung: |
     Die Kartographin ist ein Flip-and-Write-Spiel, bei dem ihr als königliche Kartographen 
-    das Land vermesst und kartiert. Das Spiel skaliert perfekt von solo bis 100 Spieler!
+    das Land vermesst und kartiert. Jede Runde wird eine Karte aufgedeckt, die zeigt, 
+    welche Form ihr in eure Landkarte einzeichnen müsst.
+    
+    Das Besondere: Monster-Karten lassen euch Formen in die Karten eurer Nachbarn 
+    einzeichnen - natürlich an den ungünstigsten Stellen!
+    
+    Das Spiel skaliert perfekt von solo bis 100+ Spieler und ist ideal für Spieleabende 
+    mit vielen Teilnehmern.
 
 - name: "Die Quacksalber von Quedlinburg"
   slug: "die-quacksalber-von-quedlinburg"
@@ -247,7 +270,12 @@
     Die Quacksalber von Quedlinburg hat 2018 den Kennerspiel des Jahres-Preis gewonnen! 
     Als Kurpfuscher braut ihr Tränke, indem ihr blind Zutaten aus eurem Beutel zieht.
     
-    Der Haken: Zu viele Knallerbsen und euer Kessel explodiert!
+    Der Haken: Zu viele Knallerbsen und euer Kessel explodiert! Das Push-Your-Luck-Element 
+    sorgt für konstante Spannung. Jeder Zug ist eine Entscheidung: Noch eine Zutat riskieren 
+    oder lieber aufhören?
+    
+    Mit dem verdienten Geld kauft ihr bessere Zutaten für euren Beutel. So entwickelt sich 
+    euer Trank von Runde zu Runde weiter. Ein absoluter Publikumsliebling!
 
 - name: "Die Zwerge"
   slug: "die-zwerge"
@@ -260,7 +288,14 @@
   beschreibung: "Kooperativ das Geborgene Land verteidigen. Sehr thematisch."
   langbeschreibung: |
     Die Zwerge basiert auf der beliebten Romanreihe von Markus Heitz. Ihr übernehmt 
-    die Rollen der Helden und müsst gemeinsam die Bedrohungen abwehren.
+    die Rollen der Helden und müsst gemeinsam die Bedrohungen abwehren, die das 
+    Geborgene Land bedrohen.
+    
+    Das Spiel fängt die Atmosphäre der Bücher perfekt ein: Orks, Trolle und dunkle 
+    Magier greifen von allen Seiten an, während ihr versucht, die Hauptquest zu erfüllen.
+    
+    Für Fans der Romanreihe ein absolutes Muss, aber auch ohne Vorkenntnisse ein 
+    spannendes kooperatives Abenteuer!
 
 - name: "Dominion"
   slug: "dominion"
@@ -287,8 +322,16 @@
   kategorie: "Kooperativ / Entspannt"
   beschreibung: "Gemeinsam die perfekte Landschaft puzzeln. Sehr ruhig (Zen)."
   langbeschreibung: |
-    Dorfromantik ist die Brettspiel-Adaption des beliebten Videospiels. Ihr legt gemeinsam 
-    sechseckige Landschaftsplättchen aneinander. Perfekt für Entspannung statt Wettbewerb!
+    Dorfromantik ist die Brettspiel-Adaption des beliebten Videospiels und gewann 2023 
+    den Spiel des Jahres Preis. Ihr legt gemeinsam sechseckige Landschaftsplättchen 
+    aneinander und versucht, Aufgaben zu erfüllen.
+    
+    Das Besondere: Es gibt keinen Wettbewerb - ihr spielt zusammen gegen das Spiel! 
+    Die entspannte Atmosphäre macht es perfekt für Abende, an denen man sich nicht 
+    streiten möchte.
+    
+    Das Spiel hat zudem eine Kampagne: Je besser ihr spielt, desto mehr Plättchen 
+    und Aufgaben schaltet ihr für zukünftige Partien frei!
 
 - name: "Dune: Imperium"
   slug: "dune-imperium"
@@ -340,9 +383,15 @@
   beschreibung: "Tiere bauen ein Dorf im Wald. Wunderschön, aber strategisch knackig."
   langbeschreibung: |
     Everdell ist eines der schönsten Brettspiele auf dem Markt. Der dreidimensionale 
-    Baum, die liebevoll illustrierten Karten - alles ein Augenschmaus!
+    Baum, die liebevoll illustrierten Karten mit Waldtieren als Bewohner - alles 
+    ein absoluter Augenschmaus!
     
-    Aber lasst euch nicht täuschen: Hinter der niedlichen Fassade steckt ein knackiges Strategiespiel.
+    Aber lasst euch nicht täuschen: Hinter der niedlichen Fassade steckt ein knackiges 
+    Strategiespiel. Ihr baut über die vier Jahreszeiten hinweg eine Stadt auf, sammelt 
+    Ressourcen und kombiniert Karten zu mächtigen Synergien.
+    
+    Das Spiel bietet Worker-Placement und Tableau-Building in perfekter Harmonie. 
+    Ein moderner Klassiker!
 
 - name: "Sebastian Fitzek Safehouse"
   slug: "sebastian-fitzek-safehouse"
@@ -367,8 +416,15 @@
   kategorie: "Familienspiel Plus"
   beschreibung: "Drachen als Handwerker in Läden einsetzen. Sehr süß und zugänglich."
   langbeschreibung: |
-    Flamecraft ist ein herzerwärmendes Spiel mit kleinen Drachen als Handwerkern. 
-    Die Illustrationen sind ein absoluter Augenschmaus!
+    Flamecraft ist ein herzerwärmendes Spiel, in dem kleine Drachen als Handwerker arbeiten. 
+    Die Illustrationen sind ein absoluter Augenschmaus - jeder Drache hat seinen eigenen 
+    Charme und Charakter!
+    
+    Ihr platziert Drachen in verschiedenen Geschäften, um Ressourcen zu sammeln und 
+    die Läden zu verbessern. Die Mechaniken sind einfach zu lernen, bieten aber 
+    überraschend viel taktische Tiefe.
+    
+    Perfekt für Familien und alle, die niedliche Drachen lieben!
 
 - name: "Hamlet"
   slug: "hamlet"
@@ -380,8 +436,14 @@
   kategorie: "Strategie (Kenner)"
   beschreibung: "Ein Dorf bauen, das organisch wächst. Wege und Waren managen."
   langbeschreibung: |
-    Hamlet ist ein innovatives Aufbauspiel, bei dem ihr gemeinsam ein Dorf baut. 
-    Ein Spiel für Tüftler, die das Optimieren von Produktionsketten lieben!
+    Hamlet ist ein innovatives Aufbauspiel, bei dem ihr gemeinsam ein Dorf baut - aber 
+    jeder für seine eigenen Punkte spielt. Das Dorf wächst organisch auf dem Tisch, 
+    und die Wege zwischen den Gebäuden werden zum zentralen Element.
+    
+    Ihr müsst Waren produzieren, transportieren und in der Kirche abliefern. Aber 
+    Achtung: Eure Arbeiter müssen laufen, und längere Wege kosten Zeit!
+    
+    Ein Spiel für Tüftler, die das Optimieren von Produktionsketten und Logistik lieben.
 
 - name: "Helden müssen draußen bleiben"
   slug: "helden-muessen-draussen-bleiben"
@@ -395,6 +457,13 @@
   langbeschreibung: |
     In Helden müssen draußen bleiben dreht ihr den Spieß um: Ihr seid nicht die 
     Helden, sondern die Monster, die ihren Dungeon verteidigen!
+    
+    Gemeinsam platziert ihr Fallen, rekrutiert Monster und versucht, die einfallenden 
+    Abenteurer aufzuhalten, bevor sie euren Schatz stehlen. Das Spiel kombiniert 
+    Tower-Defense-Mechaniken mit kooperativem Gameplay.
+    
+    Die humorvolle Umsetzung des umgekehrten Dungeon-Crawlers macht besonders 
+    Spaß, wenn man selbst gerne Rollenspiele oder klassische Dungeon-Crawler spielt.
 
 - name: "Kluster"
   slug: "kluster"
@@ -407,7 +476,13 @@
   beschreibung: "Magnete legen ohne Klack. Geschicklichkeit und Schadenfreude."
   langbeschreibung: |
     Kluster ist Minimalismus in Bestform: Ein Seil, 24 Magnetsteine, fertig. 
-    Perfekt als Absacker, Reisespiel oder für zwischendurch!
+    Spannt das Seil zu einem Kreis und legt abwechselnd eure Magnete hinein.
+    
+    Der Clou: Die Magnete ziehen sich gegenseitig an! Wenn beim Ablegen zwei Magnete 
+    zusammenklicken, müsst ihr alle Magnete nehmen, die sich berührt haben.
+    
+    Wer als erstes alle seine Magnete los ist, gewinnt. Perfekt als Absacker, 
+    Reisespiel oder für zwischendurch - und garantiert Schadenfreude!
 
 - name: "Kniffel Extreme"
   slug: "kniffel-extreme"
@@ -421,6 +496,12 @@
   langbeschreibung: |
     Kniffel Extreme nimmt den zeitlosen Klassiker und dreht ihn auf! 
     Statt sechs-seitiger Würfel verwendet ihr hier zehn-seitige Würfel.
+    
+    Das bedeutet: Höhere Zahlen, mehr Kombinationsmöglichkeiten und neue 
+    Wertungskategorien. Der Kniffel (alle Würfel gleich) ist noch seltener 
+    und damit noch befriedigender!
+    
+    Perfekt für alle, die das Original lieben, aber mal etwas Neues wollen.
 
 - name: "Looping Louie"
   slug: "looping-louie"
@@ -434,6 +515,13 @@
   langbeschreibung: |
     Looping Louie ist offiziell ein Kinderspiel ab 4 Jahren. Unoffiziell ist es eines 
     der besten Partyspiele überhaupt - besonders mit ein paar Getränken!
+    
+    Der batteriebetriebene Louie fliegt in seinem Flugzeug im Kreis und versucht, 
+    eure Hühner umzuwerfen. Mit einer Wippe müsst ihr ihn wegkatapultieren - 
+    am besten so, dass er bei euren Nachbarn landet!
+    
+    Das Spiel ist schnell, laut und sorgt garantiert für Lacher. Ein absoluter 
+    Klassiker für jede Party!
 
 - name: "Magic Maze Tower"
   slug: "magic-maze-tower"
@@ -447,6 +535,12 @@
   langbeschreibung: |
     Magic Maze Tower ist ein kooperatives Puzzle-Spiel mit einer gemeinen 
     Einschränkung: Ihr dürft nicht miteinander sprechen!
+    
+    Gemeinsam müsst ihr Turmteile so drehen und stapeln, dass die Helden ihren 
+    Weg nach unten finden. Jeder Spieler kann aber nur bestimmte Aktionen ausführen.
+    
+    Die Kommunikation beschränkt sich auf genervte Blicke und das Klopfen auf 
+    den Tisch. Frustrierend und lustig zugleich - ein perfektes Teambuilding-Spiel!
 
 - name: "Maus und Mystik"
   slug: "maus-und-mystik"
@@ -460,6 +554,13 @@
   langbeschreibung: |
     Maus und Mystik erzählt eine bezaubernde Geschichte: Der König ist verflucht, 
     und seine treuesten Gefährten wurden in Mäuse verwandelt!
+    
+    Als winzige Helden erkundet ihr die Burg aus einer völlig neuen Perspektive. 
+    Spinnen werden zu riesigen Monstern, Katzen zu tödlichen Bestien, und der 
+    Weg durch die Küche wird zum epischen Abenteuer.
+    
+    Das Spiel wird über mehrere Kapitel gespielt, die eine zusammenhängende 
+    Geschichte erzählen. Perfekt für Familien mit Kindern, die Märchen lieben!
 
 - name: "Merchants Cove"
   slug: "merchants-cove"
@@ -473,6 +574,13 @@
   langbeschreibung: |
     Merchants Cove ist ein asymmetrisches Strategiespiel, bei dem jeder Spieler einen 
     völlig anderen Händler spielt - mit eigenem Spielbrett und eigenen Mechanismen!
+    
+    Der Alchemist braut Tränke, der Schmied hämmert Waffen, der Kapitän fischt 
+    und der Chronomant manipuliert die Zeit. Jeder hat sein eigenes Mini-Spiel, 
+    aber alle konkurrieren um die gleichen Kunden im Hafen.
+    
+    Das Spiel bietet enorme Wiederspielbarkeit, da sich jeder Händler komplett 
+    anders anfühlt. Für Gruppen, die Abwechslung lieben!
 
 - name: "MicroMacro: Crime City"
   slug: "micromacro-crime-city"
@@ -486,6 +594,13 @@
   langbeschreibung: |
     MicroMacro: Crime City gewann völlig zurecht den Spiel des Jahres Preis 2021. 
     Ein riesiger Stadtplan voller winziger Szenen, und ihr müsst Verbrechen aufklären!
+    
+    Das Geniale: Die Zeit ist auf dem Plan "eingefroren". Ihr könnt Personen durch 
+    die Stadt verfolgen und so herausfinden, was passiert ist. Jeder Fall führt 
+    euch durch eine Reihe von Fragen, die ihr durch genaues Hinschauen löst.
+    
+    Perfekt für Detektiv-Fans und alle, die Wimmelbücher lieben. Kann auch 
+    mit Kindern gespielt werden - manche Fälle sind aber für Erwachsene gedacht.
 
 - name: "Monopoly"
   slug: "monopoly"
@@ -512,6 +627,13 @@
   langbeschreibung: |
     Munchkin Dungeon bringt den chaotischen Humor der Munchkin-Kartenspiele auf 
     ein Spielbrett mit Miniaturen.
+    
+    Ihr erkundet einen Dungeon, bekämpft Monster und sammelt Schätze - aber 
+    natürlich könnt ihr euch auch gegenseitig in den Rücken fallen! Der typische 
+    Munchkin-Humor ist überall präsent: Absurde Monster, übertriebene Ausrüstung 
+    und fiese Aktionskarten.
+    
+    Perfekt für Gruppen, die Chaos und Schadenfreude mögen!
 
 - name: "Outlive"
   slug: "outlive"
@@ -525,6 +647,13 @@
   langbeschreibung: |
     Outlive versetzt euch in eine postapokalyptische Welt, in der ihr einen Bunker 
     voller Überlebender managt. Ein knallhartes Survival-Spiel!
+    
+    Tagsüber schickt ihr eure Helden in die verstrahlte Wildnis, um Ressourcen zu 
+    sammeln. Nachts müsst ihr euren Bunker ausbauen, eure Leute versorgen und 
+    euch gegen Angreifer verteidigen.
+    
+    Das Thema ist düster, aber die Mechaniken sind elegant. Für Fans von 
+    Fallout und anderen postapokalyptischen Settings ein Muss!
 
 - name: "Sagani"
   slug: "sagani"
@@ -538,6 +667,13 @@
   langbeschreibung: |
     Sagani ist ein elegantes Legespiel mit Naturgeistern in verschiedenen Farben. 
     Optisch ein Genuss mit fernöstlich inspirierten Illustrationen.
+    
+    Ihr legt Plättchen mit Geistern aus und versucht, die Pfeile auf den Plättchen 
+    mit passenden Farben zu verbinden. Klingt einfach, wird aber schnell zu einem 
+    kniffligen Puzzle!
+    
+    Das Spiel bietet taktische Tiefe ohne Überforderung - perfekt für entspannte 
+    Spieleabende mit schöner Optik.
 
 - name: "Simsala... Bumm?"
   slug: "simsala-bumm"
@@ -550,7 +686,14 @@
   beschreibung: "Man sieht nur die Karten der anderen. Logik und Magie."
   langbeschreibung: |
     Simsala... Bumm? ist ein kooperatives Kartenspiel mit einem genialen Twist: 
-    Ihr haltet eure Karten falsch herum! Ein Klassiker des kooperativen Genres.
+    Ihr haltet eure Karten falsch herum - ihr seht nur die Karten der anderen!
+    
+    Gemeinsam müsst ihr Zaubersprüche wirken, indem ihr die richtigen Karten 
+    ausspielt. Aber welche Karten habt ihr eigentlich? Das müsst ihr aus den 
+    Hinweisen der anderen erschließen.
+    
+    Ein Klassiker des kooperativen Genres, der auch nach vielen Partien noch 
+    Spaß macht. Ähnlich wie Hanabi, aber mit eigenem Charme!
 
 - name: "Skyjo"
   slug: "skyjo"
@@ -564,6 +707,13 @@
   langbeschreibung: |
     Skyjo ist eines dieser Spiele, die so einfach sind, dass man sich fragt, 
     warum es nicht schon immer existiert hat. Extrem suchtgefährdend!
+    
+    Jeder hat 12 Karten in einem Raster vor sich liegen, die meisten verdeckt. 
+    Ziel ist es, möglichst wenige Punkte zu haben. Ihr tauscht Karten aus, 
+    deckt auf und versucht, hohe Zahlen loszuwerden.
+    
+    Das Spiel funktioniert mit 2-8 Spielern gleich gut und ist in 5 Minuten 
+    erklärt. Perfekt für jede Runde, jeden Anlass!
 
 - name: "Small World of Warcraft"
   slug: "small-world-of-warcraft"
@@ -577,6 +727,13 @@
   langbeschreibung: |
     Small World of Warcraft bringt das beliebte Area-Control-Spiel in das 
     Warcraft-Universum. Für WoW-Fans ein Pflichtkauf!
+    
+    Ihr wählt Völker mit besonderen Fähigkeiten und erobert Gebiete auf der 
+    Karte. Das Besondere: Irgendwann geht eurem Volk die Puste aus, und ihr 
+    müsst es "in den Niedergang schicken", um ein neues zu wählen.
+    
+    Das Spiel bietet strategische Tiefe ohne Würfelpech - Kämpfe werden 
+    durch reine Übermacht entschieden. Allianz vs. Horde inklusive!
 
 - name: "Tetris Link"
   slug: "tetris-link"
@@ -589,6 +746,12 @@
   beschreibung: "Tetris-Steine in ein Gitter werfen. Taktik für Zwischendurch."
   langbeschreibung: |
     Tetris Link bringt das ikonische Videospiel auf den Tisch als taktisches Legespiel.
+    
+    Ihr lasst abwechselnd Tetris-Steine in ein senkrechtes Gitter fallen. Ziel ist es, 
+    möglichst viele eigene Steine miteinander zu verbinden. Aber Vorsicht: Die 
+    Mitspieler können eure Pläne durchkreuzen!
+    
+    Ein schnelles, taktisches Spiel für zwischendurch, das jeder sofort versteht.
 
 - name: "The Troll (Village Attacks Exp.)"
   slug: "the-troll-village-attacks"
@@ -615,6 +778,12 @@
   langbeschreibung: |
     Tokaido ist eine meditative Reise entlang der historischen Küstenstraße in Japan. 
     Perfekt für Spieler, die ein ruhiges, ästhetisch ansprechendes Erlebnis suchen.
+    
+    Ihr reist von Kyoto nach Edo und sammelt unterwegs Erfahrungen: Besucht heiße 
+    Quellen, genießt die Landschaft, kauft Souvenirs oder probiert lokale Speisen.
+    
+    Das Besondere: Der Spieler, der am weitesten hinten liegt, ist immer am Zug. 
+    Keine Hektik, kein Stress - pure Zen-Atmosphäre mit wunderschöner Grafik!
 
 - name: "Undaunted: Normandy"
   slug: "undaunted-normandy"
@@ -628,6 +797,13 @@
   langbeschreibung: |
     Undaunted: Normandy ist ein Zwei-Personen-Kriegsspiel, das Deckbuilding mit 
     taktischer Infanterie-Kriegsführung verbindet.
+    
+    Ihr befehligt amerikanische oder deutsche Truppen in der Normandie 1944. 
+    Jede Einheit wird durch Karten in eurem Deck repräsentiert - verliert ihr 
+    Soldaten, werden diese Karten aus dem Deck entfernt.
+    
+    Das Spiel bietet knackige taktische Entscheidungen, ohne zu komplex zu werden. 
+    Eine Kampagne mit verschiedenen Szenarien sorgt für Abwechslung!
 
 - name: "Unicorn Fever"
   slug: "unicorn-fever"
@@ -641,6 +817,12 @@
   langbeschreibung: |
     Unicorn Fever ist ein Wettspiel der verrückten Art: Einhörner in allen 
     Regenbogenfarben rennen um die Wette!
+    
+    Ihr setzt auf verschiedene Einhörner und könnt das Rennen mit Magie-Karten 
+    beeinflussen. Schiebt euren Favoriten nach vorne oder sabotiert die Konkurrenz!
+    
+    Das Spiel ist bunt, chaotisch und macht in größeren Gruppen am meisten Spaß. 
+    Perfekt für alle, die Wettspiele mit einem Augenzwinkern mögen!
 
 - name: "Villa Paletti"
   slug: "villa-paletti"
@@ -654,6 +836,12 @@
   langbeschreibung: |
     Villa Paletti gewann 2002 den Spiel des Jahres Preis. Ihr baut einen wackeligen 
     Turm, indem ihr Säulen von unten nach oben versetzt.
+    
+    Das Prinzip ist simpel: Nehmt eine eurer Säulen von einer unteren Ebene und 
+    setzt sie oben drauf. Aber wenn der Turm einstürzt, habt ihr verloren!
+    
+    Ein zeitloser Klassiker für die ganze Familie, der auch nach 20 Jahren 
+    noch genauso viel Spaß macht wie am ersten Tag.
 
 - name: "Village Attacks"
   slug: "village-attacks"
@@ -666,7 +854,13 @@
   beschreibung: "Ihr seid die Monster und verteidigt euch gegen wütende Dorfbewohner."
   langbeschreibung: |
     Village Attacks dreht das Genre um: Ihr spielt nicht die Helden, sondern 
-    die Monster! Ein tolles kooperatives Erlebnis mit ungewöhnlichem Thema!
+    die Monster! Gemeinsam verteidigt ihr eure Burg gegen wütende Dorfbewohner.
+    
+    Ihr übernehmt klassische Monster wie Vampire, Werwölfe oder Hexen - jedes 
+    mit eigenen Fähigkeiten. Die Dorfbewohner greifen in Wellen an, und ihr 
+    müsst euren Schatz um jeden Preis beschützen.
+    
+    Ein tolles kooperatives Erlebnis mit ungewöhnlichem Thema und schönen Miniaturen!
 
 - name: "Villen des Wahnsinns (2. Ed.)"
   slug: "villen-des-wahnsinns"
@@ -679,7 +873,14 @@
   beschreibung: "Horror-Erlebnis mit App-Unterstützung. Sehr atmosphärisch."
   langbeschreibung: |
     Villen des Wahnsinns ist ein kooperatives Horror-Abenteuer im Lovecraft-Universum. 
-    Ein Muss für Horror- und Lovecraft-Fans!
+    Eine App steuert das Spiel und erzählt die Geschichte.
+    
+    Ihr erkundet unheimliche Villen, löst Rätsel und bekämpft übernatürliche 
+    Schrecken. Die App sorgt für atmosphärische Musik und überraschende 
+    Wendungen - kein Spielleiter nötig!
+    
+    Mit zahlreichen Szenarien und Erweiterungen bietet das Spiel dutzende 
+    Stunden gruseliger Unterhaltung. Ein Muss für Horror- und Lovecraft-Fans!
 
 - name: "Viticulture Essential Edition"
   slug: "viticulture"
@@ -692,6 +893,13 @@
   beschreibung: "Weinanbau in der Toskana. Sehr elegantes Strategiespiel."
   langbeschreibung: |
     Viticulture ist ein Worker-Placement-Spiel über den Weinanbau in der Toskana. 
+    Ihr erbt ein heruntergekommenes Weingut und müsst es zum Erfolg führen.
+    
+    Pflanzt Reben, erntet Trauben, keltert Wein und erfüllt lukrative Aufträge. 
+    Das Spiel unterteilt sich elegant in Sommer- und Winteraktionen, was für 
+    interessante taktische Entscheidungen sorgt.
+    
+    Die "Essential Edition" enthält bereits die besten Elemente der Erweiterungen. 
     Für Spieler, die thematische Strategiespiele mögen, ist Viticulture ein Highlight!
 
 - name: "Wettstreit der Diebe"
@@ -705,4 +913,10 @@
   beschreibung: "Deckbuilding und Rennen. Klau den Schatz und entkomme!"
   langbeschreibung: |
     Wettstreit der Diebe kombiniert Deckbuilding mit einem Wettrennen durch ein 
-    Dungeon. Ein flottes Spiel mit Ärger-Faktor!
+    Dungeon. Ihr seid konkurrierende Diebesbanden auf der Jagd nach dem Schatz!
+    
+    Baut euer Deck mit Spezialisten auf: Kämpfer für die Monster, Schlösserknacker 
+    für die Fallen, Späher für die Vorausplanung. Aber am Ende kann nur einer 
+    mit dem Schatz entkommen!
+    
+    Ein flottes Spiel mit Ärger-Faktor, das Deckbuilding-Fans begeistern wird.
