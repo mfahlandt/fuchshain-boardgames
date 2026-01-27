@@ -13,7 +13,7 @@ Auf dieser Seite findest du die Quellenangaben für alle auf dieser Website verw
 
 Die Bilder der Brettspiele werden direkt von **BoardGameGeek (BGG)** geladen und eingebettet. BoardGameGeek ist die weltweit größte Datenbank für Brettspiele.
 
-- **Quelle:** [BoardGameGeek.com](https://boardgamegeek.com/)
+- **Quelle:** <a href="https://boardgamegeek.com/" target="_blank" rel="noopener">BoardGameGeek.com</a>
 - **Lizenz:** Die Bilder werden gemäß den BGG-Nutzungsbedingungen als Hotlinks eingebunden
 - **Urheberrecht:** Die Bildrechte liegen bei den jeweiligen Verlagen und Fotografen
 
@@ -38,8 +38,8 @@ Folgende Bilder wurden selbst erstellt oder sind Eigentum des Spieleabend Fuchsh
 
 | Bild | Quelle | Lizenz |
 |------|--------|--------|
-| still-life-office-desk-mess.jpg | [Freepik](https://freepik.com) | Freepik License |
-| top-view-beautiful-rpg-still-life-items.jpg | [Freepik](https://freepik.com) | Freepik License |
+| still-life-office-desk-mess.jpg | <a href="https://freepik.com" target="_blank" rel="noopener">Freepik</a> | Freepik License |
+| top-view-beautiful-rpg-still-life-items.jpg | <a href="https://freepik.com" target="_blank" rel="noopener">Freepik</a> | Freepik License |
 
 ---
 
@@ -47,8 +47,8 @@ Folgende Bilder wurden selbst erstellt oder sind Eigentum des Spieleabend Fuchsh
 
 Die Karte auf der Kontaktseite verwendet:
 
-- **Kartendaten:** © [OpenStreetMap](https://www.openstreetmap.org/copyright) Mitwirkende
-- **Karten-Bibliothek:** [Leaflet](https://leafletjs.com/) (BSD-2-Clause Lizenz)
+- **Kartendaten:** © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> Mitwirkende
+- **Karten-Bibliothek:** <a href="https://leafletjs.com/" target="_blank" rel="noopener">Leaflet</a> (BSD-2-Clause Lizenz)
 
 ---
 

@@ -111,7 +111,7 @@ Seedorf 1
 **So kannst du dich anmelden:**
 - **E-Mail:** [spieleabend@fuchshain.farm](mailto:spieleabend@fuchshain.farm)
 - **Persönlich:** Nikki oder Mario direkt ansprechen
-- **Facebook-Gruppe:** [Fuchshain Spieleabend](https://www.facebook.com/groups/fuchshainspieleabend)
+- **Facebook-Gruppe:** <a href="https://www.facebook.com/groups/fuchshainspieleabend" target="_blank" rel="noopener">Fuchshain Spieleabend</a>
 
 Wir antworten in der Regel innerhalb von 1-2 Tagen.
 
@@ -136,7 +136,7 @@ Wir antworten in der Regel innerhalb von 1-2 Tagen.
 
 Folge uns für aktuelle Infos und Spielefotos:
 
-- **Facebook-Gruppe:** [Fuchshain Spieleabend](https://www.facebook.com/groups/fuchshainspieleabend)
+- **Facebook-Gruppe:** <a href="https://www.facebook.com/groups/fuchshainspieleabend" target="_blank" rel="noopener">Fuchshain Spieleabend</a>
 
 ---
 

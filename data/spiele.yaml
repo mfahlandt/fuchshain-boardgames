@@ -12,6 +12,7 @@
   spielerzahl_max: 5
   dauer_min: 5
   bgg_id: 207830
+  bgg_rank: 1205
   kategorie: "Kooperativ / Hektik"
   beschreibung: "Hektischer Koop-Spaß: Monster verprügeln in Echtzeit."
   langbeschreibung: |
@@ -33,6 +34,7 @@
   spielerzahl_max: 7
   dauer_min: 30
   bgg_id: 68448
+  bgg_rank: 95
   kategorie: "Strategie (Kenner)"
   beschreibung: "Zivilisationsaufbau im Schnelldurchlauf. Alle spielen gleichzeitig."
   langbeschreibung: |
@@ -53,6 +55,7 @@
   spielerzahl_max: 2
   dauer_min: 30
   bgg_id: 173346
+  bgg_rank: 15
   kategorie: "2-Personen-Duell"
   beschreibung: "Das vielleicht beste 2-Personen-Strategie-Spiel der Welt."
   langbeschreibung: |
@@ -65,21 +68,25 @@
     
     Ein absolutes Muss für Paare und Zweiergruppen!
 
-- name: "Abenteuer Tierwelt (tiptoi)"
-  slug: "abenteuer-tierwelt-tiptoi"
-  komplexitaet: 1
-  spielerzahl_min: 1
-  spielerzahl_max: 4
-  dauer_min: 30
-  bgg_id: 100424
-  kategorie: "Kinderspiel"
-  beschreibung: "Wissensspiel mit dem tiptoi-Stift. Eher für Kinder/Familie."
+- name: "Abenteuer Tierwelt"
+  slug: "abenteuer-tierwelt"
+  komplexitaet: 2
+  spielerzahl_min: 2
+  spielerzahl_max: 6
+  dauer_min: 60
+  bgg_id: 156
+  kategorie: "Familienspiel"
+  beschreibung: "Reist um die Welt und entdeckt bedrohte Tierarten. Klassiker von Ravensburger."
   langbeschreibung: |
-    Abenteuer Tierwelt nutzt den interaktiven tiptoi-Stift von Ravensburger, um Kindern 
-    spielerisch Wissen über Tiere zu vermitteln. Der Stift erkennt, worauf er tippt, 
-    und gibt passende Informationen, Geräusche oder Aufgaben aus.
+    Abenteuer Tierwelt (Wildlife Adventure) ist ein Ravensburger-Klassiker, bei dem ihr 
+    als Naturforscher um die Welt reist, um bedrohte Tierarten zu entdecken und zu schützen.
     
-    Perfekt für Familien mit Kindern im Grundschulalter. Der tiptoi-Stift ist separat erforderlich.
+    Ihr bewegt euch über eine Weltkarte und sammelt Tierkarten verschiedener Kontinente. 
+    Dabei müsst ihr strategisch planen, welche Routen ihr nehmt und welche Tiere ihr 
+    priorisiert.
+    
+    Ein tolles Familienspiel, das spielerisch Wissen über Tiere und Naturschutz vermittelt. 
+    Perfekt für Tierliebhaber und Familien mit Kindern!
 
 - name: "Ankh: Gods of Egypt"
   slug: "ankh-gods-of-egypt"
@@ -88,6 +95,7 @@
   spielerzahl_max: 5
   dauer_min: 90
   bgg_id: 285967
+  bgg_rank: 168
   kategorie: "Experten-Strategie"
   beschreibung: "Epischer Götterkrieg mit riesigen Figuren. Taktisch extrem tief."
   langbeschreibung: |
@@ -121,6 +129,7 @@
   spielerzahl_max: 4
   dauer_min: 120
   bgg_id: 224517
+  bgg_rank: 1
   kategorie: "Experten-Wirtschaft"
   beschreibung: "Wirtschafts-Meisterwerk. Kohle, Eisen, Bier. Sehr anspruchsvoll."
   langbeschreibung: |
@@ -156,6 +165,7 @@
   spielerzahl_max: 7
   dauer_min: 30
   bgg_id: 102794
+  bgg_rank: 28
   kategorie: "Experten-Strategie"
   beschreibung: "Zwergen-Farm-Simulator. Höhlen graben, Tiere züchten. Expertenspiel."
   langbeschreibung: |
@@ -172,6 +182,7 @@
   spielerzahl_max: 4
   dauer_min: 60
   bgg_id: 239188
+  bgg_rank: 236
   kategorie: "Kooperativ / Story (App)"
   beschreibung: "Krimi lösen mit Handy-App und VR-Brille. Sehr zugänglich."
   langbeschreibung: |
@@ -244,7 +255,7 @@
   spielerzahl_max: 100
   dauer_min: 45
   bgg_id: 315727
-  kategorie: "Familienspiel (Roll and Write)"
+  kategorie: "Roll & Write"
   beschreibung: "Tetris auf Papier: Landkarte malen und Monster einzeichnen."
   langbeschreibung: |
     Die Kartographin ist ein Flip-and-Write-Spiel, bei dem ihr als königliche Kartographen 
@@ -264,6 +275,7 @@
   spielerzahl_max: 4
   dauer_min: 45
   bgg_id: 244521
+  bgg_rank: 43
   kategorie: "Familienspiel (Glück)"
   beschreibung: "Tränke brauen mit Risiko. Zieht man zu viel, platzt der Kessel."
   langbeschreibung: |
@@ -304,6 +316,7 @@
   spielerzahl_max: 4
   dauer_min: 30
   bgg_id: 36218
+  bgg_rank: 72
   kategorie: "Strategie (Kartenspiel)"
   beschreibung: "Der Vater aller Deckbuilder. Baue dein Kartendeck während des Spiels."
   langbeschreibung: |
@@ -319,6 +332,7 @@
   spielerzahl_max: 6
   dauer_min: 30
   bgg_id: 370591
+  bgg_rank: 152
   kategorie: "Kooperativ / Entspannt"
   beschreibung: "Gemeinsam die perfekte Landschaft puzzeln. Sehr ruhig (Zen)."
   langbeschreibung: |
@@ -340,6 +354,7 @@
   spielerzahl_max: 4
   dauer_min: 60
   bgg_id: 316554
+  bgg_rank: 11
   kategorie: "Experten-Strategie"
   beschreibung: "Deckbau und Worker-Placement auf dem Wüstenplaneten. Intensiv!"
   langbeschreibung: |
@@ -353,6 +368,7 @@
   spielerzahl_max: 4
   dauer_min: 60
   bgg_id: 397598
+  bgg_rank: 24
   kategorie: "Experten-Strategie"
   beschreibung: "Eigenständiger Nachfolger. Noch strategischer und interaktiver."
   langbeschreibung: |
@@ -379,6 +395,7 @@
   spielerzahl_max: 4
   dauer_min: 40
   bgg_id: 199792
+  bgg_rank: 31
   kategorie: "Strategie (Kenner)"
   beschreibung: "Tiere bauen ein Dorf im Wald. Wunderschön, aber strategisch knackig."
   langbeschreibung: |
@@ -413,6 +430,7 @@
   spielerzahl_max: 5
   dauer_min: 60
   bgg_id: 336986
+  bgg_rank: 189
   kategorie: "Familienspiel Plus"
   beschreibung: "Drachen als Handwerker in Läden einsetzen. Sehr süß und zugänglich."
   langbeschreibung: |
@@ -433,6 +451,7 @@
   spielerzahl_max: 4
   dauer_min: 60
   bgg_id: 368681
+  bgg_rank: 268
   kategorie: "Strategie (Kenner)"
   beschreibung: "Ein Dorf bauen, das organisch wächst. Wege und Waren managen."
   langbeschreibung: |
@@ -549,6 +568,7 @@
   spielerzahl_max: 4
   dauer_min: 90
   bgg_id: 124708
+  bgg_rank: 183
   kategorie: "Story / Dungeon Crawler"
   beschreibung: "Ein Märchen zum Nachspielen. Viel Story, wenig komplexe Regeln."
   langbeschreibung: |
@@ -589,6 +609,7 @@
   spielerzahl_max: 4
   dauer_min: 15
   bgg_id: 314451
+  bgg_rank: 156
   kategorie: "Detektiv / Kooperativ"
   beschreibung: "Wimmelbild-Krimi. Gemeinsam auf riesigem Plan Hinweise suchen."
   langbeschreibung: |
@@ -773,6 +794,7 @@
   spielerzahl_max: 5
   dauer_min: 45
   bgg_id: 123540
+  bgg_rank: 295
   kategorie: "Familienspiel (Entspannt)"
   beschreibung: "Die entspannteste Reise Japans. Zen-Stimmung, wenig Konflikt."
   langbeschreibung: |
@@ -792,6 +814,7 @@
   spielerzahl_max: 2
   dauer_min: 45
   bgg_id: 268864
+  bgg_rank: 100
   kategorie: "2-Personen-Duell"
   beschreibung: "Deckbuilding trifft 2. Weltkrieg. Taktisches Duell."
   langbeschreibung: |
@@ -869,6 +892,7 @@
   spielerzahl_max: 5
   dauer_min: 120
   bgg_id: 205059
+  bgg_rank: 52
   kategorie: "Kooperativ / Story (App)"
   beschreibung: "Horror-Erlebnis mit App-Unterstützung. Sehr atmosphärisch."
   langbeschreibung: |
@@ -889,6 +913,7 @@
   spielerzahl_max: 6
   dauer_min: 90
   bgg_id: 183394
+  bgg_rank: 21
   kategorie: "Strategie (Kenner)"
   beschreibung: "Weinanbau in der Toskana. Sehr elegantes Strategiespiel."
   langbeschreibung: |
@@ -920,3 +945,117 @@
     mit dem Schatz entkommen!
     
     Ein flottes Spiel mit Ärger-Faktor, das Deckbuilding-Fans begeistern wird.
+
+- name: "Heat: Pedal to the Metal"
+  slug: "heat-pedal-to-the-metal"
+  komplexitaet: 2
+  spielerzahl_min: 1
+  spielerzahl_max: 6
+  dauer_min: 60
+  bgg_id: 366013
+  bgg_rank: 32
+  kategorie: "Familienspiel (Rennen)"
+  beschreibung: "Rasantes Autorennen der 60er Jahre. Handmanagement und Nervenkitzel!"
+  langbeschreibung: |
+    Heat: Pedal to the Metal versetzt euch in die goldene Ära des Motorsports - die 
+    1960er Jahre! Ihr steuert Rennwagen über legendäre Strecken und kämpft um den Sieg.
+    
+    Das Herzstück ist das clevere Handmanagement: Ihr spielt Karten, um zu beschleunigen, 
+    aber zu viel Gas gibt Hitze (Heat) in euren Motor. Überhitzt der Motor, müsst ihr 
+    abbremsen oder riskiert einen Ausfall!
+    
+    Mit verschiedenen Strecken, Wetterbedingungen und einem Kampagnen-Modus bietet das 
+    Spiel enormen Wiederspielwert. Perfekt für alle, die Rennspiele mit echtem 
+    taktischem Anspruch suchen. Gewinner des Deutschen Spielepreises 2023!
+
+- name: "Catan: Das Kartenspiel"
+  slug: "catan-kartenspiel"
+  komplexitaet: 3
+  spielerzahl_min: 2
+  spielerzahl_max: 2
+  dauer_min: 60
+  bgg_id: 278
+  bgg_rank: 480
+  kategorie: "2-Personen-Duell"
+  beschreibung: "Catan als Kartenspiel für zwei. Siedlungen bauen und Handel treiben."
+  langbeschreibung: |
+    Catan: Das Kartenspiel bringt die beliebte Siedler-Mechanik auf den Tisch - 
+    speziell für zwei Spieler! Jeder baut sein eigenes Fürstentum mit Siedlungen, 
+    Städten und verschiedenen Ausbaukarten.
+    
+    Ihr würfelt um Rohstoffe, handelt miteinander und versucht, euer Reich schneller 
+    auszubauen als der Gegner. Ritter beschützen euch, Handelskontore bringen Vorteile, 
+    und Stadtausbaukarten verleihen mächtige Fähigkeiten.
+    
+    Ein strategisch tiefes Duell für Catan-Fans, die auch zu zweit nicht auf den 
+    Klassiker verzichten wollen!
+
+- name: "Nemesis: Lockdown"
+  slug: "nemesis-lockdown"
+  komplexitaet: 4
+  spielerzahl_min: 1
+  spielerzahl_max: 5
+  dauer_min: 120
+  bgg_id: 310100
+  bgg_rank: 68
+  kategorie: "Kooperativ / Horror"
+  beschreibung: "Sci-Fi Horror auf einer Mondbasis. Semi-kooperatives Survival-Erlebnis."
+  langbeschreibung: |
+    Nemesis: Lockdown ist der eigenständige Nachfolger des gefeierten Nemesis und 
+    versetzt euch auf eine geheime Mondbasis, die von außerirdischen Kreaturen 
+    überrannt wurde.
+    
+    Ihr spielt Wissenschaftler und Soldaten, die ums Überleben kämpfen - aber jeder 
+    hat seine eigenen geheimen Ziele! Vertrauen ist ein Luxus, den ihr euch nicht 
+    leisten könnt. Das Spiel ist semi-kooperativ: Ihr braucht die anderen, aber am 
+    Ende zählt nur euer eigenes Überleben.
+    
+    Mit atmosphärischen Miniaturen, spannenden Begegnungen und multiplen Enden 
+    bietet Nemesis: Lockdown ein unvergessliches Spielerlebnis für Horror-Fans!
+
+- name: "ISS Vanguard"
+  slug: "iss-vanguard"
+  komplexitaet: 4
+  spielerzahl_min: 1
+  spielerzahl_max: 4
+  dauer_min: 90
+  bgg_id: 325494
+  bgg_rank: 134
+  kategorie: "Kooperativ / Kampagne"
+  beschreibung: "Epische Weltraum-Kampagne. Erforscht fremde Planeten und trefft Entscheidungen."
+  langbeschreibung: |
+    ISS Vanguard ist ein monumentales kooperatives Kampagnenspiel, in dem ihr die 
+    Crew eines Raumschiffs auf einer Mission zu den Sternen spielt. Über dutzende 
+    Stunden erkundet ihr fremde Welten und trefft weitreichende Entscheidungen.
+    
+    Das Spiel verbindet Planeten-Erkundung, Crew-Management und Story-Elemente zu 
+    einem epischen Sci-Fi-Abenteuer. Jede Sektion des Schiffs hat eigene Spezialisten 
+    mit einzigartigen Fähigkeiten.
+    
+    Mit einem innovativen Logbuch-System und verzweigten Geschichten bietet ISS 
+    Vanguard eine Kampagne, die sich über Monate erstrecken kann. Für Gruppen, 
+    die langfristige Abenteuer lieben!
+
+- name: "Die Tavernen im Tiefen Thal"
+  slug: "tavernen-im-tiefen-thal"
+  komplexitaet: 3
+  spielerzahl_min: 2
+  spielerzahl_max: 4
+  dauer_min: 60
+  bgg_id: 269207
+  bgg_rank: 87
+  kategorie: "Strategie (Kenner)"
+  beschreibung: "Baut eure Taverne aus und lockt die besten Gäste an. Würfel-Deckbuilding!"
+  langbeschreibung: |
+    Die Tavernen im Tiefen Thal kombiniert Deckbuilding mit Würfelmechaniken zu 
+    einem einzigartigen Spielerlebnis. Ihr seid Tavernenwirte und versucht, euer 
+    Gasthaus zum beliebtesten Treffpunkt der Stadt zu machen.
+    
+    Würfelt eure Gäste zusammen und nutzt ihre Fähigkeiten, um Bier zu brauen, 
+    Essen zu servieren und edle Gäste anzulocken. Mit dem verdienten Geld baut ihr 
+    eure Taverne aus - neue Tische, bessere Ausstattung, mehr Platz!
+    
+    Das Besondere: Das Spiel hat mehrere Module, die ihr nach und nach hinzufügen 
+    könnt. So wächst die Komplexität mit eurer Erfahrung. Nominiert für das 
+    Kennerspiel des Jahres 2020!
+

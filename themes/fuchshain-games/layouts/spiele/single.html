@@ -50,6 +50,15 @@
                                 <span class="stat-value">{{ range seq $spiel.komplexitaet }}&#11088;{{ end }}{{ range seq (sub 5 $spiel.komplexitaet) }}&#9734;{{ end }}</span>
                             </div>
                         </div>
+                        {{ if $spiel.bgg_rank }}
+                        <div class="stat-item bgg-rank-stat">
+                            <span class="stat-icon">&#127942;</span>
+                            <div class="stat-content">
+                                <span class="stat-label">BGG Ranking</span>
+                                <span class="stat-value">#{{ $spiel.bgg_rank }}</span>
+                            </div>
+                        </div>
+                        {{ end }}
                     </div>
 
                     <div class="spiel-beschreibung">
@@ -93,6 +102,10 @@
                             {{ if $spiel.bgg_id }}
                             <dt>BGG ID</dt>
                             <dd>{{ $spiel.bgg_id }}</dd>
+                            {{ end }}
+                            {{ if $spiel.bgg_rank }}
+                            <dt>BGG Ranking</dt>
+                            <dd><span class="bgg-rank-badge">🏆 #{{ $spiel.bgg_rank }}</span></dd>
                             {{ end }}
                         </dl>
                     </div>
@@ -304,6 +317,16 @@
     background: var(--color-primary);
     color: var(--color-text-inverse);
     border-color: var(--color-primary);
+}
+
+.bgg-rank-badge {
+    color: #d4af37;
+    font-weight: 600;
+}
+
+.bgg-rank-stat .stat-value {
+    color: #d4af37;
+    font-weight: 600;
 }
 </style>
 {{ else }}

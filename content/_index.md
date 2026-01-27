@@ -79,6 +79,6 @@ Du möchtest mitentscheiden, welche Spiele wir beim nächsten Mal spielen?
 **So meldest du dich an:**
 - **E-Mail:** [spieleabend@fuchshain.farm](mailto:spieleabend@fuchshain.farm)
 - **Persönlich:** Nikki oder Mario direkt ansprechen
-- **Facebook:** [Fuchshain Spieleabend](https://www.facebook.com/groups/fuchshainspieleabend)
+- **Facebook:** <a href="https://www.facebook.com/groups/fuchshainspieleabend" target="_blank" rel="noopener">Fuchshain Spieleabend</a>
 
 <a href="/kontakt/" class="cta-button">Anfahrt & Kontakt</a>

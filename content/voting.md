@@ -75,7 +75,7 @@ Du vermisst ein Spiel in der Abstimmung? [Schreib uns](/kontakt/) und wir nehmen
 
 ## ℹ️ Datenschutz-Hinweis
 
-Wir nutzen **[Nuudel](https://nuudel.digitalcourage.de/)** von Digitalcourage e.V. für unsere Abstimmungen. 
+Wir nutzen **<a href="https://nuudel.digitalcourage.de/" target="_blank" rel="noopener">Nuudel</a>** von Digitalcourage e.V. für unsere Abstimmungen. 
 Dieser Dienst ist vollständig DSGVO-konform:
 
 - ✅ Keine Cookies
@@ -84,4 +84,4 @@ Dieser Dienst ist vollständig DSGVO-konform:
 - ✅ Server in Deutschland
 - ✅ Open Source
 
-Mehr Infos: [Datenschutzerklärung von Nuudel](https://nuudel.digitalcourage.de/privacy-policy)
+Mehr Infos: <a href="https://nuudel.digitalcourage.de/privacy-policy" target="_blank" rel="noopener">Datenschutzerklärung von Nuudel</a>

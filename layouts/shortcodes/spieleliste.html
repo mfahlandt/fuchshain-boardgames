@@ -134,6 +134,11 @@
                     <span class="spiel-info spiel-komplexitaet" title="Komplexität">
                         {{ range seq .komplexitaet }}⭐{{ end }}
                     </span>
+                    {{ if .bgg_rank }}
+                    <span class="spiel-info bgg-rank" title="BGG Ranking">
+                        🏆 #{{ .bgg_rank }}
+                    </span>
+                    {{ end }}
                 </div>
 
                 {{ if .beschreibung }}
@@ -384,6 +389,11 @@
 
 .spiel-komplexitaet {
     color: var(--color-accent);
+}
+
+.bgg-rank {
+    color: #d4af37;
+    font-weight: 500;
 }
 
 .spiel-beschreibung {
