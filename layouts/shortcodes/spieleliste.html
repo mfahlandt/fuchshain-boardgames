@@ -7,6 +7,22 @@
             <input type="text" id="search-input" placeholder="Spielname eingeben..." />
         </div>
         <div class="filter-group">
+            <label for="kategorie-filter">🏷️ Kategorie:</label>
+            <select id="kategorie-filter">
+                <option value="">Alle</option>
+                <option value="familienspiel">🏠 Familienspiel</option>
+                <option value="strategie">♟️ Strategie</option>
+                <option value="experten">🧠 Experten</option>
+                <option value="partyspiel">🎉 Partyspiel</option>
+                <option value="kooperativ">🤝 Kooperativ</option>
+                <option value="kinderspiel">👶 Kinderspiel</option>
+                <option value="2-spieler">👥 2-Spieler</option>
+                <option value="wuerfel-karten">🎲 Würfel & Karten</option>
+                <option value="story">📖 Story & Abenteuer</option>
+                <option value="geschicklichkeit">🎯 Geschicklichkeit</option>
+            </select>
+        </div>
+        <div class="filter-group">
             <label for="spielerzahl-filter">👥 Spielerzahl:</label>
             <select id="spielerzahl-filter">
                 <option value="">Alle</option>
@@ -47,12 +63,37 @@
 
     <div class="spiele-liste" id="spiele-liste">
         {{ range site.Data.spiele }}
+        {{/* Kategorie-Mapping für einheitliche Klassen */}}
+        {{ $katClass := "andere" }}
+        {{ $kat := .kategorie | lower }}
+        {{ if or (in $kat "familien") (in $kat "entspannt") (in $kat "abstrakt") (in $kat "chaos") (in $kat "glück") }}
+            {{ $katClass = "familienspiel" }}
+        {{ else if or (in $kat "strategie") (in $kat "kenner") (in $kat "area control") }}
+            {{ $katClass = "strategie" }}
+        {{ else if or (in $kat "experten") (in $kat "wirtschaft") (in $kat "wargame") }}
+            {{ $katClass = "experten" }}
+        {{ else if or (in $kat "party") (in $kat "deduktion") (in $kat "wetten") }}
+            {{ $katClass = "partyspiel" }}
+        {{ else if in $kat "kooperativ" }}
+            {{ $katClass = "kooperativ" }}
+        {{ else if in $kat "kinder" }}
+            {{ $katClass = "kinderspiel" }}
+        {{ else if or (in $kat "2-personen") (in $kat "duell") }}
+            {{ $katClass = "2-spieler" }}
+        {{ else if or (in $kat "würfel") (in $kat "karten") (in $kat "roll and write") }}
+            {{ $katClass = "wuerfel-karten" }}
+        {{ else if or (in $kat "story") (in $kat "dungeon") (in $kat "fantasy") (in $kat "abenteuer") }}
+            {{ $katClass = "story" }}
+        {{ else if in $kat "geschicklichkeit" }}
+            {{ $katClass = "geschicklichkeit" }}
+        {{ end }}
         <div class="spiel-card"
              data-name="{{ .name | lower }}"
              data-komplexitaet="{{ .komplexitaet }}"
              data-spielerzahl-min="{{ .spielerzahl_min }}"
              data-spielerzahl-max="{{ .spielerzahl_max }}"
-             data-dauer="{{ .dauer_min }}">
+             data-dauer="{{ .dauer_min }}"
+             data-kategorie="{{ $katClass }}">
             <div class="spiel-header">
                 <h3 class="spiel-name">
                     {{ if .slug }}
@@ -68,7 +109,7 @@
                     {{ end }}
                 </h3>
                 {{ if .kategorie }}
-                <span class="spiel-kategorie">{{ .kategorie }}</span>
+                <span class="spiel-kategorie kat-{{ $katClass }}">{{ .kategorie }}</span>
                 {{ end }}
             </div>
 
@@ -201,12 +242,78 @@
 }
 
 .spiel-kategorie {
-    background: var(--color-bg-alt);
-    color: var(--color-text-light);
     font-size: 0.75rem;
     padding: 0.25rem 0.5rem;
     border-radius: 4px;
     white-space: nowrap;
+    font-weight: 500;
+}
+
+/* Kategorie-Farben */
+.kat-familienspiel {
+    background: #e8f5e9;
+    color: #2e7d32;
+    border: 1px solid #a5d6a7;
+}
+
+.kat-strategie {
+    background: #e3f2fd;
+    color: #1565c0;
+    border: 1px solid #90caf9;
+}
+
+.kat-experten {
+    background: #f3e5f5;
+    color: #7b1fa2;
+    border: 1px solid #ce93d8;
+}
+
+.kat-partyspiel {
+    background: #fff3e0;
+    color: #e65100;
+    border: 1px solid #ffcc80;
+}
+
+.kat-kooperativ {
+    background: #e0f2f1;
+    color: #00796b;
+    border: 1px solid #80cbc4;
+}
+
+.kat-kinderspiel {
+    background: #fce4ec;
+    color: #c2185b;
+    border: 1px solid #f48fb1;
+}
+
+.kat-2-spieler {
+    background: #ffebee;
+    color: #c62828;
+    border: 1px solid #ef9a9a;
+}
+
+.kat-wuerfel-karten {
+    background: #fffde7;
+    color: #f9a825;
+    border: 1px solid #fff59d;
+}
+
+.kat-story {
+    background: #efebe9;
+    color: #5d4037;
+    border: 1px solid #bcaaa4;
+}
+
+.kat-geschicklichkeit {
+    background: #e0f7fa;
+    color: #0097a7;
+    border: 1px solid #80deea;
+}
+
+.kat-andere {
+    background: #f5f5f5;
+    color: #616161;
+    border: 1px solid #e0e0e0;
 }
 
 .spiel-details {
@@ -268,6 +375,7 @@
 <script>
 document.addEventListener('DOMContentLoaded', function() {
     const searchInput = document.getElementById('search-input');
+    const kategorieFilter = document.getElementById('kategorie-filter');
     const spielerzahlFilter = document.getElementById('spielerzahl-filter');
     const komplexitaetFilter = document.getElementById('komplexitaet-filter');
     const sortSelect = document.getElementById('sort-select');
@@ -276,6 +384,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     function filterAndSort() {
         const searchTerm = searchInput.value.toLowerCase();
+        const kategorie = kategorieFilter.value;
         const spielerzahl = spielerzahlFilter.value;
         const komplexitaet = komplexitaetFilter.value;
         const sortBy = sortSelect.value;
@@ -286,6 +395,7 @@ document.addEventListener('DOMContentLoaded', function() {
         let visibleCount = 0;
         cards.forEach(card => {
             const name = card.dataset.name;
+            const cardKategorie = card.dataset.kategorie;
             const cardKomplexitaet = parseInt(card.dataset.komplexitaet);
             const minPlayers = parseInt(card.dataset.spielerzahlMin);
             const maxPlayers = parseInt(card.dataset.spielerzahlMax);
@@ -294,6 +404,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
             // Search filter
             if (searchTerm && !name.includes(searchTerm)) {
+                show = false;
+            }
+
+            // Category filter
+            if (kategorie && cardKategorie !== kategorie) {
                 show = false;
             }
 
@@ -345,6 +460,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     searchInput.addEventListener('input', filterAndSort);
+    kategorieFilter.addEventListener('change', filterAndSort);
     spielerzahlFilter.addEventListener('change', filterAndSort);
     komplexitaetFilter.addEventListener('change', filterAndSort);
     sortSelect.addEventListener('change', filterAndSort);

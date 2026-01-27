@@ -5,11 +5,30 @@ description: "So erreichst du uns und findest zum Spieleabend"
 
 ## Anfahrt & Kontakt
 
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin-bottom: 1.5rem; align-items: start;">
+<div>
+
 ### Veranstaltungsort
 
 **Fuchshain**  
 Seedorf 1  
 95706 Schirnding
+
+</div>
+<div>
+
+<img src="/images/PXL_20250802_192815240.jpg" alt="Spieleabend im Fuchshain" style="width: 100%; height: 250px; object-fit: cover; border-radius: 12px;" />
+
+</div>
+</div>
+
+<style>
+@media (max-width: 768px) {
+  div[style*="grid-template-columns: 1fr 1fr"] {
+    grid-template-columns: 1fr !important;
+  }
+}
+</style>
 
 ---
 
@@ -85,11 +104,14 @@ Seedorf 1
 
 ---
 
-## 📧 Kontakt aufnehmen
+## 📧 Anmeldung & Kontakt
 
-Du hast Fragen zum Spieleabend oder möchtest dich anmelden?
+**Anmeldung erforderlich!** Da nur ca. 18 Plätze verfügbar sind, bitten wir um vorherige Anmeldung.
 
-**E-Mail:** [spieleabend@example.de](mailto:spieleabend@example.de)
+**So kannst du dich anmelden:**
+- **E-Mail:** [spieleabend@fuchshain.farm](mailto:spieleabend@fuchshain.farm)
+- **Persönlich:** Nikki oder Mario direkt ansprechen
+- **Facebook-Gruppe:** [Fuchshain Spieleabend](https://www.facebook.com/groups/fuchshainspieleabend)
 
 Wir antworten in der Regel innerhalb von 1-2 Tagen.
 
@@ -100,7 +122,9 @@ Wir antworten in der Regel innerhalb von 1-2 Tagen.
 ### Mit dem Auto
 - Von Marktredwitz: B303 Richtung Schirnding (ca. 15 Min)
 - Von Eger/Cheb (CZ): Grenzübergang Schirnding (ca. 5 Min)
-- Parkplätze direkt am Haus vorhanden (kostenlos)
+
+### Parken
+**Kostenlose Parkplätze** hinterm Hof vorhanden – bitte die geschotterten Flächen benutzen.
 
 ### Mit öffentlichen Verkehrsmitteln
 - Bahnhof Schirnding ca. 2 km entfernt
@@ -112,24 +136,23 @@ Wir antworten in der Regel innerhalb von 1-2 Tagen.
 
 Folge uns für aktuelle Infos und Spielefotos:
 
-- Facebook: [Spieleabend Fuchshain](#)
-- Instagram: [@spieleabend_fuchshain](#)
+- **Facebook-Gruppe:** [Fuchshain Spieleabend](https://www.facebook.com/groups/fuchshainspieleabend)
 
 ---
 
 ## Häufige Fragen
 
 **Muss ich mich anmelden?**  
-Nein, komm einfach vorbei! Eine Anmeldung ist nicht erforderlich.
+Ja, da nur ca. 18 Plätze verfügbar sind, bitten wir um Anmeldung per E-Mail, persönlich bei Nikki/Mario oder über die Facebook-Gruppe.
 
 **Kostet der Eintritt etwas?**  
 Nein, die Teilnahme ist kostenlos.
 
 **Kann ich eigene Spiele mitbringen?**  
-Ja, sehr gerne! Wir freuen uns über neue Spiele.
+Ja, sehr gerne! Wir freuen uns über neue Spiele. Bitte davor bei uns anmelden – du bist dann für die Spielrunde "Gamemaster" und erklärst den Mitspielenden das Spiel.
 
 **Gibt es Verpflegung?**  
-Getränke werden angeboten. Snacks zum Teilen sind willkommen.
+Getränke werden vor Ort zum Selbstkostenpreis angeboten. Snacks zum Teilen sind willkommen.
 
 **Bin ich als Anfänger willkommen?**  
 Auf jeden Fall! Wir erklären gerne Regeln und haben auch einfache Spiele dabei.

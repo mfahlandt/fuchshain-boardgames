@@ -8,11 +8,7 @@ description: "Alle Spiele, die beim Spieleabend Fuchshain verfügbar sind"
 Hier findest du alle Spiele, die bei unseren Spieleabenden zur Verfügung stehen. 
 Du kannst die Liste sortieren und filtern, um das perfekte Spiel für deinen Abend zu finden.
 
-<p style="margin-bottom: 1rem;">
-    <a href="/spiele-druckversion/" class="print-version-link" style="display: inline-block; background: #f8f9fa; border: 1px solid #4a7c59; color: #4a7c59; padding: 0.5rem 1rem; border-radius: 6px; text-decoration: none;">
-        🖨️ Druckversion anzeigen
-    </a>
-</p>
+<a href="/spiele-druckversion/" class="cta-button">🖨️ Druckversion anzeigen</a>
 
 {{< spieleliste >}}
 

@@ -183,7 +183,7 @@ p {
 }
 
 .logo-image {
-    height: 40px;
+    height: 50px;
     width: auto;
     object-fit: contain;
 }
@@ -364,39 +364,41 @@ p {
 .btn {
     display: inline-flex;
     align-items: center;
+    justify-content: center;
     gap: var(--space-sm);
-    padding: var(--space-md) var(--space-xl);
-    font-family: var(--font-primary);
-    font-size: 1rem;
-    font-weight: 600;
+    padding: 16px 20.8px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12.97px;
+    font-weight: 500;
     text-decoration: none;
-    border-radius: var(--radius-lg);
-    border: 2px solid transparent;
+    text-transform: uppercase;
+    letter-spacing: 0.65px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 16px 0 16px 0;
     cursor: pointer;
-    transition: all var(--transition-normal);
+    transition: opacity 0.1s linear;
+    -webkit-font-smoothing: antialiased;
+    backface-visibility: hidden;
 }
 
 .btn-primary {
     background: var(--color-bg-card);
     color: var(--color-primary);
-    box-shadow: var(--shadow-md);
 }
 
 .btn-primary:hover {
-    transform: translateY(-3px);
-    box-shadow: var(--shadow-lg);
-    color: var(--color-primary-dark);
+    opacity: 0.85;
+    color: var(--color-primary);
 }
 
 .btn-secondary {
     background: transparent;
     color: var(--color-text-inverse);
-    border-color: rgba(255, 255, 255, 0.5);
+    border-color: rgba(255, 255, 255, 0.7);
 }
 
 .btn-secondary:hover {
-    background: rgba(255, 255, 255, 0.1);
-    border-color: var(--color-text-inverse);
+    opacity: 0.85;
     color: var(--color-text-inverse);
 }
 
@@ -728,7 +730,7 @@ p {
 }
 
 .footer-logo-image {
-    height: 32px;
+    height: 40px;
     width: auto;
     object-fit: contain;
     filter: brightness(0) invert(1);
@@ -1029,4 +1031,132 @@ p {
         color: black;
         text-shadow: none;
     }
+}
+
+/* ================================
+   CTA Buttons - Braun/Orange Style
+   ================================ */
+.cta-button,
+a.cta-button {
+    display: block;
+    width: fit-content;
+    background-color: rgb(164, 82, 24);
+    color: rgb(255, 255, 255) !important;
+    padding: 16px 20.8px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 16px 0 16px 0;
+    text-decoration: none !important;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 12.97px;
+    text-transform: uppercase;
+    letter-spacing: 0.65px;
+    text-align: center;
+    line-height: normal;
+    cursor: pointer;
+    transition: opacity 0.1s linear;
+    -webkit-font-smoothing: antialiased;
+    overflow-wrap: break-word;
+    backface-visibility: hidden;
+}
+
+.cta-button:hover,
+a.cta-button:hover {
+    opacity: 0.85;
+    color: rgb(255, 255, 255) !important;
+}
+
+.cta-button:active,
+a.cta-button:active {
+    opacity: 0.7;
+}
+
+/* ================================
+   Kategorie-Farben für Spiele
+   ================================ */
+
+/* Basis-Style für alle Kategorien */
+.spiel-kategorie {
+    font-size: 0.75rem;
+    padding: 0.3rem 0.6rem;
+    border-radius: 4px;
+    white-space: nowrap;
+    font-weight: 500;
+}
+
+/* 🏠 Familienspiel - Warmes Grün */
+.kat-familienspiel {
+    background: #e8f5e9 !important;
+    color: #2e7d32 !important;
+    border: 1px solid #a5d6a7;
+}
+
+/* ♟️ Strategie - Tiefes Blau */
+.kat-strategie {
+    background: #e3f2fd !important;
+    color: #1565c0 !important;
+    border: 1px solid #90caf9;
+}
+
+/* 🧠 Experten - Dunkles Lila */
+.kat-experten {
+    background: #f3e5f5 !important;
+    color: #7b1fa2 !important;
+    border: 1px solid #ce93d8;
+}
+
+/* 🎉 Partyspiel - Leuchtendes Orange */
+.kat-partyspiel {
+    background: #fff3e0 !important;
+    color: #e65100 !important;
+    border: 1px solid #ffcc80;
+}
+
+/* 🤝 Kooperativ - Türkis/Teal */
+.kat-kooperativ {
+    background: #e0f2f1 !important;
+    color: #00796b !important;
+    border: 1px solid #80cbc4;
+}
+
+/* 👶 Kinderspiel - Fröhliches Pink */
+.kat-kinderspiel {
+    background: #fce4ec !important;
+    color: #c2185b !important;
+    border: 1px solid #f48fb1;
+}
+
+/* 👥 2-Spieler - Warmes Rot */
+.kat-2-spieler {
+    background: #ffebee !important;
+    color: #c62828 !important;
+    border: 1px solid #ef9a9a;
+}
+
+/* 🎲 Würfel & Karten - Gold/Gelb */
+.kat-wuerfel-karten {
+    background: #fffde7 !important;
+    color: #f9a825 !important;
+    border: 1px solid #fff59d;
+}
+
+/* 📖 Story & Abenteuer - Braun */
+.kat-story {
+    background: #efebe9 !important;
+    color: #5d4037 !important;
+    border: 1px solid #bcaaa4;
+}
+
+/* 🎯 Geschicklichkeit - Cyan */
+.kat-geschicklichkeit {
+    background: #e0f7fa !important;
+    color: #0097a7 !important;
+    border: 1px solid #80deea;
+}
+
+/* Fallback für unbekannte Kategorien */
+.kat-andere {
+    background: #f5f5f5 !important;
+    color: #616161 !important;
+    border: 1px solid #e0e0e0;
 }

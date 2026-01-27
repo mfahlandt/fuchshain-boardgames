@@ -5,7 +5,7 @@ description: "Alle kommenden Spieleabende in Fuchshain"
 
 ## Unsere Spieleabende
 
-Wir treffen uns regelmäßig jeden ca alle 3 Wochen um **19:00 Uhr** in der Taverne zum Fuchshain (Seedorf 1, Schirnding).
+Wir treffen uns regelmäßig ca. alle 3 Wochen um **19:00 Uhr** in der Taverne zum Fuchshain (Seedorf 1, Schirnding).
 
 {{< termine-liste >}}
 

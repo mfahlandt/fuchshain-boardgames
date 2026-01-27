@@ -10,7 +10,7 @@ disableKinds = ["taxonomy", "term"]
 [params]
   env = "production"
   title = "Spieleabend Fuchshain"
-  description = "Gemeinsam spielen in Fuchshain – Dein Treffpunkt für Brettspiele, Kartenspiele und gesellige Abende"
+  description = "Gemeinsam spielen im Fuchshain – Dein Treffpunkt für Brettspiele, Kartenspiele und gesellige Abende"
   keywords = ["Brettspiele", "Spieleabend", "Fuchshain", "Gesellschaftsspiele", "Sachsen"]
   author = "Spieleabend Fuchshain"
 
@@ -83,23 +83,25 @@ Komm vorbei und entdecke neue Spiele, triff nette Leute und verbringe einen gese
     weight = 50
     [menu.main.params]
       icon = "📍"
-  [[menu.main]]
+
+# Footer-Links (nicht im Hauptmenü)
+  [[menu.footer]]
     identifier = "impressum"
     name = "Impressum"
     url = "/impressum/"
-    weight = 60
-    [menu.main.params]
-      icon = "ℹ️"
-  [[menu.main]]
+    weight = 10
+  [[menu.footer]]
     identifier = "datenschutz"
     name = "Datenschutz"
     url = "/datenschutz/"
-    weight = 70
-    [menu.main.params]
-      icon = "🔒"
+    weight = 20
 
 [markup]
   [markup.goldmark]
+    [markup.goldmark.parser]
+      [markup.goldmark.parser.attribute]
+        block = true
+        title = true
     [markup.goldmark.renderer]
       unsafe = true
 

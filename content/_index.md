@@ -1,21 +1,45 @@
 ---
 title: "Spieleabend Fuchshain"
-description: "Gemeinsam spielen in Fuchshain – Dein Treffpunkt für Brettspiele"
+description: "Gemeinsam spielen im Fuchshain – Dein Treffpunkt für Brettspiele"
 ---
 
-## Willkommen beim Spieleabend Fuchshain!
+## Willkommen beim Spieleabend im Fuchshain!
 
-Wir sind eine offene Gruppe von Brettspiel-Enthusiasten aus Schirnding und Umgebung. Ob Einsteiger oder erfahrener Spieler – bei uns ist **jeder willkommen**!
+Wir sind eine offene Gruppe von Brettspiel-Enthusiasten aus Schirnding und Umgebung. Ob Einsteiger oder erfahrener Spieler – bei uns ist **jeder willkommen** (außer Intolerante und Nazis).
 
-Komm vorbei und entdecke neue Spiele, triff nette Leute und verbringe einen geselligen Abend mit uns.
+Komm vorbei und entdecke neue Spiele, triff gleichgesinnte Leute und verbringe einen geselligen Abend mit uns. Für "nett" können wir nicht garantieren 😉
+
+**Mindestalter: 14 Jahre**
 
 ---
 
 ## Nächste Termine
 
+<div class="termine-mit-bild" style="display: grid; grid-template-columns: 2fr 1fr; gap: 1.5rem; align-items: start;">
+<div>
+
 {{< termine-vorschau >}}
 
-[→ Alle Termine anzeigen](/termine/)
+<a href="/termine/" class="cta-button">Alle Termine anzeigen</a>
+
+</div>
+<div class="termine-bild-home">
+
+<img src="/images/still-life-office-desk-mess.jpg" alt="Spieleabend Atmosphäre" style="width: 100%; object-fit: contain; border-radius: 12px;" />
+
+</div>
+</div>
+
+<style>
+@media (max-width: 768px) {
+  .termine-bild-home {
+    display: none !important;
+  }
+  .termine-mit-bild {
+    grid-template-columns: 1fr !important;
+  }
+}
+</style>
 
 ---
 
@@ -23,10 +47,10 @@ Komm vorbei und entdecke neue Spiele, triff nette Leute und verbringe einen gese
 
 - **Große Spieleauswahl** – Von einfachen Partyspielen bis zu komplexen Strategiespielen
 - **Offene Atmosphäre** – Anfänger und Profis spielen gemeinsam
-- **Neue Kontakte** – Lerne nette Leute aus der Region kennen
-- **Regelmäßige Treffen** – ca alle 3 Wochen
+- **Gleichgesinnte treffen** – Lerne Leute aus der Region kennen, die deine Leidenschaft teilen
+- **Regelmäßige Treffen** – ca. alle 3 Wochen
 
-[→ Unsere Spiele entdecken](/spiele/)
+<a href="/spiele/" class="cta-button">Unsere Spiele entdecken</a>
 
 ---
 
@@ -34,14 +58,27 @@ Komm vorbei und entdecke neue Spiele, triff nette Leute und verbringe einen gese
 
 Du möchtest mitentscheiden, welche Spiele wir beim nächsten Mal spielen? 
 
-[→ Zur Abstimmung](/voting/)
+<a href="/voting/" class="cta-button">Zur Abstimmung</a>
 
 ---
 
 ## Wo & Wann?
 
 **Ort:** Taverne zum Fuchshain (Seedorf 1, 95706 Schirnding)  
-**Zeit:** ab 19:00 Uhr
-**Eintritt:** Kostenlos!
+**Zeit:** ab 19:00 Uhr  
+**Eintritt:** Kostenlos!  
+**Getränke:** Vor Ort zum Selbstkostenpreis  
+**Parken:** Kostenlos hinterm Hof (geschotterte Flächen nutzen)
 
-[→ Anfahrt & Kontakt](/kontakt/)
+---
+
+## Anmeldung
+
+⚠️ **Mit Anmeldung** – da nur ca. 18 Plätze verfügbar sind!
+
+**So meldest du dich an:**
+- **E-Mail:** [spieleabend@fuchshain.farm](mailto:spieleabend@fuchshain.farm)
+- **Persönlich:** Nikki oder Mario direkt ansprechen
+- **Facebook:** [Fuchshain Spieleabend](https://www.facebook.com/groups/fuchshainspieleabend)
+
+<a href="/kontakt/" class="cta-button">Anfahrt & Kontakt</a>
