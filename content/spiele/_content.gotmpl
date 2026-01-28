@@ -13,7 +13,7 @@
       "type" "spiele"
     }}
     {{ $page := dict
-      "path" (printf "spiele/%s" $spiel.slug)
+      "path" $spiel.slug
       "kind" "page"
       "content" $content
       "params" $params
