@@ -1,0 +1,24 @@
+{{/* Automatisch generierte Spiele-Seiten aus data/spiele.yaml */}}
+{{ range $index, $spiel := site.Data.spiele }}
+  {{ if $spiel.slug }}
+    {{ $content := dict
+      "mediaType" "text/markdown"
+      "value" ""
+    }}
+    {{ $params := dict
+      "title" $spiel.name
+      "description" $spiel.beschreibung
+      "layout" "single"
+      "spiel" $spiel.slug
+      "type" "spiele"
+    }}
+    {{ $page := dict
+      "path" (printf "spiele/%s" $spiel.slug)
+      "kind" "page"
+      "content" $content
+      "params" $params
+      "title" $spiel.name
+    }}
+    {{ $.AddPage $page }}
+  {{ end }}
+{{ end }}
