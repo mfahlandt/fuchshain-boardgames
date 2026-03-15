@@ -7,6 +7,7 @@
 
 - name: "5-Minute Dungeon"
   slug: "5-minute-dungeon"
+  bild: "/images/spiele/5-minute-dungeon.webp"
   komplexitaet: 2
   spielerzahl_min: 2
   spielerzahl_max: 5
@@ -29,6 +30,7 @@
 
 - name: "7 Wonders (New Ed.)"
   slug: "7-wonders"
+  bild: "/images/spiele/7-wonders.webp"
   komplexitaet: 3
   spielerzahl_min: 3
   spielerzahl_max: 7
@@ -50,6 +52,7 @@
 
 - name: "7 Wonders Duel"
   slug: "7-wonders-duel"
+  bild: "/images/spiele/7-wonders-duel.webp"
   komplexitaet: 3
   spielerzahl_min: 2
   spielerzahl_max: 2
@@ -70,6 +73,7 @@
 
 - name: "Abenteuer Tierwelt"
   slug: "abenteuer-tierwelt"
+  bild: "/images/spiele/abenteuer-tierwelt.webp"
   komplexitaet: 2
   spielerzahl_min: 2
   spielerzahl_max: 6
@@ -90,6 +94,7 @@
 
 - name: "Ankh: Gods of Egypt"
   slug: "ankh-gods-of-egypt"
+  bild: "/images/spiele/ankh-gods-of-egypt.webp"
   komplexitaet: 5
   spielerzahl_min: 2
   spielerzahl_max: 5
@@ -108,6 +113,7 @@
 
 - name: "BAM! Ultra Schmutzig"
   slug: "bam-ultra-schmutzig"
+  bild: "/images/spiele/bam-ultra-schmutzig.webp"
   komplexitaet: 1
   spielerzahl_min: 4
   spielerzahl_max: 6
@@ -124,6 +130,7 @@
 
 - name: "Brass: Birmingham"
   slug: "brass-birmingham"
+  bild: "/images/spiele/brass-birmingham.webp"
   komplexitaet: 5
   spielerzahl_min: 2
   spielerzahl_max: 4
@@ -144,6 +151,7 @@
 
 - name: "Carcassonne (Big Box)"
   slug: "carcassonne"
+  bild: "/images/spiele/carcassonne-big-box.webp"
   komplexitaet: 2
   spielerzahl_min: 2
   spielerzahl_max: 5
@@ -160,6 +168,7 @@
 
 - name: "Caverna"
   slug: "caverna"
+  bild: "/images/spiele/caverna.webp"
   komplexitaet: 5
   spielerzahl_min: 1
   spielerzahl_max: 7
@@ -177,6 +186,7 @@
 
 - name: "Chronicles of Crime"
   slug: "chronicles-of-crime"
+  bild: "/images/spiele/chronicles-of-crime.jpg"
   komplexitaet: 2
   spielerzahl_min: 1
   spielerzahl_max: 4
@@ -216,6 +226,7 @@
 
 - name: "Dali the Fox"
   slug: "dali-the-fox"
+  bild: "/images/spiele/dali-the-fox.webp"
   komplexitaet: 1
   spielerzahl_min: 2
   spielerzahl_max: 4
@@ -235,6 +246,7 @@
 
 - name: "Das verrückte Labyrinth"
   slug: "das-verrueckte-labyrinth"
+  bild: "/images/spiele/das-verrueckte-labyrinth.webp"
   komplexitaet: 2
   spielerzahl_min: 2
   spielerzahl_max: 4
@@ -250,6 +262,7 @@
 
 - name: "Die Kartographin"
   slug: "die-kartographin"
+  bild: "/images/spiele/die-kartographin.webp"
   komplexitaet: 2
   spielerzahl_min: 1
   spielerzahl_max: 100
@@ -270,6 +283,7 @@
 
 - name: "Die Quacksalber von Quedlinburg"
   slug: "die-quacksalber-von-quedlinburg"
+  bild: "/images/spiele/die-quacksalber-von-quedlinburg-big-box.jpg"
   komplexitaet: 2
   spielerzahl_min: 2
   spielerzahl_max: 4
@@ -291,6 +305,7 @@
 
 - name: "Die Zwerge"
   slug: "die-zwerge"
+  bild: "/images/spiele/die-zwerge.webp"
   komplexitaet: 3
   spielerzahl_min: 2
   spielerzahl_max: 5
@@ -311,6 +326,7 @@
 
 - name: "Dominion"
   slug: "dominion"
+  bild: "/images/spiele/dominion.webp"
   komplexitaet: 3
   spielerzahl_min: 2
   spielerzahl_max: 4
@@ -327,6 +343,7 @@
 
 - name: "Dorfromantik"
   slug: "dorfromantik"
+  bild: "/images/spiele/dorfromantik.webp"
   komplexitaet: 2
   spielerzahl_min: 1
   spielerzahl_max: 6
@@ -349,6 +366,7 @@
 
 - name: "Dune: Imperium"
   slug: "dune-imperium"
+  bild: "/images/spiele/dune-imperium.webp"
   komplexitaet: 4
   spielerzahl_min: 1
   spielerzahl_max: 4
@@ -363,6 +381,7 @@
 
 - name: "Dune: Imperium Uprising"
   slug: "dune-imperium-uprising"
+  bild: "/images/spiele/dune-imperium-uprising.webp"
   komplexitaet: 4
   spielerzahl_min: 1
   spielerzahl_max: 4
@@ -377,6 +396,7 @@
 
 - name: "Dune: War for Arrakis"
   slug: "dune-war-for-arrakis"
+  bild: "/images/spiele/dune-war-for-arrakis.webp"
   komplexitaet: 5
   spielerzahl_min: 2
   spielerzahl_max: 2
@@ -390,6 +410,7 @@
 
 - name: "Everdell"
   slug: "everdell"
+  bild: "/images/spiele/everdell.webp"
   komplexitaet: 3
   spielerzahl_min: 1
   spielerzahl_max: 4
@@ -412,6 +433,7 @@
 
 - name: "Sebastian Fitzek Safehouse"
   slug: "sebastian-fitzek-safehouse"
+  bild: "/images/spiele/sebastian-fitzek-safehouse.webp"
   komplexitaet: 2
   spielerzahl_min: 2
   spielerzahl_max: 4
@@ -425,6 +447,7 @@
 
 - name: "Flamecraft"
   slug: "flamecraft"
+  bild: "/images/spiele/flamecraft.webp"
   komplexitaet: 2
   spielerzahl_min: 1
   spielerzahl_max: 5
@@ -446,6 +469,7 @@
 
 - name: "Hamlet"
   slug: "hamlet"
+  bild: "/images/spiele/hamlet-by-the-lake.webp"
   komplexitaet: 3
   spielerzahl_min: 1
   spielerzahl_max: 4
@@ -466,6 +490,7 @@
 
 - name: "Helden müssen draußen bleiben"
   slug: "helden-muessen-draussen-bleiben"
+  bild: "/images/spiele/helden-muessen-draussen-bleiben.webp"
   komplexitaet: 3
   spielerzahl_min: 1
   spielerzahl_max: 4
@@ -486,6 +511,7 @@
 
 - name: "Kluster"
   slug: "kluster"
+  bild: "/images/spiele/kluster.webp"
   komplexitaet: 1
   spielerzahl_min: 1
   spielerzahl_max: 4
@@ -505,6 +531,7 @@
 
 - name: "Kniffel Extreme"
   slug: "kniffel-extreme"
+  bild: "/images/spiele/kniffel-extreme.webp"
   komplexitaet: 1
   spielerzahl_min: 2
   spielerzahl_max: 8
@@ -524,6 +551,7 @@
 
 - name: "Looping Louie"
   slug: "looping-louie"
+  bild: "/images/spiele/looping-louie.webp"
   komplexitaet: 1
   spielerzahl_min: 2
   spielerzahl_max: 4
@@ -544,6 +572,7 @@
 
 - name: "Magic Maze Tower"
   slug: "magic-maze-tower"
+  bild: "/images/spiele/magic-maze-tower.webp"
   komplexitaet: 2
   spielerzahl_min: 1
   spielerzahl_max: 4
@@ -563,6 +592,7 @@
 
 - name: "Maus und Mystik"
   slug: "maus-und-mystik"
+  bild: "/images/spiele/maus-und-mystik.webp"
   komplexitaet: 3
   spielerzahl_min: 1
   spielerzahl_max: 4
@@ -584,6 +614,7 @@
 
 - name: "Merchants Cove"
   slug: "merchants-cove"
+  bild: "/images/spiele/merchants-cove.webp"
   komplexitaet: 4
   spielerzahl_min: 1
   spielerzahl_max: 4
@@ -604,6 +635,7 @@
 
 - name: "MicroMacro: Crime City"
   slug: "micromacro-crime-city"
+  bild: "/images/spiele/micromacro-crime-city.webp"
   komplexitaet: 2
   spielerzahl_min: 1
   spielerzahl_max: 4
@@ -625,6 +657,7 @@
 
 - name: "Monopoly"
   slug: "monopoly"
+  bild: "/images/spiele/monopoly.webp"
   komplexitaet: 2
   spielerzahl_min: 2
   spielerzahl_max: 6
@@ -638,6 +671,7 @@
 
 - name: "Munchkin Dungeon"
   slug: "munchkin-dungeon"
+  bild: "/images/spiele/munchkin-dungeon.webp"
   komplexitaet: 2
   spielerzahl_min: 2
   spielerzahl_max: 5
@@ -658,6 +692,7 @@
 
 - name: "Outlive"
   slug: "outlive"
+  bild: "/images/spiele/outlive.webp"
   komplexitaet: 4
   spielerzahl_min: 1
   spielerzahl_max: 4
@@ -678,6 +713,7 @@
 
 - name: "Sagani"
   slug: "sagani"
+  bild: "/images/spiele/sagani.webp"
   komplexitaet: 2
   spielerzahl_min: 1
   spielerzahl_max: 4
@@ -698,6 +734,7 @@
 
 - name: "Simsala... Bumm?"
   slug: "simsala-bumm"
+  bild: "/images/spiele/simsala-bumm.webp"
   komplexitaet: 1
   spielerzahl_min: 2
   spielerzahl_max: 5
@@ -718,6 +755,7 @@
 
 - name: "Skyjo"
   slug: "skyjo"
+  bild: "/images/spiele/skyjo.webp"
   komplexitaet: 1
   spielerzahl_min: 2
   spielerzahl_max: 8
@@ -738,6 +776,7 @@
 
 - name: "Small World of Warcraft"
   slug: "small-world-of-warcraft"
+  bild: "/images/spiele/small-world-of-warcraft.webp"
   komplexitaet: 3
   spielerzahl_min: 2
   spielerzahl_max: 5
@@ -758,6 +797,7 @@
 
 - name: "Tetris Link"
   slug: "tetris-link"
+  bild: "/images/spiele/tetris-link.webp"
   komplexitaet: 1
   spielerzahl_min: 2
   spielerzahl_max: 4
@@ -789,6 +829,7 @@
 
 - name: "Tokaido"
   slug: "tokaido"
+  bild: "/images/spiele/tokaido.webp"
   komplexitaet: 2
   spielerzahl_min: 2
   spielerzahl_max: 5
@@ -809,6 +850,7 @@
 
 - name: "Undaunted: Normandy"
   slug: "undaunted-normandy"
+  bild: "/images/spiele/undaunted-normandy.webp"
   komplexitaet: 3
   spielerzahl_min: 2
   spielerzahl_max: 2
@@ -830,6 +872,7 @@
 
 - name: "Unicorn Fever"
   slug: "unicorn-fever"
+  bild: "/images/spiele/unicorn-fever.webp"
   komplexitaet: 2
   spielerzahl_min: 2
   spielerzahl_max: 6
@@ -849,6 +892,7 @@
 
 - name: "Villa Paletti"
   slug: "villa-paletti"
+  bild: "/images/spiele/villa-paletti.webp"
   komplexitaet: 1
   spielerzahl_min: 2
   spielerzahl_max: 4
@@ -868,6 +912,7 @@
 
 - name: "Village Attacks"
   slug: "village-attacks"
+  bild: "/images/spiele/village-attacks.webp"
   komplexitaet: 3
   spielerzahl_min: 1
   spielerzahl_max: 5
@@ -887,6 +932,7 @@
 
 - name: "Villen des Wahnsinns (2. Ed.)"
   slug: "villen-des-wahnsinns"
+  bild: "/images/spiele/villen-des-wahnsinns-2-ed.webp"
   komplexitaet: 3
   spielerzahl_min: 1
   spielerzahl_max: 5
@@ -908,6 +954,7 @@
 
 - name: "Viticulture Essential Edition"
   slug: "viticulture"
+  bild: "/images/spiele/viticulture-essential-edition.webp"
   komplexitaet: 3
   spielerzahl_min: 1
   spielerzahl_max: 6
@@ -929,6 +976,7 @@
 
 - name: "Wettstreit der Diebe"
   slug: "wettstreit-der-diebe"
+  bild: "/images/spiele/wettstreit-der-diebe.webp"
   komplexitaet: 3
   spielerzahl_min: 2
   spielerzahl_max: 4
@@ -948,6 +996,7 @@
 
 - name: "Heat: Pedal to the Metal"
   slug: "heat-pedal-to-the-metal"
+  bild: "/images/spiele/heat-pedal-to-the-metal.webp"
   komplexitaet: 2
   spielerzahl_min: 1
   spielerzahl_max: 6
@@ -970,6 +1019,7 @@
 
 - name: "Catan: Das Kartenspiel"
   slug: "catan-kartenspiel"
+  bild: "/images/spiele/catan-das-kartenspiel.webp"
   komplexitaet: 3
   spielerzahl_min: 2
   spielerzahl_max: 2
@@ -992,6 +1042,7 @@
 
 - name: "Nemesis: Lockdown"
   slug: "nemesis-lockdown"
+  bild: "/images/spiele/nemesis-lockdown.webp"
   komplexitaet: 4
   spielerzahl_min: 1
   spielerzahl_max: 5
@@ -1015,6 +1066,7 @@
 
 - name: "ISS Vanguard"
   slug: "iss-vanguard"
+  bild: "/images/spiele/iss-vanguard.webp"
   komplexitaet: 4
   spielerzahl_min: 1
   spielerzahl_max: 4
@@ -1038,6 +1090,7 @@
 
 - name: "Die Tavernen im Tiefen Thal"
   slug: "tavernen-im-tiefen-thal"
+  bild: "/images/spiele/die-tavernen-im-tiefen-thal.jpg"
   komplexitaet: 3
   spielerzahl_min: 2
   spielerzahl_max: 4
@@ -1059,3 +1112,342 @@
     könnt. So wächst die Komplexität mit eurer Erfahrung. Nominiert für das 
     Kennerspiel des Jahres 2020!
 
+- name: "Chronicles of Crime: 1900"
+  slug: "chronicles-of-crime-1900"
+  komplexitaet: 2
+  spielerzahl_min: 1
+  spielerzahl_max: 4
+  dauer_min: 60
+  bgg_id: 314742
+  kategorie: "Detektiv / App"
+  beschreibung: "Eigenständiges Krimi-Spiel. Löst als Reporter Fälle im Paris um 1900 per App."
+  langbeschreibung: |
+    Chronicles of Crime: 1900 ist ein eigenständiges Krimi-Abenteuer, das euch ins 
+    Paris der Belle Époque versetzt. Ihr schlüpft in die Rolle eines investigativen 
+    Reporters und löst mysteriöse Fälle mit Hilfe einer App.
+    
+    Das Spiel nutzt QR-Codes und Augmented Reality, um Tatorte zu untersuchen und 
+    Verdächtige zu befragen. Die Atmosphäre des frühen 20. Jahrhunderts wird 
+    wunderbar eingefangen - von eleganten Salons bis zu düsteren Gassen.
+    
+    Anders als das originale Chronicles of Crime spielt ihr hier alleine gegen 
+    die Zeit. Perfekt für Krimi-Fans, die historische Settings lieben!
+
+- name: "Indiskret"
+  slug: "indiskret"
+  komplexitaet: 1
+  spielerzahl_min: 3
+  spielerzahl_max: 8
+  dauer_min: 30
+  bgg_id: 14358
+  kategorie: "Partyspiel"
+  beschreibung: "Klassisches Ratespiel und Partyspiel für aufgeweckte Runden."
+  langbeschreibung: |
+    Indiskret ist ein klassisches Partyspiel, bei dem ihr durch geschickte Fragen 
+    versucht herauszufinden, was eure Mitspieler verbergen.
+    
+    Das Spiel sorgt für jede Menge Lacher und überraschende Enthüllungen. 
+    Perfekt für gesellige Runden, die sich nicht zu ernst nehmen!
+
+- name: "Lying Pirates"
+  slug: "lying-pirates"
+  komplexitaet: 2
+  spielerzahl_min: 2
+  spielerzahl_max: 6
+  dauer_min: 60
+  bgg_id: 342247
+  kategorie: "Partyspiel / Würfel"
+  beschreibung: "Wunderschön produziertes Piraten-Rennen, bei dem man viel bluffen muss."
+  langbeschreibung: |
+    Lying Pirates ist ein Bluff- und Würfelspiel mit atemberaubender Produktion. 
+    Als Piraten segelt ihr über die Meere und versucht, eure Gegner auszutricksen.
+    
+    Das Spiel kombiniert Würfelmechaniken mit Bluff-Elementen: Behauptet, was ihr 
+    gewürfelt habt - aber stimmt das auch? Die anderen müssen entscheiden, ob sie 
+    euch glauben oder herausfordern.
+    
+    Mit hochwertigem Material und thematischer Gestaltung ist Lying Pirates ein 
+    echter Hingucker auf jedem Spieletisch!
+
+- name: "Migration: Mars"
+  slug: "migration-mars"
+  komplexitaet: 3
+  spielerzahl_min: 2
+  spielerzahl_max: 4
+  dauer_min: 45
+  bgg_id: 322784
+  kategorie: "Strategie"
+  beschreibung: "Kompaktes Strategiespiel rund um das Besiedeln des roten Planeten."
+  langbeschreibung: |
+    Migration: Mars ist ein Strategiespiel, in dem ihr die Kolonisierung des Mars 
+    vorantreibt. Baut Habitate, sammelt Ressourcen und erweitert eure Kolonie.
+    
+    Das Spiel bietet taktische Tiefe in kompakter Form. Jede Entscheidung zählt, 
+    während ihr versucht, die effizienteste Mars-Siedlung aufzubauen.
+    
+    Perfekt für Sci-Fi-Fans, die ein mittelschweres Strategiespiel suchen!
+
+- name: "Pummel Einhorn: Der Kekse Marathon"
+  slug: "pummel-einhorn-kekse-marathon"
+  bild: "/images/spiele/pummel-einhorn-kekse-marathon.webp"
+  komplexitaet: 1
+  spielerzahl_min: 2
+  spielerzahl_max: 5
+  dauer_min: 15
+  bgg_id: 347496
+  kategorie: "Kinderspiel"
+  beschreibung: "Süßes und schnelles Laufspiel für Familien. Wer schnappt sich die Kekse?"
+  langbeschreibung: |
+    Pummel Einhorn: Der Kekse Marathon ist ein schnelles Familienspiel mit dem 
+    beliebten Pummel-Einhorn-Charakter. Wer sammelt die meisten Kekse?
+    
+    Das Spiel ist einfach zu lernen und schnell gespielt - perfekt für 
+    Familien mit Kindern oder als lockerer Absacker zwischen größeren Spielen.
+    
+    Die niedliche Gestaltung und das einfache Spielprinzip machen es zum 
+    idealen Einstieg für junge Spieler!
+
+- name: "Snow Time"
+  slug: "snow-time"
+  komplexitaet: 2
+  spielerzahl_min: 3
+  spielerzahl_max: 5
+  dauer_min: 30
+  bgg_id: 261173
+  kategorie: "Familienspiel (Bluff)"
+  beschreibung: "Taktisches Bluff-Spiel im Schnee. Früchte sammeln und Gegner mit Schneebällen abwerfen."
+  langbeschreibung: |
+    Snow Time ist ein taktisches Bluff-Spiel, bei dem ihr im Schnee um Früchte 
+    kämpft. Sammelt wertvolle Früchte, aber passt auf - eure Gegner können euch 
+    mit Schneebällen abwerfen!
+    
+    Das Spiel verbindet Ressourcensammlung mit Bluff-Mechaniken: Zeigt ihr eure 
+    Absichten, oder versucht ihr, die anderen zu täuschen?
+    
+    Mit charmanter Winter-Thematik und einfachen Regeln ist Snow Time perfekt 
+    für Familien und Gelegenheitsspieler!
+
+- name: "Super Dungeon Explore: Der vergessene König"
+  slug: "super-dungeon-explore-forgotten-king"
+  komplexitaet: 3
+  spielerzahl_min: 1
+  spielerzahl_max: 6
+  dauer_min: 90
+  bgg_id: 156548
+  kategorie: "Dungeon Crawler"
+  beschreibung: "Kooperatives Monsterkloppen im coolen, bunten Anime-Chibi-Look."
+  langbeschreibung: |
+    Super Dungeon Explore: Der vergessene König ist ein Dungeon-Crawler mit 
+    einzigartigem Chibi-Anime-Stil. Die bunten Miniaturen sind ein absoluter 
+    Hingucker!
+    
+    Ihr erkundet Dungeons, bekämpft niedliche (aber gefährliche!) Monster und 
+    sammelt Schätze. Das Spiel kann kooperativ oder mit einem Spieler als 
+    "Dungeon Master" gespielt werden.
+    
+    Für Fans von Videospiel-Ästhetik und klassischen Dungeon-Crawlern ist 
+    Super Dungeon Explore ein Muss - besonders wenn ihr den Chibi-Look liebt!
+
+- name: "The Castles of Burgundy"
+  slug: "castles-of-burgundy"
+  komplexitaet: 4
+  spielerzahl_min: 2
+  spielerzahl_max: 4
+  dauer_min: 90
+  bgg_id: 84876
+  kategorie: "Strategie (Kenner)"
+  beschreibung: "Eines der besten Spiele der Welt: Baue dein Fürstentum mithilfe cleverer Würfel-Aktionen auf."
+  langbeschreibung: |
+    The Castles of Burgundy (Die Burgen von Burgund) gilt als eines der besten 
+    Strategiespiele aller Zeiten. Ihr seid Fürsten im mittelalterlichen Frankreich 
+    und baut eure Ländereien aus.
+    
+    Das Herzstück sind die Würfel: Mit ihnen wählt ihr Plättchen vom zentralen 
+    Spielplan oder platziert sie in eurem eigenen Fürstentum. Verschiedene 
+    Plättchentypen bieten unterschiedliche Vorteile - Gebäude, Tiere, Minen, 
+    Schiffe und Wissen.
+    
+    Das Spiel bietet enorme taktische Tiefe bei überschaubarer Komplexität. 
+    Die Kombination aus Würfeln und strategischer Planung macht jede Partie 
+    einzigartig. Ein absoluter Klassiker, der in keiner Sammlung fehlen sollte!
+
+# === ERWEITERUNGEN ===
+
+- name: "7 Wonders (New Ed.): Edifice"
+  slug: "7-wonders-edifice"
+  komplexitaet: 3
+  spielerzahl_min: 3
+  spielerzahl_max: 7
+  dauer_min: 40
+  bgg_id: 378364
+  kategorie: "Erweiterung"
+  beschreibung: "Erweiterung für 7 Wonders: Gemeinsame Bauprojekte für alle Spieler."
+  langbeschreibung: |
+    Edifice ist eine Erweiterung für 7 Wonders (New Edition), die gemeinsame 
+    Bauprojekte ins Spiel bringt. Alle Spieler können zu diesen Projekten 
+    beitragen - oder eben nicht.
+    
+    Wer nicht mitmacht, riskiert Strafen. Wer hilft, bekommt Belohnungen. 
+    Eine interessante Ergänzung, die mehr Interaktion ins Spiel bringt!
+
+- name: "7 Wonders (New Ed.): Armada"
+  slug: "7-wonders-armada"
+  komplexitaet: 3
+  spielerzahl_min: 3
+  spielerzahl_max: 7
+  dauer_min: 40
+  bgg_id: 254240
+  kategorie: "Erweiterung"
+  beschreibung: "Erweiterung für 7 Wonders: Bringt epische Seeschlachten und Flotten."
+  langbeschreibung: |
+    Armada erweitert 7 Wonders um maritime Elemente. Ihr baut Flotten auf 
+    vier verschiedenen Schiffsbahnen: Militär, Handel, Entdeckung und Piraterie.
+    
+    Die Erweiterung bringt eine zusätzliche strategische Ebene ins Spiel 
+    und belohnt Spieler, die in ihre Flotte investieren.
+
+- name: "7 Wonders (New Ed.): Leaders"
+  slug: "7-wonders-leaders"
+  komplexitaet: 3
+  spielerzahl_min: 3
+  spielerzahl_max: 7
+  dauer_min: 40
+  bgg_id: 68496
+  kategorie: "Erweiterung"
+  beschreibung: "Erweiterung für 7 Wonders: Berühmte Anführer geben dir Spezialfähigkeiten."
+  langbeschreibung: |
+    Leaders fügt 7 Wonders berühmte historische Persönlichkeiten hinzu. 
+    Vor jeder Epoche wählt ihr einen Anführer, der euch besondere 
+    Fähigkeiten verleiht.
+    
+    Von Kleopatra über Caesar bis hin zu Archimedes - jeder Anführer 
+    bietet einen einzigartigen strategischen Vorteil!
+
+- name: "7 Wonders (New Ed.): Cities"
+  slug: "7-wonders-cities"
+  komplexitaet: 3
+  spielerzahl_min: 3
+  spielerzahl_max: 7
+  dauer_min: 40
+  bgg_id: 111661
+  kategorie: "Erweiterung"
+  beschreibung: "Erweiterung für 7 Wonders: Söldner, Schulden und mehr Interaktion."
+  langbeschreibung: |
+    Cities bringt schwarze Karten ins Spiel, die neue Mechaniken einführen: 
+    Diplomatie, Schulden und Söldner. Außerdem ermöglicht die Erweiterung 
+    das Spielen mit bis zu 8 Personen.
+    
+    Die Interaktion zwischen den Spielern wird intensiver - und manchmal 
+    auch etwas gemeiner!
+
+- name: "7 Wonders Duel: Pantheon"
+  slug: "7-wonders-duel-pantheon"
+  komplexitaet: 3
+  spielerzahl_min: 2
+  spielerzahl_max: 2
+  dauer_min: 30
+  bgg_id: 198679
+  kategorie: "Erweiterung"
+  beschreibung: "Erweiterung für 7 Wonders Duel: Beschwört Götter für mächtige Boni."
+  langbeschreibung: |
+    Pantheon erweitert 7 Wonders Duel um die Götter der Antike. Griechische, 
+    ägyptische und mesopotamische Gottheiten gewähren euch mächtige Vorteile.
+    
+    Außerdem kommen Große Persönlichkeiten hinzu, die zusätzliche 
+    strategische Optionen bieten. Eine unverzichtbare Erweiterung!
+
+- name: "7 Wonders Duel: Agora"
+  slug: "7-wonders-duel-agora"
+  komplexitaet: 3
+  spielerzahl_min: 2
+  spielerzahl_max: 2
+  dauer_min: 30
+  bgg_id: 310873
+  kategorie: "Erweiterung"
+  beschreibung: "Erweiterung für 7 Wonders Duel: Politik, Senatoren und Verschwörungen."
+  langbeschreibung: |
+    Agora bringt politische Intrigen nach 7 Wonders Duel. Ein Senat mit 
+    sechs Kammern wird zum neuen Schlachtfeld. Kontrolliert Senatoren, 
+    schmiedet Verschwörungen und erringt politische Siege!
+    
+    Die Erweiterung fügt einen neuen Siegweg hinzu: Politische Dominanz!
+
+- name: "Ankh: Gods of Egypt - Tomb of Wonders"
+  slug: "ankh-tomb-of-wonders"
+  komplexitaet: 5
+  spielerzahl_min: 2
+  spielerzahl_max: 5
+  dauer_min: 90
+  bgg_id: 305881
+  kategorie: "Erweiterung"
+  beschreibung: "Riesige Kickstarter-Box mit exklusiven Upgrades, Monstern und Göttern."
+  langbeschreibung: |
+    Tomb of Wonders ist die ultimative Erweiterung für Ankh: Gods of Egypt. 
+    Diese Kickstarter-exklusive Box enthält zusätzliche Götter, Monster, 
+    Spielmodi und Komponenten-Upgrades.
+    
+    Für Ankh-Fans, die das Maximum aus dem Spiel herausholen wollen!
+
+- name: "Caverna: Die Vergessenen Völker"
+  slug: "caverna-vergessene-voelker"
+  komplexitaet: 5
+  spielerzahl_min: 1
+  spielerzahl_max: 7
+  dauer_min: 30
+  bgg_id: 252516
+  kategorie: "Erweiterung"
+  beschreibung: "Erweiterung: Statt Zwergen spielt man nun Orks, Elfen oder Goblins mit eigenen Fähigkeiten."
+  langbeschreibung: |
+    Die Vergessenen Völker erweitert Caverna um alternative Völker. 
+    Statt nur Zwerge zu spielen, könnt ihr nun als Orks, Elfen, Trolle, 
+    Goblins oder andere Wesen antreten.
+    
+    Jedes Volk hat einzigartige Fähigkeiten und verändert die Spielweise 
+    grundlegend. Enorme Wiederspielbarkeit für Caverna-Fans!
+
+- name: "Everdell: Pearlbrook"
+  slug: "everdell-pearlbrook"
+  komplexitaet: 3
+  spielerzahl_min: 1
+  spielerzahl_max: 4
+  dauer_min: 40
+  bgg_id: 258288
+  kategorie: "Erweiterung"
+  beschreibung: "Erweiterung für Everdell: Bringt einen Fluss, Frosch-Botschafter und Perlen ins Spiel."
+  langbeschreibung: |
+    Pearlbrook erweitert Everdell um einen Fluss mit neuen Orten und 
+    die wertvolle Ressource Perlen. Frosch-Botschafter helfen euch, 
+    Wunder zu errichten und neue Karten zu nutzen.
+    
+    Die Erweiterung fügt sich nahtlos ins Grundspiel ein und bietet 
+    noch mehr strategische Möglichkeiten!
+
+- name: "Munchkin Dungeon: Box of Holding"
+  slug: "munchkin-dungeon-box-of-holding"
+  komplexitaet: 2
+  spielerzahl_min: 2
+  spielerzahl_max: 5
+  dauer_min: 60
+  bgg_id: 272183
+  kategorie: "Erweiterung"
+  beschreibung: "Erweiterung für Munchkin Dungeon: Kickstarter-Exklusive Extras und Miniaturen."
+  langbeschreibung: |
+    Die Box of Holding ist eine Kickstarter-exklusive Erweiterung für 
+    Munchkin Dungeon mit zusätzlichen Monstern, Helden und Miniaturen.
+    
+    Mehr Chaos, mehr Schätze, mehr Backstabbing!
+
+- name: "Munchkin Dungeon: Side Quest"
+  slug: "munchkin-dungeon-side-quest"
+  komplexitaet: 2
+  spielerzahl_min: 2
+  spielerzahl_max: 5
+  dauer_min: 60
+  bgg_id: 271571
+  kategorie: "Erweiterung"
+  beschreibung: "Erweiterung für Munchkin Dungeon: Fügt dem Spiel Nebenmissionen hinzu."
+  langbeschreibung: |
+    Side Quest erweitert Munchkin Dungeon um optionale Nebenmissionen, 
+    die zusätzliche Belohnungen bieten. Erfüllt die Quests für Extra-Punkte!
+    
+    Eine modulare Erweiterung, die mehr Abwechslung ins Spiel bringt.

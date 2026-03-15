@@ -42,21 +42,57 @@
     </div>
 
     <div class="spiele-count">
-        <span id="spiele-count-text">{{ len site.Data.spiele }} Spiele gefunden</span>
+        {{/* Zähle nur Nicht-Erweiterungen */}}
+        {{ $spieleOhneErweiterungen := where site.Data.spiele "kategorie" "ne" "Erweiterung" }}
+        <span id="spiele-count-text">{{ len $spieleOhneErweiterungen }} Spiele gefunden</span>
     </div>
 
     <div class="spiele-liste" id="spiele-liste">
         {{ range site.Data.spiele }}
+        {{/* Überspringe Erweiterungen */}}
+        {{ if ne .kategorie "Erweiterung" }}
+        {{ $detailURL := "" }}
+        {{ if .slug }}{{ $detailURL = (printf "/spiele/%s/" .slug | relURL) }}{{ end }}
         <div class="spiel-card"
              data-name="{{ .name | lower }}"
              data-komplexitaet="{{ .komplexitaet }}"
              data-spielerzahl-min="{{ .spielerzahl_min }}"
              data-spielerzahl-max="{{ .spielerzahl_max }}"
              data-dauer="{{ .dauer_min }}">
+            {{ if $detailURL }}
+            <a href="{{ $detailURL }}" class="spiel-bild-link" title="Details zu {{ .name }}">
+                <div class="spiel-bild">
+                    {{ if .bild }}
+                    <img src="{{ .bild | relURL }}" alt="Cover von {{ .name }}" loading="lazy" />
+                    {{ else }}
+                    <span class="spiel-icon">🎲</span>
+                    {{ end }}
+                </div>
+            </a>
+            {{ else if .bgg_id }}
+            <a href="https://boardgamegeek.com/boardgame/{{ .bgg_id }}" target="_blank" rel="noopener" class="spiel-bild-link" title="Auf BoardGameGeek ansehen">
+                <div class="spiel-bild">
+                    {{ if .bild }}
+                    <img src="{{ .bild | relURL }}" alt="Cover von {{ .name }}" loading="lazy" />
+                    {{ else }}
+                    <span class="spiel-icon">🎲</span>
+                    {{ end }}
+                </div>
+            </a>
+            {{ else }}
+            <div class="spiel-bild" aria-hidden="true">
+                {{ if .bild }}
+                <img src="{{ .bild | relURL }}" alt="Cover von {{ .name }}" loading="lazy" />
+                {{ else }}
+                <span class="spiel-icon">🎲</span>
+                {{ end }}
+            </div>
+            {{ end }}
+
             <div class="spiel-header">
                 <h3 class="spiel-name">
-                    {{ if .slug }}
-                    <a href="{{ printf "/spiele/%s/" .slug | relURL }}" title="Details zu {{ .name }}">
+                    {{ if $detailURL }}
+                    <a href="{{ $detailURL }}" title="Details zu {{ .name }}">
                         {{ .name }}
                     </a>
                     {{ else if .bgg_id }}
@@ -95,7 +131,8 @@
             </a>
             {{ end }}
         </div>
-        {{ end }}
+        {{ end }}{{/* Ende if ne Erweiterung */}}
+        {{ end }}{{/* Ende range */}}
     </div>
 </div>
 
@@ -172,6 +209,26 @@
 
 .spiel-card.hidden {
     display: none;
+}
+
+.spiel-bild {
+    width: 100%;
+    height: 150px;
+    border-radius: var(--radius-md);
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+    background: var(--color-bg-alt);
+    border: 1px solid var(--color-border);
+}
+
+.spiel-bild img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
 }
 
 .spiel-header {
