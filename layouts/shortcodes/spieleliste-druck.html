@@ -2,7 +2,7 @@
 
 <div class="print-header">
     <h1>🎲 Spielesammlung Fuchshain</h1>
-    <p class="print-date">Stand: {{ now.Format "02.01.2006" }} | {{ len site.Data.spiele }} Spiele</p>
+    <p class="print-date">Stand: {{ now.Format "02.01.2006" }} | {{ len hugo.Data.spiele }} Spiele</p>
 </div>
 
 <div class="print-actions no-print">
@@ -20,7 +20,7 @@
 </div>
 
 <div class="spiele-katalog">
-    {{ range sort site.Data.spiele "name" }}
+    {{ range sort hugo.Data.spiele "name" }}
     <div class="spiel-eintrag">
         <div class="spiel-kopf">
             {{ if .bild }}

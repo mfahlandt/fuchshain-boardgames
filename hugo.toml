@@ -1,5 +1,5 @@
 baseURL = "https://spieleabend.fuchshain.farm/"
-languageCode = "de"
+locale = "de"
 defaultContentLanguage = "de"
 title = "Spieleabend Fuchshain"
 theme = "fuchshain-games"
@@ -10,8 +10,8 @@ disableKinds = ["taxonomy", "term"]
 [params]
   env = "production"
   title = "Spieleabend Fuchshain"
-  description = "Gemeinsam spielen im Fuchshain – Dein Treffpunkt für Brettspiele, Kartenspiele und gesellige Abende"
-  keywords = ["Brettspiele", "Spieleabend", "Fuchshain", "Gesellschaftsspiele", "Sachsen"]
+  description = "Spieleabend im Fichtelgebirge – Brettspiele, Kartenspiele & gesellige Abende in Schirnding bei Marktredwitz, Selb, Wunsiedel und Waldsassen"
+  keywords = ["Brettspiele", "Spieleabend", "Fuchshain", "Gesellschaftsspiele", "Fichtelgebirge", "Schirnding", "Marktredwitz", "Wunsiedel", "Selb", "Waldsassen", "Tirschenreuth", "Brettspielgruppe", "Oberfranken", "Oberpfalz"]
   author = "Spieleabend Fuchshain"
 
   # Hero-Hintergrundbild (optional)
@@ -35,10 +35,11 @@ disableKinds = ["taxonomy", "term"]
   [params.homeInfoParams]
     Title = "🎲 Willkommen beim Spieleabend Fuchshain!"
     Content = """
-Wir sind eine offene Gruppe von Brettspiel-Enthusiasten aus Fuchshain und Umgebung.
+Wir sind eine offene Gruppe von Brettspiel-Enthusiasten aus dem Fichtelgebirge.
 Ob Einsteiger oder erfahrener Spieler – bei uns ist jeder willkommen!
 
 Komm vorbei und entdecke neue Spiele, triff nette Leute und verbringe einen geselligen Abend mit uns.
+Mitspieler aus Marktredwitz, Selb, Wunsiedel, Waldsassen, Tirschenreuth und der gesamten Region sind herzlich eingeladen.
 """
 
   [params.assets]
@@ -111,6 +112,15 @@ Komm vorbei und entdecke neue Spiele, triff nette Leute und verbringe einen gese
       unsafe = true
 
 [outputs]
-  home = ["HTML"]
-  section = ["HTML"]
+  home = ["HTML", "RSS", "sitemap"]
+  section = ["HTML", "RSS"]
   page = ["HTML"]
+
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[frontmatter]
+  lastmod = [":git", "lastmod", "date"]
+

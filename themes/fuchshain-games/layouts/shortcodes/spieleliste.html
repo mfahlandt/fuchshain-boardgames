@@ -43,12 +43,12 @@
 
     <div class="spiele-count">
         {{/* Zähle nur Nicht-Erweiterungen */}}
-        {{ $spieleOhneErweiterungen := where site.Data.spiele "kategorie" "ne" "Erweiterung" }}
+        {{ $spieleOhneErweiterungen := where hugo.Data.spiele "kategorie" "ne" "Erweiterung" }}
         <span id="spiele-count-text">{{ len $spieleOhneErweiterungen }} Spiele gefunden</span>
     </div>
 
     <div class="spiele-liste" id="spiele-liste">
-        {{ range site.Data.spiele }}
+        {{ range hugo.Data.spiele }}
         {{/* Überspringe Erweiterungen */}}
         {{ if ne .kategorie "Erweiterung" }}
         {{ $detailURL := "" }}

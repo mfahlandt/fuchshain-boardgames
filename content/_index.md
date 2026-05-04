@@ -1,13 +1,13 @@
 ---
-title: "Spieleabend Fuchshain"
-description: "Gemeinsam spielen im Fuchshain – Dein Treffpunkt für Brettspiele"
+title: "Spieleabend Fuchshain – Brettspiele im Fichtelgebirge"
+description: "Offener Spieleabend in Schirnding im Fichtelgebirge – Brettspiele & Kartenspiele für die Region Marktredwitz, Selb, Wunsiedel, Waldsassen und Tirschenreuth"
 ---
 
 ## Willkommen beim Spieleabend im Fuchshain!
 
-Wir sind eine offene Gruppe von Brettspiel-Enthusiasten aus Schirnding und Umgebung. Ob Einsteiger oder Profi – bei uns ist jeder willkommen, der Lust auf ein faires Miteinander hat. **Für Intoleranz und Ausgrenzung ist bei uns kein Platz am Tisch.**
+Wir sind eine offene Gruppe von Brettspiel-Enthusiasten aus Schirnding und der Region Fichtelgebirge. Ob Einsteiger oder Profi – bei uns ist jeder willkommen, der Lust auf ein faires Miteinander hat. **Für Intoleranz und Ausgrenzung ist bei uns kein Platz am Tisch.**
 
-Komm vorbei und entdecke neue Spiele, triff gleichgesinnte Leute und verbringe einen geselligen Abend mit uns. 
+Komm vorbei und entdecke neue Spiele, triff gleichgesinnte Leute und verbringe einen geselligen Abend mit uns. Egal ob du aus Marktredwitz, Selb, Wunsiedel, Waldsassen, Tirschenreuth oder dem restlichen Fichtelgebirge kommst – du bist herzlich eingeladen! 
 
 **Mindestalter: 14 Jahre**
 
@@ -65,10 +65,13 @@ Du möchtest mitentscheiden, welche Spiele wir beim nächsten Mal spielen?
 ## Wo & Wann?
 
 **Ort:** Taverne zum Fuchshain (Seedorf 1, 95706 Schirnding)  
+**Region:** Fichtelgebirge – zwischen Marktredwitz, Selb und der tschechischen Grenze  
 **Zeit:** ab 19:00 Uhr  
 **Eintritt:** Kostenlos!  
 **Getränke:** Vor Ort zum Selbstkostenpreis  
 **Parken:** Kostenlos hinterm Hof (geschotterte Flächen nutzen)
+
+Gut erreichbar aus Marktredwitz (15 Min), Selb (20 Min), Wunsiedel (20 Min), Waldsassen (15 Min) und Tirschenreuth (25 Min).
 
 ---
 

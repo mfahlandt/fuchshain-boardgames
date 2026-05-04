@@ -1,6 +1,7 @@
 ---
 title: "Bildquellen"
 description: "Quellenangaben für verwendete Bilder"
+robots: "noindex, follow"
 ---
 
 ## Bildquellen & Urheberrechte

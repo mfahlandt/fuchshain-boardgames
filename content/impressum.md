@@ -1,6 +1,7 @@
 ---
 title: "Impressum"
 description: "Impressum gemäß § 5 TMG"
+robots: "noindex, follow"
 ---
 
 ## Angaben gemäß § 5 TMG

@@ -1,6 +1,6 @@
 ---
-title: "Unsere Spiele"
-description: "Alle Spiele, die beim Spieleabend Fuchshain verfügbar sind"
+title: "Unsere Spiele – Brettspielsammlung im Fichtelgebirge"
+description: "Über 80 Brett- und Kartenspiele beim Spieleabend in Schirnding – die größte offene Spielesammlung in der Region Marktredwitz, Wunsiedel, Selb und Waldsassen"
 ---
 
 ## Spielesammlung

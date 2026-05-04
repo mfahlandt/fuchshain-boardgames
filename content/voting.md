@@ -1,6 +1,6 @@
 ---
-title: "Abstimmung"
-description: "Stimme ab, welche Spiele beim nächsten Spieleabend gespielt werden"
+title: "Abstimmung – Welche Spiele spielen wir?"
+description: "Stimme ab, welche Brettspiele beim nächsten Spieleabend im Fichtelgebirge gespielt werden – offen für alle aus der Region"
 ---
 
 ## Was spielen wir als nächstes?

@@ -2,7 +2,7 @@
 {{ $slug := .Params.spiel }}
 {{ $spiel := false }}
 
-{{ range site.Data.spiele }}
+{{ range hugo.Data.spiele }}
   {{ if eq .slug $slug }}
     {{ $spiel = . }}
   {{ end }}
@@ -143,7 +143,7 @@
                     {{/* Erweiterungen finden - suche nach Spielen die mit dem Namen dieses Spiels beginnen */}}
                     {{ $grundspielName := $spiel.name }}
                     {{ $erweiterungen := slice }}
-                    {{ range site.Data.spiele }}
+                    {{ range hugo.Data.spiele }}
                         {{/* Prüfe ob der Name mit dem Grundspiel beginnt und es nicht das Spiel selbst ist */}}
                         {{ if and (ne .name $grundspielName) (or (hasPrefix .name (printf "%s:" $grundspielName)) (hasPrefix .name (printf "%s " $grundspielName))) }}
                             {{ $erweiterungen = $erweiterungen | append . }}

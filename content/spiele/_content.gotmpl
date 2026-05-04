@@ -1,5 +1,5 @@
 {{/* Automatisch generierte Spiele-Seiten aus data/spiele.yaml */}}
-{{ range $index, $spiel := site.Data.spiele }}
+{{ range $index, $spiel := hugo.Data.spiele }}
   {{ if $spiel.slug }}
     {{ $content := dict
       "mediaType" "text/markdown"

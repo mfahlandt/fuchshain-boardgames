@@ -1,6 +1,7 @@
 ---
 title: "Datenschutzerklärung"
 description: "Informationen zum Datenschutz nach DSGVO"
+robots: "noindex, follow"
 ---
 
 Diese Datenschutzerklärung informiert darüber, welche personenbezogenen Daten beim Besuch dieser Website verarbeitet werden.

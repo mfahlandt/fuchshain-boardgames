@@ -3,7 +3,7 @@
 {{ $now := now }}
 
 <div class="termine-liste">
-    {{ range site.Data.termine }}
+    {{ range hugo.Data.termine }}
     {{ $terminDatum := time .datum }}
     {{ if ge $terminDatum $now }}
     <div class="termin-card">
@@ -30,8 +30,55 @@
     {{ end }}
 </div>
 
-{{ if eq (len (where site.Data.termine "datum" "ge" (now.Format "2006-01-02"))) 0 }}
+{{ if eq (len (where hugo.Data.termine "datum" "ge" (now.Format "2006-01-02"))) 0 }}
 <p class="keine-termine">Aktuell sind keine kommenden Termine eingetragen. Schau bald wieder vorbei!</p>
+{{ end }}
+
+<!-- Event JSON-LD for SEO -->
+{{ range hugo.Data.termine }}
+{{ $terminDatum := time .datum }}
+{{ if ge $terminDatum now }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "name": "{{ .beschreibung | default "Spieleabend Fuchshain" }}",
+  "description": "Offener Brettspiel-Abend im Fichtelgebirge – für alle aus Schirnding, Marktredwitz, Selb, Wunsiedel und Umgebung",
+  "startDate": "{{ .datum }}T{{ .uhrzeit | default "19:00" }}:00+02:00",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+  "location": {
+    "@type": "Place",
+    "name": "Taverne zum Fuchshain",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Seedorf 1",
+      "addressLocality": "Schirnding",
+      "addressRegion": "Bayern",
+      "postalCode": "95706",
+      "addressCountry": "DE"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 50.04682,
+      "longitude": 12.24626
+    }
+  },
+  "organizer": {
+    "@type": "Organization",
+    "name": "Spieleabend Fuchshain",
+    "url": "https://spieleabend.fuchshain.farm/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "EUR",
+    "availability": "https://schema.org/LimitedAvailability"
+  },
+  "isAccessibleForFree": true
+}
+</script>
+{{ end }}
 {{ end }}
 
 <style>

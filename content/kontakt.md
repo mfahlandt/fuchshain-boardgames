@@ -1,6 +1,6 @@
 ---
-title: "Kontakt"
-description: "So erreichst du uns und findest zum Spieleabend"
+title: "Kontakt & Anfahrt"
+description: "Anfahrt zum Spieleabend in Schirnding im Fichtelgebirge – gut erreichbar aus Marktredwitz, Selb, Wunsiedel, Waldsassen und Tirschenreuth"
 ---
 
 ## Anfahrt & Kontakt
@@ -121,6 +121,10 @@ Wir antworten in der Regel innerhalb von 1-2 Tagen.
 
 ### Mit dem Auto
 - Von Marktredwitz: B303 Richtung Schirnding (ca. 15 Min)
+- Von Selb: über B15 und B303 (ca. 20 Min)
+- Von Wunsiedel: über B303 (ca. 20 Min)
+- Von Waldsassen: über Mitterteich/B299 (ca. 15 Min)
+- Von Tirschenreuth: über Mitterteich (ca. 25 Min)
 - Von Eger/Cheb (CZ): Grenzübergang Schirnding (ca. 5 Min)
 
 ### Parken
@@ -156,3 +160,53 @@ Getränke werden vor Ort zum Selbstkostenpreis angeboten. Snacks zum Teilen sind
 
 **Bin ich als Anfänger willkommen?**  
 Auf jeden Fall! Wir erklären gerne Regeln und haben auch einfache Spiele dabei.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Muss ich mich zum Spieleabend anmelden?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ja, da nur ca. 18 Plätze verfügbar sind, bitten wir um Anmeldung per E-Mail an spieleabend@fuchshain.farm, persönlich bei Nikki/Mario oder über die Facebook-Gruppe."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Kostet der Spieleabend Eintritt?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Nein, die Teilnahme am Spieleabend im Fuchshain ist kostenlos."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Kann ich eigene Brettspiele mitbringen?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ja, sehr gerne! Wir freuen uns über neue Spiele. Bitte davor bei uns anmelden – du bist dann für die Spielrunde Gamemaster und erklärst den Mitspielenden das Spiel."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Wo findet der Spieleabend statt?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Der Spieleabend findet in der Taverne zum Fuchshain statt: Seedorf 1, 95706 Schirnding im Fichtelgebirge. Gut erreichbar aus Marktredwitz (15 Min), Selb (20 Min), Wunsiedel (20 Min), Waldsassen (15 Min) und Tirschenreuth (25 Min)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Bin ich als Anfänger beim Spieleabend willkommen?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Auf jeden Fall! Wir erklären gerne Regeln und haben auch einfache Spiele dabei. Ob Einsteiger oder Profi – bei uns ist jeder willkommen."
+      }
+    }
+  ]
+}
+</script>
+
