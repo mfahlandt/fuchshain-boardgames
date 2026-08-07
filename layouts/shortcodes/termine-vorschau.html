@@ -2,19 +2,26 @@
 
 {{ $now := now }}
 {{ $count := 0 }}
+{{ $monatNamen := slice "" "Jan" "Feb" "Mär" "Apr" "Mai" "Jun" "Jul" "Aug" "Sep" "Okt" "Nov" "Dez" }}
 
 <div class="termine-vorschau">
     {{ range hugo.Data.termine }}
     {{ $terminDatum := time .datum }}
     {{ if and (ge $terminDatum $now) (lt $count 3) }}
     {{ $count = add $count 1 }}
-    <div class="termin-preview">
+    {{ $isMehrTageEvent := and .bis_datum (ne .bis_datum .datum) }}
+    <div class="termin-preview{{ if $isMehrTageEvent }} termin-preview--mehrtage{{ end }}">
         <div class="preview-datum">
+            {{ if $isMehrTageEvent }}
+            {{ $bisDatum := time .bis_datum }}
+            <span class="preview-tag">{{ $terminDatum.Day }}–{{ $bisDatum.Day }}</span>
+            {{ else }}
             <span class="preview-tag">{{ $terminDatum.Day }}</span>
-            <span class="preview-monat">{{ index (slice "" "Jan" "Feb" "Mär" "Apr" "Mai" "Jun" "Jul" "Aug" "Sep" "Okt" "Nov" "Dez") (int $terminDatum.Month) }}</span>
+            {{ end }}
+            <span class="preview-monat">{{ index $monatNamen (int $terminDatum.Month) }}</span>
         </div>
         <div class="preview-info">
-            <span class="preview-zeit">🕐 {{ .uhrzeit }} Uhr</span>
+            <span class="preview-zeit">🕐 {{ .uhrzeit }} Uhr{{ if and $isMehrTageEvent .bis_uhrzeit }} – {{ .bis_uhrzeit }} Uhr{{ end }}</span>
             {{ if .beschreibung }}<span class="preview-beschreibung">{{ .beschreibung }}</span>{{ end }}
         </div>
     </div>
@@ -45,6 +52,10 @@
     transition: transform 0.2s ease;
 }
 
+.termin-preview--mehrtage {
+    border-left: 3px solid #c0392b;
+}
+
 .termin-preview:hover {
     transform: translateX(5px);
 }
@@ -58,6 +69,10 @@
     background: linear-gradient(135deg, #4a7c59 0%, #3d6a4a 100%);
     border-radius: 8px;
     color: white;
+}
+
+.termin-preview--mehrtage .preview-datum {
+    background: linear-gradient(135deg, #8e2727 0%, #6b1c1c 100%);
 }
 
 .preview-tag {

@@ -71,6 +71,37 @@
     
     Ein absolutes Muss für Paare und Zweiergruppen!
 
+- name: "A War of Whispers"
+  slug: "a-war-of-whispers"
+  bild: "/images/spiele/a-war-of-whispers.webp"
+  komplexitaet: 3
+  spielerzahl_min: 2
+  spielerzahl_max: 4
+  dauer_min: 60
+  bgg_id: 253499
+  bgg_rank: 918
+  bgg_rating: 7.28
+  kategorie: "Strategie / Intrigen"
+  beschreibung: "Fünf Imperien kämpfen um die Welt – du spielst eine Geheimgesellschaft, die im Verborgenen die Fäden zieht."
+  langbeschreibung: |
+    A War of Whispers ist ein kompetitives Strategiespiel für 2 bis 4 Spieler. Fünf mächtige 
+    Imperien befinden sich im Krieg um die Weltherrschaft – doch ihr seid keine mächtigen Herrscher. 
+    Stattdessen spielt ihr eine Geheimgesellschaft, die auf die Ergebnisse dieses Krieges wettet 
+    und heimlich die Strippen zieht, um sicherzustellen, dass ihre Einsätze aufgehen.
+    
+    Zu Spielbeginn erhaltet ihr fünf Loyalitätsmarker, je einer pro Imperium, verdeckt auf 
+    zufälligen Loyalitätswerten platziert. Euer Hauptziel: Wenn das Spiel endet, sollen die 
+    Imperien, denen ihr am treuesten seid, möglichst viele Städte auf der ganzen Welt kontrollieren.
+    
+    Das Spiel ist in vier Phasen unterteilt:
+    1. **Agenten einsetzen:** Platziert eure Agenten in den Ratsversammlungen der Imperien.
+    2. **Imperium-Züge:** Die Ratspositionen führen ihre Aktionen aus – ihr könnt Karten spielen.
+    3. **Aufräumphase:** Rundenmarker weiterbewegen, auf Handkartenlimit zurückziehen.
+    4. **Tauschphase:** Tauscht verdeckte Loyalitätsmarker – dabei werden beide aufgedeckt.
+    
+    Ein Spiel voller tiefer Strategie, verdeckter Agenden und wechselnder Loyalitäten – 
+    perfekt für Spieler, die Intrigen, Bluff und politische Manöver lieben!
+
 - name: "Abenteuer Tierwelt"
   slug: "abenteuer-tierwelt"
   bild: "/images/spiele/abenteuer-tierwelt.webp"

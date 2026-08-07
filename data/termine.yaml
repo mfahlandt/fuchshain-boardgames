@@ -1,6 +1,13 @@
 # Termine für den Spieleabend Fuchshain
 # Format: YYYY-MM-DD
 
+- datum: "2026-08-21"
+  bis_datum: "2026-08-23"
+  uhrzeit: "17:00"
+  bis_uhrzeit: "13:00"
+  ort: "Fuchshain (Seedorf 1, Schirnding)"
+  beschreibung: "Spielewochenende – Fr. 17:00 bis So. 13:00 🔥 Grill ist an!"
+
 - datum: "2026-07-03"
   uhrzeit: "19:00"
   ort: "Fuchshain (Seedorf 1, Schirnding)"

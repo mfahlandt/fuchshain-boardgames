@@ -64,6 +64,15 @@
                             </div>
                         </div>
                         {{ end }}
+                        {{ if $spiel.bgg_rating }}
+                        <div class="stat-item bgg-rating-stat">
+                            <span class="stat-icon">⭐</span>
+                            <div class="stat-content">
+                                <span class="stat-label">BGG Bewertung</span>
+                                <span class="stat-value">{{ $spiel.bgg_rating }}/10</span>
+                            </div>
+                        </div>
+                        {{ end }}
                     </div>
 
                     <div class="spiel-beschreibung">
@@ -111,6 +120,10 @@
                             {{ if $spiel.bgg_rank }}
                             <dt>BGG Ranking</dt>
                             <dd><span class="bgg-rank-badge">🏆 #{{ $spiel.bgg_rank }}</span></dd>
+                            {{ end }}
+                            {{ if $spiel.bgg_rating }}
+                            <dt>BGG Bewertung</dt>
+                            <dd><span class="bgg-rating-badge">⭐ {{ $spiel.bgg_rating }}/10</span></dd>
                             {{ end }}
                         </dl>
                     </div>
@@ -398,8 +411,18 @@
     font-weight: 600;
 }
 
+.bgg-rating-badge {
+    color: #e67e22;
+    font-weight: 600;
+}
+
 .bgg-rank-stat .stat-value {
     color: #d4af37;
+    font-weight: 600;
+}
+
+.bgg-rating-stat .stat-value {
+    color: #e67e22;
     font-weight: 600;
 }
 </style>

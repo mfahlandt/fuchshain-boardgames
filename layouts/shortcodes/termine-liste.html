@@ -1,20 +1,34 @@
 {{/* Termine Liste Shortcode - Zeigt alle kommenden Termine aus data/termine.yaml */}}
 
 {{ $now := now }}
+{{ $monatNamen := slice "" "Jan" "Feb" "Mär" "Apr" "Mai" "Jun" "Jul" "Aug" "Sep" "Okt" "Nov" "Dez" }}
 
 <div class="termine-liste">
     {{ range hugo.Data.termine }}
     {{ $terminDatum := time .datum }}
     {{ if ge $terminDatum $now }}
-    <div class="termin-card">
+    {{ $isMehrTageEvent := and .bis_datum (ne .bis_datum .datum) }}
+    <div class="termin-card{{ if $isMehrTageEvent }} termin-card--mehrtage{{ end }}">
         <div class="termin-datum">
-            <span class="termin-tag">{{ $terminDatum.Day }}</span>
-            <span class="termin-monat">{{ index (slice "" "Jan" "Feb" "Mär" "Apr" "Mai" "Jun" "Jul" "Aug" "Sep" "Okt" "Nov" "Dez") (int $terminDatum.Month) }}</span>
+            {{ if $isMehrTageEvent }}
+            {{ $bisDatum := time .bis_datum }}
+            <span class="termin-tag">{{ $terminDatum.Day }}–{{ $bisDatum.Day }}</span>
+            <span class="termin-monat">{{ index $monatNamen (int $terminDatum.Month) }}</span>
             <span class="termin-jahr">{{ $terminDatum.Year }}</span>
+            {{ else }}
+            <span class="termin-tag">{{ $terminDatum.Day }}</span>
+            <span class="termin-monat">{{ index $monatNamen (int $terminDatum.Month) }}</span>
+            <span class="termin-jahr">{{ $terminDatum.Year }}</span>
+            {{ end }}
         </div>
         <div class="termin-details">
             <div class="termin-zeit">
-                <span class="termin-icon">🕐</span> {{ .uhrzeit }} Uhr
+                <span class="termin-icon">🕐</span>
+                {{ if $isMehrTageEvent }}
+                {{ .uhrzeit }} Uhr{{ if .bis_uhrzeit }} – {{ .bis_uhrzeit }} Uhr{{ end }}
+                {{ else }}
+                {{ .uhrzeit }} Uhr
+                {{ end }}
             </div>
             <div class="termin-ort">
                 <span class="termin-icon">📍</span> {{ .ort }}
@@ -45,6 +59,7 @@
   "name": "{{ .beschreibung | default "Spieleabend Fuchshain" }}",
   "description": "Offener Brettspiel-Abend im Fichtelgebirge – für alle aus Schirnding, Marktredwitz, Selb, Wunsiedel und Umgebung",
   "startDate": "{{ .datum }}T{{ .uhrzeit | default "19:00" }}:00+02:00",
+  {{ if .bis_datum }}"endDate": "{{ .bis_datum }}T{{ .bis_uhrzeit | default "23:00" }}:00+02:00",{{ end }}
   "eventStatus": "https://schema.org/EventScheduled",
   "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
   "location": {
@@ -99,6 +114,10 @@
     transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
+.termin-card--mehrtage {
+    border-left: 4px solid #c0392b;
+}
+
 .termin-card:hover {
     transform: translateX(5px);
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
@@ -115,6 +134,10 @@
     border-radius: 10px;
     color: white;
     text-align: center;
+}
+
+.termin-card--mehrtage .termin-datum {
+    background: linear-gradient(135deg, #8e2727 0%, #6b1c1c 100%);
 }
 
 .termin-tag {
