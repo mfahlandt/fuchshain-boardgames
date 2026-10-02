@@ -5,7 +5,7 @@
 {{ $monatNamen := slice "" "Jan" "Feb" "Mär" "Apr" "Mai" "Jun" "Jul" "Aug" "Sep" "Okt" "Nov" "Dez" }}
 
 <div class="termine-vorschau">
-    {{ range hugo.Data.termine }}
+    {{ range sort hugo.Data.termine "datum" }}
     {{ $terminDatum := time .datum }}
     {{ if and (ge $terminDatum $now) (lt $count 3) }}
     {{ $count = add $count 1 }}

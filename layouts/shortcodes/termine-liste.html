@@ -4,7 +4,7 @@
 {{ $monatNamen := slice "" "Jan" "Feb" "Mär" "Apr" "Mai" "Jun" "Jul" "Aug" "Sep" "Okt" "Nov" "Dez" }}
 
 <div class="termine-liste">
-    {{ range hugo.Data.termine }}
+    {{ range sort hugo.Data.termine "datum" }}
     {{ $terminDatum := time .datum }}
     {{ if ge $terminDatum $now }}
     {{ $isMehrTageEvent := and .bis_datum (ne .bis_datum .datum) }}
@@ -49,7 +49,7 @@
 {{ end }}
 
 <!-- Event JSON-LD for SEO -->
-{{ range hugo.Data.termine }}
+{{ range sort hugo.Data.termine "datum" }}
 {{ $terminDatum := time .datum }}
 {{ if ge $terminDatum now }}
 <script type="application/ld+json">
